@@ -1,0 +1,220 @@
+participantId,format,code,parsed_code,parse_method,key_precision,key_recall,key_f1,value_precision,value_recall,value_f1,kv_precision,kv_recall,kv_f1,ted,normalized_ted,tree_similarity
+680ebf035ab59d342f31726e,hjson,"{
+version: 4.4.7
+repository:
+ author:
+  middle name"": '''","{'version': 4.4, 'repository': 'author:'}",regex,0.5,0.125,0.2,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+65583ffa38bfc41805a553cd,hjson,"{
+ version: 4.4.7
+ 
+ repository: { author, type.
+author: middle name""= null","{'version': 4.4, 'repository': '{', 'author': 'middle'}",regex,0.3333333333333333,0.125,0.18181818181818182,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+6717980047b565ab5b849317,hjson,"{
+  version: 4.4.7
+  respiratory:
+  author: {
+    middle name"":","{'version': 4.4, 'respiratory': 'author:'}",regex,0.5,0.125,0.2,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67d2a409ab3638e33fc417b9,hjson,"{
+  ""version"": ""4.4.7""
+  ""repository"": """",
+  ""engines"".:{
+    ""npm"": ""->4'
+    
+    },
+    ""keywords"":[""canvas"", ""responsive"" 
+    ""author"": {
+    ""middle name"": """",
+    ""isMember"": """",
+    ""title"": """"
+    },
+    ""type"": {
+    ""gift"": """"
+    }","{'version': '4.4.7', 'repository': '', 'npm': ""->4'\r\n    \r\n    },"", 'middle_name': '', 'isMember': '', 'title': '', 'gift': ''}",regex,0.14285714285714285,0.125,0.13333333333333333,1.0,0.125,0.2222222222222222,0.14285714285714285,0.125,0.13333333333333333,11.0,0.8461538461538461,0.15384615384615385
+66ec8f7ce843d25227820f97,hjson,"version; 4.4.7
+Repository 
+author: { middle name}{IsMember}
+type: {git
+
+engine: {"">8}
+keyword: {canvas
+          responsive
+          charts
+          ","{'author': '{', 'type': '{git', 'engine': '{"">8}', 'keyword': '{canvas'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67792abbab2fa21bf3644c09,hjson,"version: 4.4.7
+repository: {
+  author: {
+    middlename"" """"
+    IsMember: true
+  }type: ""git""
+}
+engines: {
+  pnpm: "">=8""
+}
+keywords: [
+  canvas
+  responsive
+  charts
+  ","{'type': 'git', 'pnpm': '>=8', 'version': 4.4, 'IsMember': True, 'repository': '{', 'author': '{', 'engines': '{', 'keywords': '['}",regex,0.125,0.125,0.125,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+616e5ae706e970fe0aff99b6,hjson,"{
+    version: 4.4.7
+    repository:{
+        author:{
+            middlename
+            isMember: True
+        }
+        type: git
+        }
+    engines:{
+        pnpm: >=8
+        }
+    keywords:[
+        canvas
+        responsive
+        charts
+        ]
+
+
+}","{'version': 4.4, 'isMember': True, 'repository': '{', 'author': '{', 'type': 'git', 'engines': '{', 'pnpm': '>=8', 'keywords': '['}",regex,0.125,0.125,0.125,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+660eafee7515c432e850362d,hjson,"""version"" ""4.4.7"".
+""respiratory""
+""engines""
+""pnpm""
+}
+""keywords""
+""canvas""
+""responsive""
+""charts""
+]
+""author""
+""middle name""null
+""ISmember"" true
+}
+""type"" git
+",{},failed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+65fae23bd06ae76bcc297e8b,hjson,"{
+""note"" :""Different color represent different levels of the nested structure.\npurple rectangles indicate the top-level elements."" ,
+""version"" : ""4.4.7"",
+""respository"" :{
+""author"" :{
+""middle name"" :, null
+""surname"" : ""tittle""
+}
+},
+""engines': {
+"" papa"" :""...""
+}
+""keywords"": [
+""type""
+""canvaa"",
+""responsive "",
+""charts""
+]
+}
+","{'note': 'Different color represent different levels of the nested structure.\\npurple rectangles indicate the top-level elements.', 'version': '4.4.7', 'surname': 'tittle', 'papa': '...', 'top': 'level', 'items': ['type""\r\n""canvaa', 'responsive ', 'charts']}",regex,0.125,0.125,0.125,1.0,0.125,0.2222222222222222,0.125,0.125,0.125,12.0,0.9230769230769231,0.07692307692307687
+61601e9a6b8306196d2a129c,hjson,"{
+    version: 4.4.7
+    repository:
+    {
+        author: middle name, IsMember
+        type: git
+    }    
+    engines:
+    {
+        pnpm:>=8
+    }    
+    keywords:
+    [
+      canvas
+      responsive
+      charts
+    ]  ","{'version': 4.4, 'repository': '{', 'author': 'middle', 'type': 'git', 'engines': '{', 'pnpm': '>=8', 'keywords': '['}",regex,0.14285714285714285,0.125,0.13333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+65fad6c874ac75642ffc254b,hjson,"[
+version: 4.4.7
+]
+[
+Reoisitory:
+[
+1,author: [
+1,middle name 
+2,IsMember: true
+]
+2,type: git
+]
+engines:[
+pnpm: >=8
+]
+keywords:{
+canvas
+responsive
+charts
+}
+
+","{'version': 4.4, 'IsMember': True, 'Reoisitory': '[', 'author': '[', 'type': 'git', 'engines': '[', 'pnpm': '>=8', 'keywords': '{'}",regex,0.125,0.125,0.125,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+6094ce8d0764c24f352d1fe5,hjson,"version: 4.4.7
+repository: [
+    author: {
+        ""middleName"": null
+        ""isMember"": true
+    },
+    type: [
+        git
+    ]
+]
+engines: [
+    pnpm: >=8
+]
+krywords: [
+    ""canvas"",
+    ""responsive"",
+    ""charts""
+]","{'middleName': None, 'isMember': True, 'version': 4.4, 'repository': '[', 'author': '{', 'type': '[', 'engines': '[', 'pnpm': '>=8', 'krywords': '['}",regex,0.1111111111111111,0.125,0.11764705882352941,0.0,0.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0
+67d0088c269b3e96d9ba6019,hjson,"versin: 4-4-7
+
+repository:
+
+[ author:""middle name: Null
+type: ""isMember"":true
+]
+
+engines:pnpm;>=8
+
+keywords:
+
+{ canvas : 
+
+  responsive:
+  
+  chart:
+  }","{'isMember': True, 'author': 'middle name: Null\r\ntype:', 'versin': 4, 'name': None, 'repository': '[', 'type': 'isMember"":true', 'engines': 'pnpm;>=8', 'keywords': '{', 'canvas': 'responsive:', 'chart': '}'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,1.0769230769230769,-0.07692307692307687
+678a94ff1cf9f0775cb89e69,hjson,"{
+version: ""4.4.7""
+respository:
+author:
+middle name"": """"name""""","{'respository_author_middle_name': '', 'version': '4.4.7', 'respository': 'author:'}",regex,0.3333333333333333,0.125,0.18181818181818182,1.0,0.125,0.2222222222222222,0.3333333333333333,0.125,0.18181818181818182,11.0,0.8461538461538461,0.15384615384615385
+62d6d87d91cf24a3c1c0f10c,hjson,"{
+specify version
+Repository
+[
+Author
+[
+""Middle Name"" : null
+""Is Member"" : True
+""Is Member"" : False
+]
+Type
+""type"" : Git
+{
+engines
+""pnpm"" : >=8
+}
+{
+keywords
+list
+[
+1: Canvas,
+2: Responsive,
+3: charts
+]
+}
+
+","{'Middle_Name': None, 'Is_Member': True, 'Git': 'engines\r\n""pnpm"" : >=8', '1': 'Canvas', '2': 'Responsive', '3': 'charts'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687

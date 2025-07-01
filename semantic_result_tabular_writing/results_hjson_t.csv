@@ -1,0 +1,377 @@
+participantId,format,code,parsed_code,parse_method,key_precision,key_recall,key_f1,value_precision,value_recall,value_f1,kv_precision,kv_recall,kv_f1,ted,normalized_ted,tree_similarity
+6697c8b6d9d7baa7edd8c4d3,hjson,"patients: [
+    {
+        name: John
+        tests: [
+            {
+                id: 1
+                result: Normal
+            }
+            {
+                id: 2
+                result: Elevated
+            }
+            {
+                id: 1
+                result: Normal
+                note: Cholesterol
+            }
+        ]
+    }
+    {
+        name: Michael
+        treatment: Regular Monitoring
+    }
+]    ","OrderedDict([('patients', [OrderedDict([('name', 'John'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')]), OrderedDict([('id', 2), ('result', 'Elevated')]), OrderedDict([('id', 1), ('result', 'Normal'), ('note', 'Cholesterol')])])]), OrderedDict([('name', 'Michael'), ('treatment', 'Regular Monitoring')])])])",lenient,0.7,0.7777777777777778,0.7368421052631577,0.8571428571428571,0.6666666666666666,0.75,0.6,0.6666666666666666,0.631578947368421,9.0,0.5,0.5
+678f0bb28ec3307e4f1afb78,hjson,"{patient
+    name: John
+    tests: 
+        id: 1
+        result: Normal
+        id:2
+        result: Elevated Cholesterol
+    treatment: null     
+    name: Michael
+    tests:
+        id: 1
+        results: Normal
+    treatment: Regular Monitoring
+}","{'id': 1, 'treatment': None, 'name': 'John', 'tests': 'id:', 'result': 'Normal', 'results': 'Normal'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+60a0b744298c64d46b63e893,hjson,"{patients}
+[name
+[tests
+]
+{John}
+//id
+result
+id
+result
+//""1""
+[normal]
+//""2""
+Elevated Cholesterol]
+
+[name
+tests
+treatement]
+{Michael
+Regular Monitoring
+}
+//id
+//result
+//""1""
+//""normal""",{},failed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+66cdfebcb908ea2717d06b6c,hjson,"Patients: [
+    {
+    name: John
+    tests: [
+        {id: 1, result: Normal}
+        {id: 2, result: Elevated Cholesterol}
+        ]
+    }
+    {
+    name: Micheal
+    tests: [
+    {id: 1. resilt: Normal}
+    ]
+    treatment: regular 
+    }
+    ]","{'id': 1, 'Patients': '[', 'name': 'John', 'tests': '[', 'result': 'Normal}', 'resilt': 'Normal}', 'treatment': 'regular'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+56cb8858edf8da000b6df354,hjson,"{
+    patients:
+        {
+            name: John
+            tests: {
+                        {
+                        id: 1
+                        result: Normal
+                        }
+                        {
+                        id: 2 
+                        result: Elevated Cholesterol
+                        }
+                    }
+        }
+        {
+            name: Michael
+            tests: {
+                        {
+                        id: 1
+                        result: Normal
+                        }
+                    }
+            treatment: Regular Monitoring
+        }
+}","{'id': 1, 'patients': '{', 'name': 'John', 'tests': '{', 'result': 'Normal', 'treatment': 'Regular'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+667971a555af1f83d3f29ae7,hjson,"{
+    patients: [
+        {
+            name: John
+            tests: [
+                {
+                    id: 1
+                    result: Normal
+                },
+                {
+                    id: 2
+                    result: Elevated Cholesterol
+                }
+            ]
+        },
+        {
+            name: Michael
+            tests: [
+                {
+                    id: 1
+                    result: Normal
+                }
+            ]
+            treatment: Regular Monitoring
+        }
+    ]
+}","OrderedDict([('patients', [OrderedDict([('name', 'John'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')]), OrderedDict([('id', 2), ('result', 'Elevated Cholesterol')])])]), OrderedDict([('name', 'Michael'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')])]), ('treatment', 'Regular Monitoring')])])])",lenient,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
+5c6414540821d30001046198,hjson,"{
+patients
+
+ {
+""name"": John, 
+
+
+
+
+{
+tests
+
+list: [ 
+""id"": 1
+""result"": Normal
+""id"": 2
+""result"": Elevated Cholesterol
+]
+}}
+
+{
+""name"": Michael,
+
+{
+tests
+
+list: [
+""id"": 1
+""result"": Normal
+
+}
+
+{ ""treatment"": Regular Monitoring 
+}}
+
+ 
+
+ ","{'id': 1, 'patients': '""name"": John, \r\n\r\n\r\n\r\n\r\n{\r\ntests\r\n\r\nlist: [ \r\n""id"": 1\r\n""result"": Normal\r\n""id"": 2\r\n""result"": Elevated Cholesterol\r\n]', 'list': '['}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+667c18ace97ab6869cb1c50e,hjson,"{ ""name"": John,
+    ""test1"" : {
+            id:1
+            result:normal
+        },
+    ""test2"": {
+            id:2
+            result:elevated cholesterol
+         }
+}
+
+{ ""name"": Michael,
+    ""test"": {
+        id: 1
+        result: normal
+    },
+    ""treatment"": Regular monitoring
+}
+
+        ","{'id': 1, 'result': 'normal'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+67a754a5c8614c52a939d87b,hjson,"patient: [
+ { 
+   name: John 
+   tests: [
+     { 
+      id: 2
+      result: Normal
+      } 
+      {
+        id: 2
+        resultL: Elevated cholestrol 
+      }
+    ]
+  }
+  {
+    name: Michael 
+    test: [
+       {
+         id: 3
+         result: Normal
+        }
+      ]
+        treatment: Regular monitoring
+     }
+    ]","OrderedDict([('patient', [OrderedDict([('name', 'John'), ('tests', [OrderedDict([('id', 2), ('result', 'Normal')]), OrderedDict([('id', 2), ('resultL', 'Elevated cholestrol')])])]), OrderedDict([('name', 'Michael'), ('test', [OrderedDict([('id', 3), ('result', 'Normal')])]), ('treatment', 'Regular monitoring')])])])",lenient,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0.5,0.5
+65cf6d8a589a67afcab54e6f,hjson,"{
+  patients: [
+    {
+      name: john
+      tests: [
+        {
+          id: 1,
+          result: Normal
+        },
+        {
+          id: 2,
+          result: Elevated Cholesterol
+        }
+      ]
+    },
+    {
+      name: Michael,
+      tests: [
+        {
+          id: 1,
+          result: Normal
+        }
+      ],
+      treatment: Regular Monitoring
+    }
+  ]
+}","OrderedDict([('patients', [OrderedDict([('name', 'john'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')]), OrderedDict([('id', 2), ('result', 'Elevated Cholesterol')])])]), OrderedDict([('name', 'Michael,'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')])]), ('treatment', 'Regular Monitoring')])])])",lenient,1.0,1.0,1.0,0.7777777777777778,0.7777777777777778,0.7777777777777778,0.7777777777777778,0.7777777777777778,0.7777777777777778,2.0,0.1111111111111111,0.8888888888888888
+67d7fa657f5ac0292a291a38,hjson,"patients""
+Name: John
+tests
+      id 
+         1
+         results 
+         normal
+         Id 2
+         results 
+         Elevated cholestrol
+         
+         
+         Name Michael
+    tests 
+    id 1
+    treatment regular monitring
+    results; normal",{'Name': 'John'},regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+61267b828ead584bcf092e35,hjson,"{
+patients
+}
+{
+name: John
+}
+{
+tests
+id: 1
+results: Normal
+}
+{
+id: 2
+results: Elevated cholesterol
+}
+{
+name: Michael
+}
+{
+tests
+id: 1
+results: Normal
+}
+{
+treatment: Regular Monitoring
+}","{'id': 1, 'name': 'John', 'results': 'Normal', 'treatment': 'Regular'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+6577a27da9f5297d49f38e6f,hjson,"{
+  patients: [
+    {
+      name: ""John""
+      tests: [
+        {
+          id: 1
+          result: ""Normal""
+        }
+        {
+          id:  2
+          result: ""Elevated Cholesterol""
+        }
+      ]
+    }
+    {
+      name: ""Michael""
+      tests: [
+        {
+          id: 1
+          result: ""Normal""
+        }
+      ]
+      treatment: ""Regular Monitoring""
+    }
+  ]
+}
+","OrderedDict([('patients', [OrderedDict([('name', 'John'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')]), OrderedDict([('id', 2), ('result', 'Elevated Cholesterol')])])]), OrderedDict([('name', 'Michael'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')])]), ('treatment', 'Regular Monitoring')])])])",lenient,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
+67d9788747176969d8d0fa1d,hjson,"patients: [
+    {
+        name: John
+        tests: [
+         {
+            id:1
+            result: Normal
+        }
+    ]
+    treatment: Regular Monitoring
+    }
+    {
+        name: Michael
+        tests: [
+            {
+                id:1
+                result: Elevated Cholesterol
+            }
+            {
+                id:1
+                result: Normal
+            }
+        ]
+    }
+]","OrderedDict([('patients', [OrderedDict([('name', 'John'), ('tests', [OrderedDict([('id', 1), ('result', 'Normal')])]), ('treatment', 'Regular Monitoring')]), OrderedDict([('name', 'Michael'), ('tests', [OrderedDict([('id', 1), ('result', 'Elevated Cholesterol')]), OrderedDict([('id', 1), ('result', 'Normal')])])])])])",lenient,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.8333333333333334,0.5555555555555556,0.6666666666666667,0.5555555555555556,0.5555555555555556,0.5555555555555556,9.0,0.5,0.5
+67adb27bd5f5776fcb16da62,hjson,"patients: [
+
+{
+name: John 
+tests :  [
+    {
+      id: 1
+      results : Normal 
+       }
+      [
+       id; 2
+       result: Elevated cholesterol
+       ]","{'id': 1, 'patients': '[', 'name': 'John', 'tests': '[', 'results': 'Normal', 'result': 'Elevated'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+6675c40cdc52b37294f0514e,hjson,"{
+  patients: [
+    {
+         name : John
+         tests : [
+           {
+             id :1 
+             result:Normal
+           }
+           {
+             id: 2
+             result : Elevated Cholesterol
+           }
+         ]
+    }
+    {
+         name: Michael
+         tests: [
+           {
+             id:1
+             result:normal
+           }
+           ]
+           treatment: Regular Monitoring
+           ]
+        ]","{'id': 1, 'patients': '[', 'name': 'John', 'tests': '[', 'result': 'Normal', 'treatment': 'Regular'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116

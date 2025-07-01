@@ -1,0 +1,1407 @@
+participantId,valid,code,errorMessage,TOML error: Found invalid character in key name: '}'. Try quoting the key name. (line 91 column 14 char 3160); JSON fallback: Unexpected text after end of JSON value,TOML error: Found tokens after a closed string. Invalid TOML. (line 85 column 1 char 2997); JSON fallback: Unexpected text after end of JSON value,TOML error: Key name found without value. Reached end of line. (line 97 column 13 char 3271); JSON fallback: Unexpected text after end of JSON value
+659960f32faa4ff4b116de92,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+67b8636acd5ed420cc098b64,False,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""
+{dependencies}
+""d3-hierarchy""= ^3.1.2""
+d3-interpolate""= ^3.0.1""
+""d3-path"" = ""^3.1.0""",TOML error: Found invalid character in key name: '}'. Try quoting the key name. (line 91 column 14 char 3160); JSON fallback: Unexpected text after end of JSON value,1.0,0.0,0.0
+67d1cc8044430e99a7d91b4a,False,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""
+
+[dependencies]
+d3-hierarchy = ""3.1.2""
+d3-interpolate = ""3.0.1""
+d3-path = ""3.0.1""
+vega= ""5.35.1""
+vega-lite 
+vega - schema - url - parser = ""2.0.1""
+uglify - js = ""3.14.1""
+svg - to - pdfkit = ""0.1.8""
+svg - path - parser = ""1.1.0""
+svg - parser = ""2.0.4""
+",TOML error: Key name found without value. Reached end of line. (line 97 column 13 char 3271); JSON fallback: Unexpected text after end of JSON value,0.0,0.0,1.0
+67d03135f855dd0ff0994265,False,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+''d3-hierarchy''=''3.1.2''
+''d3-path''=''3.1.0''
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",TOML error: Found tokens after a closed string. Invalid TOML. (line 85 column 1 char 2997); JSON fallback: Unexpected text after end of JSON value,0.0,1.0,0.0
+5e5c993cd0394c474f7cc502,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+5b3ec4332a5fbf00014eae57,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+d3-hierarchy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+6682a94b061954ae8483fb08,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+67bf5ad9c5a4637861cfd21e,False,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy= ""^3.1.2"",""d3-interpolate""
+d3-path= ""^3.0.1""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",TOML error: Found tokens after a closed string. Invalid TOML. (line 85 column 1 char 2997); JSON fallback: Unexpected text after end of JSON value,0.0,1.0,0.0
+66311bae532a469f4858933e,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+d3-hierarchy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+611d0afbb2a19acfd012545b,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy=""^3.1.2""
+d3-interpolate=""^3.0.1""
+d3-path=""^3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+606c7d27f4f3ae688332a55d,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy = ""^3.1.2""
+d3-interpolate =""^3.0.1""
+d3-path =""^3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+67d0251c804fc17732eb948a,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+d3-hierachy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path= ""^3.1.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+67d11644421446068e1fec14,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+
+
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+65feaaac53eb219f09ad5ea0,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.23.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierachy = ""^3.1.2""
+d3-interpolate = ""^3.0.1""
+d3-path = ""^3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,
+60e2bf0aa568b97e8d525872,True,"name = ""vega-lite""
+author = ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer""
+version = ""5.31.0""   # make sure that the vega version specified in peerDependencies matches this value.
+collaborators = [""Kanit Wongsuphasawat"", ""Dominik Moritz"", ""Arvind Satyanarayan"", ""Jeffrey Heer""]
+homepage = ""vega.github.io/vega-lite/""
+description = ""Vega-Lite is a concise high-level language for interactive visualization.""
+keywords = [""vega"", ""chart"", ""visualization""]
+main = ""build/vega-lite.js""
+unpkg = ""build/vega-lite.min.js""
+jsdelivr = ""build/vega-lite.min.js""
+module = ""build/src/index""
+types = ""build/src/index.d.ts""
+files = [""bin"", ""build"", ""src"", ""vega-lite*"", ""tsconfig.json""]
+license = ""BSD-3-Clause""
+packageManager = ""yarn@1.22.22""
+
+[bin]
+vl2pdf = ""./bin/vl2pdf""
+vl2png = ""./bin/vl2png""
+vl2svg = ""./bin/vl2svg""
+vl2vg = ""./bin/vl2vg""
+
+[scripts]
+changelog = ""conventional-changelog -p angular -r""
+prebuild = ""yarn clean:build""
+build = ""yarn build:only""
+data = ""rsync -r node_modules/vega-datasets/data/* site/data""
+build-editor-preview = ""scripts/build-editor-preview.sh""
+schema = ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/""
+renameschema = ""scripts/rename-schema.sh""
+presite = ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh""
+site = ""yarn site:only""
+format = ""eslint . --fix && yarn prettierbase --write""
+lint = ""eslint . && yarn prettierbase --check""
+test = ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn""
+release = ""release-it""
+
+[repository]
+type = ""git""
+url = ""github.com/vega/vega-lite.git""
+
+[bugs]
+url = ""github.com/vega/vega-lite/issues""
+
+[devDependencies]
+ajv = ""^8.17.1""
+ajv-formats = ""^3.0.1""
+cheerio = ""^1.0.0""
+conventional-changelog-cli = ""^5.0.0""
+d3 = ""^7.9.0""
+del-cli = ""^6.0.0""
+eslint = ""^8.57.0""
+eslint-config-prettier = ""^9.1.0""
+eslint-plugin-jest = ""^28.11.0""
+eslint-plugin-prettier = ""^5.2.1""
+fast-json-stable-stringify = ""~2.1.0""
+""highlight.js"" = ""^11.11.1""
+jest = ""^29.7.0""
+jest-dev-server = ""^11.0.0""
+mkdirp = ""^3.0.1""
+pako = ""^2.1.0""
+prettier = ""^3.4.2""
+puppeteer = ""^15.0.0""
+release-it = ""18.1.2""
+rollup = ""^4.32.1""
+rollup-plugin-bundle-size = ""^1.0.3""
+serve = ""^14.2.4""
+terser = ""^5.37.0""
+ts-jest = ""^29.2.5""
+ts-json-schema-generator = ""^2.3.0""
+typescript = ""~5.7.3""
+vega-cli = ""^5.31.0""
+vega-datasets = ""^2.11.0""
+vega-embed = ""^6.29.0""
+vega-tooltip = ""^0.35.2""
+yaml-front-matter = ""^4.1.1""
+
+[dependencies]
+json-stringify-pretty-compact = ""~4.0.0""
+tslib = ""~2.8.1""
+vega-event-selector = ""~3.0.1""
+vega-expression = ""~5.1.2""
+vega-util = ""~1.17.3""
+yargs = ""~17.7.2""
+d3-hierarchy = ""3.0.1""
+d3-interpolate = ""3.0.1""
+d3-path = ""3.1.0""
+
+[peerDependencies]
+vega = ""^5.31.0""   # make sure this value matches the value of the version at the beginning.
+
+[engines]
+node = "">=18""",,,,

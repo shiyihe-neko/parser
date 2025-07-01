@@ -1,0 +1,16 @@
+participantId,valid,errorMessage,parsed,"Invalid character, expected ""="" at row 1, col 10, pos 9:","Invalid character, expected ""="" at row 1, col 9, pos 8:","Invalid character, expected ""="" at row 2, col 12, pos 30:","Unexpected character, expected only whitespace or comments till end of line at row 1, col 13, pos 12:","Unexpected character, expected only whitespace or comments till end of line at row 1, col 15, pos 14:","Unexpected character, expected only whitespace or comments till end of line at row 9, col 8, pos 107:","Unexpected character, expecting string, number, datetime, boolean, inline array or inline table at row 3, col 12, pos 30:","Unknown character ""40"" at row 2, col 1, pos 20:","Unterminated string at row 4, col 12, pos 47:"
+659960f32faa4ff4b116de92,False,"Unexpected character, expected only whitespace or comments till end of line at row 1, col 15, pos 14:",,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+67b8636acd5ed420cc098b64,False,"Unknown character ""40"" at row 2, col 1, pos 20:",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+67d1cc8044430e99a7d91b4a,False,"Unterminated string at row 4, col 12, pos 47:",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67d03135f855dd0ff0994265,False,"Unexpected character, expected only whitespace or comments till end of line at row 1, col 13, pos 12:",,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+5e5c993cd0394c474f7cc502,False,"Unexpected character, expected only whitespace or comments till end of line at row 1, col 15, pos 14:",,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+5b3ec4332a5fbf00014eae57,False,"Unexpected character, expected only whitespace or comments till end of line at row 9, col 8, pos 107:",,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+6682a94b061954ae8483fb08,True,,"{'version': '4.4.7', 'repository': {'author': {'middle_name': '', 'IsMember': True}, 'type': {'type': 'git'}}, 'engines': {'pnpm': '>=8', 'keywords': ['canvas', 'responsive', 'charts']}}",,,,,,,,,
+67bf5ad9c5a4637861cfd21e,False,"Invalid character, expected ""="" at row 2, col 12, pos 30:",,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+66311bae532a469f4858933e,False,"Unexpected character, expected only whitespace or comments till end of line at row 1, col 15, pos 14:",,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+611d0afbb2a19acfd012545b,True,,"{'Version': '4.4.7', 'Repository': {'author': {'middle_name': '', 'isMember': True}}, 'Engines': {'pnppm': '>=8', 'type': 'git'}, 'keyword': {'canvas': '', 'responsive': '', 'charts': ''}}",,,,,,,,,
+606c7d27f4f3ae688332a55d,False,"Unexpected character, expected only whitespace or comments till end of line at row 1, col 15, pos 14:",,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+67d0251c804fc17732eb948a,False,"Invalid character, expected ""="" at row 1, col 9, pos 8:",,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+67d11644421446068e1fec14,False,"Invalid character, expected ""="" at row 1, col 10, pos 9:",,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+65feaaac53eb219f09ad5ea0,False,"Unexpected character, expecting string, number, datetime, boolean, inline array or inline table at row 3, col 12, pos 30:",,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+60e2bf0aa568b97e8d525872,True,,"{'version': '4.4.7', 'keywords': {'keywords': ['canvas', 'responsive', 'charts']}, 'engines': {'pnpm': '>=8'}, 'repository': {'type': 'git', 'author': {'middle name': '', 'Ismember': True}}}",,,,,,,,,

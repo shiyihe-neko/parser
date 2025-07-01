@@ -1,0 +1,1424 @@
+participantId,format,code,task,valid,errorMessage,Colon expected,Comma expected,Invalid symbol,Property name expected,Unexpected end of string,Value expected
+6708da9c62672d0fe65b6683,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [d3-interpolate""^value""3,1.2"",
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",""value""^3.1.0""
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",""value""3.0.1"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Invalid symbol at offset 421; Comma expected at offset 443; Unexpected end of string at offset 448; Comma expected at offset 448; Comma expected at offset 456; Invalid symbol at offset 544; Unexpected end of string at offset 550; Colon expected at offset 550; Colon expected at offset 1086; Invalid symbol at offset 1089; Unexpected end of string at offset 1091,2.0,3.0,3.0,0.0,3.0,0.0
+613a541cf948d295c1df8752,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2"",
+    ""d3-hierarchy"": ""^3.0.1"",
+    ""d3-path"": ""^3.1.0""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,True,,,,,,,
+67c1dd323984fa84ae83e162,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierarchy""
+    ""^3.1.2""'""d3-interpolate""
+    ""^3.01"",
+    ""d3-path""
+    ""^3.1.0""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3256; Colon expected at offset 3276; Invalid symbol at offset 3284; Colon expected at offset 3336,2.0,1.0,1.0,0.0,0.0,0.0
+6723422d5f63c70998014b03,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {""d3-hierarchy"" ""3.1.2"",""d3- ""^3.0.1"" ""d3-path ""3.1.0
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Colon expected at offset 3068; Invalid symbol at offset 3082; Colon expected at offset 3088; Invalid symbol at offset 3091; Unexpected end of string at offset 3099,2.0,0.0,2.0,0.0,1.0,0.0
+589cd166b2a7180001f0527d,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""^3.1.2"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierachy"": ""^3.1.2"",
+    ""d3-interpolate"": ""^3.0.1"".
+    ""d3-path"": ""^3.1.0"",
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3256; Invalid symbol at offset 3312; Comma expected at offset 3319,0.0,2.0,1.0,0.0,0.0,0.0
+6735b2a6112cf17b7b8df8d1,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-lite"": ""^5.6.1"",
+    ""vega-tooltip"": ""^1.17.3""
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierarchy"": ""^3.1.2""
+    ""d3-interpolate"": ""3.1.0""
+    ""d3-path"": ""^3.1.0""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3262; Comma expected at offset 3315; Comma expected at offset 3345; Comma expected at offset 3376,0.0,4.0,0.0,0.0,0.0,0.0
+67da5ae29f57419143d2b99a,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierarchy"": ""^3.1.2"",
+    ""d3-interpolate"": ""^3.0.1"",
+    ""d3-path"": ""^3.1.0""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3256,0.0,1.0,0.0,0.0,0.0,0.0
+66684beba2a2d24645a6d782,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierarchy""^3.12""
+    ""d3-interpolate""^3.0.1
+    ""d3-path""^3.1.0
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3256; Invalid symbol at offset 3270; Unexpected end of string at offset 3275; Colon expected at offset 3275; Invalid symbol at offset 3298; Invalid symbol at offset 3319,1.0,1.0,3.0,0.0,1.0,0.0
+588ab33542c8e900019d02ae,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierarchy"": ""3.1.2"",
+    ""interpolate: ""3.0.1""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3256; Colon expected at offset 3301; Invalid symbol at offset 3304; Unexpected end of string at offset 3306,1.0,1.0,1.0,0.0,1.0,0.0
+65fb13bebfa339f73b4cf76a,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+    'd3-hierachy': ''3.1.2
+    'd3-interpolate':'3.10.0'
+    'd3-path':'''3.0.1'
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Invalid symbol at offset 3032; Comma expected at offset 3045; Property name expected at offset 3045; Invalid symbol at offset 3047; Invalid symbol at offset 3060; Invalid symbol at offset 3077; Invalid symbol at offset 3091; Invalid symbol at offset 3101; Value expected at offset 3114,0.0,1.0,6.0,1.0,0.0,1.0
+671e39c25e5e3f340a6f21d4,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^3.1.2"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,True,,,,,,,
+67c6ed1e12728e4fe7a1edf6,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2"",
+    ""d3-hierarchy"":""^3.1.2"",
+    ""d3-interpolate"":""^3.0.1"",
+    ""d3-path"":""^3.1.0""
+  },
+  ""peerDependencies"": {
+  },
+    ""vega"": ""^5.31.0""
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3401,0.0,1.0,0.0,0.0,0.0,0.0
+65298aca34ac384b783169d4,jsonc,"{
+  ""name"": ""vega-lite"",
+  ""author"": ""Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Jeffrey Heer"",
+  ""version"": ""5.23.0"",
+  ""collaborators"": [
+    ""Kanit Wongsuphasawat"",
+    ""Dominik Moritz"",
+    ""Arvind Satyanarayan"",
+    ""Jeffrey Heer""
+  ],
+  ""homepage"": ""vega.github.io/vega-lite/"",
+  ""description"": ""Vega-Lite is a concise high-level language for interactive visualization."",
+  ""keywords"": [
+    ""vega"",
+    ""chart"",
+    ""visualization""
+  ],
+  ""main"": ""build/vega-lite.js"",
+  ""unpkg"": ""build/vega-lite.min.js"",
+  ""jsdelivr"": ""build/vega-lite.min.js"",
+  ""module"": ""build/src/index"",
+  ""types"": ""build/src/index.d.ts"",
+  ""bin"": {
+    ""vl2pdf"": ""./bin/vl2pdf"",
+    ""vl2png"": ""./bin/vl2png"",
+    ""vl2svg"": ""./bin/vl2svg"",
+    ""vl2vg"": ""./bin/vl2vg""
+  },
+  ""files"": [
+    ""bin"",
+    ""build"",
+    ""src"",
+    ""vega-lite*"",
+    ""tsconfig.json""
+  ],
+  ""scripts"": {
+    ""changelog"": ""conventional-changelog -p angular -r"",
+    ""prebuild"": ""yarn clean:build"",
+    ""build"": ""yarn build:only"",
+    ""data"": ""rsync -r node_modules/vega-datasets/data/* site/data"",
+    ""build-editor-preview"": ""scripts/build-editor-preview.sh"",
+    ""schema"": ""mkdir -p build && ts-json-schema-generator -f tsconfig.json -p src/index.ts -t TopLevelSpec --no-type-check --no-ref-encode > build/vega-lite-schema.json && yarn renameschema && cp build/vega-lite-schema.json site/_data/"",
+    ""renameschema"": ""scripts/rename-schema.sh"",
+    ""presite"": ""yarn data && yarn schema && yarn build:site && yarn build:versions && scripts/create-example-pages.sh"",
+    ""site"": ""yarn site:only"",
+    ""format"": ""eslint . --fix && yarn prettierbase --write"",
+    ""lint"": ""eslint . && yarn prettierbase --check"",
+    ""test"": ""yarn jest test/ && yarn lint && yarn schema && yarn jest examples/ && yarn"",
+    ""release"": ""release-it""
+  },
+  ""repository"": {
+    ""type"": ""git"",
+    ""url"": ""github.com/vega/vega-lite.git""
+  },
+  ""license"": ""BSD-3-Clause"",
+  ""bugs"": {
+    ""url"": ""github.com/vega/vega-lite/issues""
+  },
+  ""devDependencies"": {
+    ""ajv"": ""^8.17.1"",
+    ""ajv-formats"": ""^3.0.1"",
+    ""cheerio"": ""^1.0.0"",
+    ""conventional-changelog-cli"": ""^5.0.0"",
+    ""d3"": ""^7.9.0"",
+    ""del-cli"": ""^6.0.0"",
+    ""eslint"": ""^8.57.0"",
+    ""eslint-config-prettier"": ""^9.1.0"",
+    ""eslint-plugin-jest"": ""^28.11.0"",
+    ""eslint-plugin-prettier"": ""^5.2.1"",
+    ""fast-json-stable-stringify"": ""~2.1.0"",
+    ""highlight.js"": ""^11.11.1"",
+    ""jest"": ""^29.7.0"",
+    ""jest-dev-server"": ""^11.0.0"",
+    ""mkdirp"": ""^3.0.1"",
+    ""pako"": ""^2.1.0"",
+    ""prettier"": ""^3.4.2"",
+    ""puppeteer"": ""^15.0.0"",
+    ""release-it"": ""18.1.2"",
+    ""rollup"": ""^4.32.1"",
+    ""rollup-plugin-bundle-size"": ""^1.0.3"",
+    ""serve"": ""^14.2.4"",
+    ""terser"": ""^5.37.0"",
+    ""ts-jest"": ""^29.2.5"",
+    ""ts-json-schema-generator"": ""^2.3.0"",
+    ""typescript"": ""~5.7.3"",
+    ""vega-cli"": ""^5.31.0"",
+    ""vega-datasets"": ""^2.11.0"",
+    ""vega-embed"": ""^6.29.0"",
+    ""vega-tooltip"": ""^0.35.2"",
+    ""yaml-front-matter"": ""^4.1.1""
+  },
+  ""dependencies"": {
+    ""json-stringify-pretty-compact"": ""~4.0.0"",
+    ""tslib"": ""~2.8.1"",
+    ""vega-event-selector"": ""~3.0.1"",
+    ""vega-expression"": ""~5.1.2"",
+    ""vega-util"": ""~1.17.3"",
+    ""yargs"": ""~17.7.2""
+    ""d3-hierarchy"":""^3.1.2""
+    ""d3-interpolate"": ""^3.1.0""
+    ""d3-path"": ""^3.1.0""
+  },
+  ""peerDependencies"": {
+    ""vega"": ""^5.31.0""
+  },
+  ""engines"": {
+    ""node"": "">=18""
+  },
+  ""packageManager"": ""yarn@1.22.22""
+}",modifying-task-config-2,False,Comma expected at offset 3256; Comma expected at offset 3285; Comma expected at offset 3317,0.0,3.0,0.0,0.0,0.0,0.0

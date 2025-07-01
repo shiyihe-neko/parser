@@ -1,0 +1,377 @@
+participantId,format,code,valid,errorMessage,Extra data,"Found ']' where a key name was expected (check your syntax or use quotes if the key name includes {}[],","Found '{' where a key name was expected (check your syntax or use quotes if the key name includes {}[],","Found '}' where a key name was expected (check your syntax or use quotes if the key name includes {}[],"
+6697c8b6d9d7baa7edd8c4d3,hjson,"patients: [
+    {
+        name: John
+        tests: [
+            {
+                id: 1
+                result: Normal
+            }
+            {
+                id: 2
+                result: Elevated
+            }
+            {
+                id: 1
+                result: Normal
+                note: Cholesterol
+            }
+        ]
+    }
+    {
+        name: Michael
+        treatment: Regular Monitoring
+    }
+]    ",True,,,,,
+678f0bb28ec3307e4f1afb78,hjson,"{patient
+    name: John
+    tests: 
+        id: 1
+        result: Normal
+        id:2
+        result: Elevated Cholesterol
+    treatment: null     
+    name: Michael
+    tests:
+        id: 1
+        results: Normal
+    treatment: Regular Monitoring
+}",True,,,,,
+60a0b744298c64d46b63e893,hjson,"{patients}
+[name
+[tests
+]
+{John}
+//id
+result
+id
+result
+//""1""
+[normal]
+//""2""
+Elevated Cholesterol]
+
+[name
+tests
+treatement]
+{Michael
+Regular Monitoring
+}
+//id
+//result
+//""1""
+//""normal""",False,"Found '}' where a key name was expected (check your syntax or use quotes if the key name includes {}[],: or whitespace): line 1 column 2 (char 1)",0.0,0.0,0.0,1.0
+66cdfebcb908ea2717d06b6c,hjson,"Patients: [
+    {
+    name: John
+    tests: [
+        {id: 1, result: Normal}
+        {id: 2, result: Elevated Cholesterol}
+        ]
+    }
+    {
+    name: Micheal
+    tests: [
+    {id: 1. resilt: Normal}
+    ]
+    treatment: regular 
+    }
+    ]",False,Extra data: line 2 column 5 - line 16 column 6 (char 17 - 261),1.0,0.0,0.0,0.0
+56cb8858edf8da000b6df354,hjson,"{
+    patients:
+        {
+            name: John
+            tests: {
+                        {
+                        id: 1
+                        result: Normal
+                        }
+                        {
+                        id: 2 
+                        result: Elevated Cholesterol
+                        }
+                    }
+        }
+        {
+            name: Michael
+            tests: {
+                        {
+                        id: 1
+                        result: Normal
+                        }
+                    }
+            treatment: Regular Monitoring
+        }
+}",False,"Found '{' where a key name was expected (check your syntax or use quotes if the key name includes {}[],: or whitespace): line 6 column 25 (char 99)",0.0,0.0,1.0,0.0
+667971a555af1f83d3f29ae7,hjson,"{
+    patients: [
+        {
+            name: John
+            tests: [
+                {
+                    id: 1
+                    result: Normal
+                },
+                {
+                    id: 2
+                    result: Elevated Cholesterol
+                }
+            ]
+        },
+        {
+            name: Michael
+            tests: [
+                {
+                    id: 1
+                    result: Normal
+                }
+            ]
+            treatment: Regular Monitoring
+        }
+    ]
+}",True,,,,,
+5c6414540821d30001046198,hjson,"{
+patients
+
+ {
+""name"": John, 
+
+
+
+
+{
+tests
+
+list: [ 
+""id"": 1
+""result"": Normal
+""id"": 2
+""result"": Elevated Cholesterol
+]
+}}
+
+{
+""name"": Michael,
+
+{
+tests
+
+list: [
+""id"": 1
+""result"": Normal
+
+}
+
+{ ""treatment"": Regular Monitoring 
+}}
+
+ 
+
+ ",False,"Found '{' where a key name was expected (check your syntax or use quotes if the key name includes {}[],: or whitespace): line 2 column 1 (char 3)",0.0,0.0,1.0,0.0
+667c18ace97ab6869cb1c50e,hjson,"{ ""name"": John,
+    ""test1"" : {
+            id:1
+            result:normal
+        },
+    ""test2"": {
+            id:2
+            result:elevated cholesterol
+         }
+}
+
+{ ""name"": Michael,
+    ""test"": {
+        id: 1
+        result: normal
+    },
+    ""treatment"": Regular monitoring
+}
+
+        ",False,Extra data: line 12 column 1 - line 20 column 9 (char 183 - 315),1.0,0.0,0.0,0.0
+67a754a5c8614c52a939d87b,hjson,"patient: [
+ { 
+   name: John 
+   tests: [
+     { 
+      id: 2
+      result: Normal
+      } 
+      {
+        id: 2
+        resultL: Elevated cholestrol 
+      }
+    ]
+  }
+  {
+    name: Michael 
+    test: [
+       {
+         id: 3
+         result: Normal
+        }
+      ]
+        treatment: Regular monitoring
+     }
+    ]",True,,,,,
+65cf6d8a589a67afcab54e6f,hjson,"{
+  patients: [
+    {
+      name: john
+      tests: [
+        {
+          id: 1,
+          result: Normal
+        },
+        {
+          id: 2,
+          result: Elevated Cholesterol
+        }
+      ]
+    },
+    {
+      name: Michael,
+      tests: [
+        {
+          id: 1,
+          result: Normal
+        }
+      ],
+      treatment: Regular Monitoring
+    }
+  ]
+}",True,,,,,
+67d7fa657f5ac0292a291a38,hjson,"patients""
+Name: John
+tests
+      id 
+         1
+         results 
+         normal
+         Id 2
+         results 
+         Elevated cholestrol
+         
+         
+         Name Michael
+    tests 
+    id 1
+    treatment regular monitring
+    results; normal",False,Extra data: line 2 column 1 - line 17 column 20 (char 11 - 272),1.0,0.0,0.0,0.0
+61267b828ead584bcf092e35,hjson,"{
+patients
+}
+{
+name: John
+}
+{
+tests
+id: 1
+results: Normal
+}
+{
+id: 2
+results: Elevated cholesterol
+}
+{
+name: Michael
+}
+{
+tests
+id: 1
+results: Normal
+}
+{
+treatment: Regular Monitoring
+}",False,"Found '}' where a key name was expected (check your syntax or use quotes if the key name includes {}[],: or whitespace): line 2 column 1 (char 3)",0.0,0.0,0.0,1.0
+6577a27da9f5297d49f38e6f,hjson,"{
+  patients: [
+    {
+      name: ""John""
+      tests: [
+        {
+          id: 1
+          result: ""Normal""
+        }
+        {
+          id:  2
+          result: ""Elevated Cholesterol""
+        }
+      ]
+    }
+    {
+      name: ""Michael""
+      tests: [
+        {
+          id: 1
+          result: ""Normal""
+        }
+      ]
+      treatment: ""Regular Monitoring""
+    }
+  ]
+}
+",True,,,,,
+67d9788747176969d8d0fa1d,hjson,"patients: [
+    {
+        name: John
+        tests: [
+         {
+            id:1
+            result: Normal
+        }
+    ]
+    treatment: Regular Monitoring
+    }
+    {
+        name: Michael
+        tests: [
+            {
+                id:1
+                result: Elevated Cholesterol
+            }
+            {
+                id:1
+                result: Normal
+            }
+        ]
+    }
+]",True,,,,,
+67adb27bd5f5776fcb16da62,hjson,"patients: [
+
+{
+name: John 
+tests :  [
+    {
+      id: 1
+      results : Normal 
+       }
+      [
+       id; 2
+       result: Elevated cholesterol
+       ]",False,Extra data: line 3 column 1 - line 13 column 9 (char 15 - 166),1.0,0.0,0.0,0.0
+6675c40cdc52b37294f0514e,hjson,"{
+  patients: [
+    {
+         name : John
+         tests : [
+           {
+             id :1 
+             result:Normal
+           }
+           {
+             id: 2
+             result : Elevated Cholesterol
+           }
+         ]
+    }
+    {
+         name: Michael
+         tests: [
+           {
+             id:1
+             result:normal
+           }
+           ]
+           treatment: Regular Monitoring
+           ]
+        ]",False,"Found ']' where a key name was expected (check your syntax or use quotes if the key name includes {}[],: or whitespace): line 25 column 12 (char 447)",0.0,1.0,0.0,0.0

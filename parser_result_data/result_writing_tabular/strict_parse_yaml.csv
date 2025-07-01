@@ -1,0 +1,189 @@
+participantId,format,code,valid,errorMessage,"expected '<document start>', but found '<block mapping start>'",mapping values are not allowed here,sequence entries are not allowed here,while parsing a block collection,while scanning a simple key
+67e25388d573ec2d5f1c8442,yaml,"person:
+  name: John
+tests
+  # id:1
+  normal
+  #id: 2
+  elavated cholesterol
+  
+  
+  person:
+    name: Michael
+    tests
+    #id:1
+    normal
+    treatment:
+    Regular monitoring",False,while scanning a simple key,0.0,0.0,0.0,0.0,1.0
+67dc19c31078d1581e39e75a,yaml,"name: John
+age:
+treatment: 
+id: 1
+result: Normal
+id: 2
+result: Elevated Cholesterol
+
+name: Michael
+age:
+treatment: Regular Monitoring
+id: 1
+result: Normal",True,,,,,,
+67adb520391eb17f214a50b4,yaml,"patients:
+    name: John
+    tests:
+    - id: 1
+    - result: normal
+    -id: 2
+    -result: elevated cholesterol
+    name: Michael
+    tests:
+    -id: 1
+    -result: normal
+    -treatment: regular monitoring",True,,,,,,
+66049694dfb8828a8f3dce70,yaml,"patients
+  name: John
+  tests: 
+    id: 1
+    result: Normal
+    id: 2
+    result: Elevated Cholesterol
+  name: Michael
+  tests: 
+    id: 1
+    result: Normal
+  treatment: Regular Monitoring",False,mapping values are not allowed here,0.0,1.0,0.0,0.0,0.0
+6787e4bd2bf9557a90208f03,yaml,"patient: 
+   name: John
+tests:
+   id: 1
+   result: Normal
+   id: 2
+   result: Elevataed Cholesterol
+   
+patients:
+   name: Micheal
+tests:
+   id: 1
+   results: Normal
+treatments: Regular Monitoring
+   
+",True,,,,,,
+67f184a3b82990251abd1592,yaml,"# Example of a YAML file                                                                                     patients:                                                                                                   name:Michael                                                                                        tests:                                                                                                         id:
+             - 1                                                                                            result:                                                                                    - Normal                                                                                   name:John                                                                                  tests:                                                                                         id:                                                                                            - 1                                                                                      result:                                                                                    - Normal                                                                             id:                                                                                             - 2                                                                                       result:                                                                                    - Elevated Cholesterol                                                                                                                                                                        ",False,sequence entries are not allowed here,0.0,0.0,1.0,0.0,0.0
+60fce3df91350150e2e88423,yaml,"Patients: 
+  Name: John
+  Tests: 
+   Id: 1
+     Result: Normal 
+   Id: 2
+     Result: Elevated Cholesterol 
+
+
+  Name: Michael
+  Tests: 
+    Id: 1
+     Result: Normal 
+  Treatment: Regular Monitoring ",False,mapping values are not allowed here,0.0,1.0,0.0,0.0,0.0
+67d29234dbfdb6668d124115,yaml,"""petient""
+name: John
+tests:
+id: 1
+result: Normal
+id: 2
+result: Elevated Cholesterol
+
+""patient""
+name: Michael
+tests:
+id: 1
+result: Normal
+treatment: Regular Monitoring
+",False,"expected '<document start>', but found '<block mapping start>'",1.0,0.0,0.0,0.0,0.0
+671a519900a99ebc15a67672,yaml,"# patient
+patient_name: john
+Tests:
+  - id: 1
+  results: Normal
+  - id: 2
+  results: Elevated cholesterol
+  ptient_name: Michael
+  tests:
+  id:1
+  results: normal
+  treatment: regular Monitoring
+
+",False,while parsing a block collection,0.0,0.0,0.0,1.0,0.0
+637d8ca00150ac6e71a34ec9,yaml,"patient:
+    John:
+        id: 1
+        result: normal
+        id: 2
+        result: elevated cholesterol
+    Michael:
+        id: 1
+        result: normal
+        treatment: regular monitoring",True,,,,,,
+67f3619e16d4ca195fbd1bd0,yaml,"patient:
+   - name: john
+     tests:
+        - id: 1
+          result: normal
+        - id: 2
+          result: Elevated Cholesterol
+    - name: Micheal
+      tests:
+      - id: 1
+        result: normal
+     treatment: regular monitoring",False,while parsing a block collection,0.0,0.0,0.0,1.0,0.0
+67d1283c8f6169900d0072d2,yaml," patience.John
+ Id 1
+ result normal
+ RESULT Elevated cholesterol
+ 
+ patient 2
+ name michael
+ redult normal
+ treatment regular monitoring
+ 
+ test results normal",True,,,,,,
+67f913a9b5c79e960807c7e3,yaml,"patients:
+    - name: John
+      tests:
+        - id: 1
+        results: Normal
+        - id: 2
+        results: Elevated Cholesterol
+        
+    - name: Michael
+        tests:
+        -id: 1
+        results: Normal
+        treatment: Regular Monitoring
+        ",False,while parsing a block collection,0.0,0.0,0.0,1.0,0.0
+672003022f1b667a20157c45,yaml,"patients:
+name: John
+tests: 
+      id: 1
+      result: Normal
+      id: 2
+      result: Elevated Cholesterol
+
+name: Michael
+tests:
+    id: 1
+    result: Normal
+treatment:
+    Regular Monitoring",True,,,,,,
+5d766978f47e6200019a2acf,yaml,"patients:
+  name: John
+  tests:
+    id: 1
+    result: Normal
+    id: 2
+    result: Elevated Cholesterol
+    
+  name: Michael
+  tests:
+  id: 1
+  result: Normal
+  treatment: Regular Monitoring",True,,,,,,

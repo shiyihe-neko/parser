@@ -1,0 +1,225 @@
+participantId,valid,code,errorMessage,"YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'Version')","YAML error: while parsing a block mapping; JSON fallback error: ('Unknown identifier', 'version')",YAML error: while parsing a block mapping; JSON fallback error: Can not decode value starting with character '=',YAML error: while parsing a flow mapping; JSON fallback error: Unexpected text after end of JSON value,"YAML error: while scanning a block scalar; JSON fallback error: ('Unknown identifier', 'Version')","YAML error: while scanning a block scalar; JSON fallback error: ('Unknown identifier', 'version')","YAML error: while scanning a simple key; JSON fallback error: ('Unknown identifier', 'version')"
+67f0d86fabc081fdc410e828,False,"version: 4.4.7
+Repository:
+          : author
+          - middle name: ~
+          - Is member : true
+          : type
+          - git
+engines:
+          - pnpm
+          >=8
+keywords:
+          - canvas
+          - responsive
+          - charts","YAML error: while parsing a block mapping; JSON fallback error: ('Unknown identifier', 'version')",0.0,1.0,0.0,0.0,0.0,0.0,0.0
+6691809035e52ca9b2b0f39a,False,"version: 4.4.7
+repository:
+    author:
+      middle name: ~
+      IsMember:
+    type:
+      git:
+engines:
+    pnpm: >=8
+keywords:
+    canvas
+    responsive
+    charts
+    
+       ","YAML error: while scanning a block scalar; JSON fallback error: ('Unknown identifier', 'version')",0.0,0.0,0.0,0.0,0.0,1.0,0.0
+5ee4a14b578f8a000b384376,False,"version: 4.4.7
+repository:
+    author: 
+        middle name: null
+        IsMember: true
+    type: git
+engines:
+    pnpm: >=8
+keywords:
+    - canvas
+    - responsive
+    - charts","YAML error: while scanning a block scalar; JSON fallback error: ('Unknown identifier', 'version')",0.0,0.0,0.0,0.0,0.0,1.0,0.0
+63af557b3d4f219c3226b7d6,True,"# Example of a YAML format
+version: 4-4-7
+repository:
+    author:
+        -middle name:
+            - null
+            - true
+    type:
+        - git
+engines:
+    - pmpm  
+        >=8
+keywords:
+    -canvas
+    - responsive
+    - charts
+    ",,,,,,,,
+66684d30d1a0d64a3a348c82,True,"version: 4.4.7
+repository:
+    type: git
+    author:
+        middle name: ishSensher
+        isMember: true
+engines:
+    -pnpm
+    -<18
+keywords:
+    -canvas
+    -responsive
+    -charts",,,,,,,,
+60e2ebb6ad1d5ee0e515a7c5,False,"version: 4.4.7
+Respository
+-Author:
+     middle name
+     is member: true
+-Type:
+   git
+Engines:pnpm
+        >=8
+Keywords:
+  -canvas
+  -responsive
+  -charts
+  ","YAML error: while scanning a simple key; JSON fallback error: ('Unknown identifier', 'version')",0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67153c0d669d191ab273b865,False,"Version: 4-4-7
+engines: popm >=8
+is Developer: True
+skills:
+- python
+- javaScript
+- YAML
+keywords:
+ canvas
+ responsive
+ charts
+ Repository:
+ author, type, git
+ module name
+ 1st member: True
+","YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'Version')",1.0,0.0,0.0,0.0,0.0,0.0,0.0
+67ab1d683813ed19603e1030,True,"version: 4.4.7
+repository:
+  author:
+    middle name: """"
+    IsMember: true
+  type: git
+engines: 
+  pnpm: "">=8""
+keywords:
+  - canvas
+  - responsive 
+  - charts
+",,,,,,,,
+60e343946a7faddde88fbe3c,False,"Version: 4.4.7
+repository: 
+  author:
+   middle name: 
+     IsMember: true
+  type: git
+engines:
+  pnpm: >=8
+keywords:
+   - canvas
+   - responsive
+   - charts","YAML error: while scanning a block scalar; JSON fallback error: ('Unknown identifier', 'Version')",0.0,0.0,0.0,0.0,1.0,0.0,0.0
+67e0333064ddada0e2fc6f1e,False,"
+  ""version"": ""4.4.7"",
+  ""repository"": {
+    ""author"": {
+      ""middle name"": """",
+      ""isMember"": true
+    },
+    ""type"": ""git""
+  },
+  ""engines"": {
+    ""npm"": "">=8""
+  },
+  ""keywords"": [""canvas"", ""responsive"", ""charts""]
+}",YAML error: while parsing a flow mapping; JSON fallback error: Unexpected text after end of JSON value,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+6554e79557e3d6be08e32ceb,False,"version : 4.4.7
+repository : author
+           : middle name
+           : IsMember true
+           : type git
+engines:
+   pnpm >=8
+keywords:
+   canvas
+   responsive
+   charts","YAML error: while parsing a block mapping; JSON fallback error: ('Unknown identifier', 'version')",0.0,1.0,0.0,0.0,0.0,0.0,0.0
+645b519f108c046164a6d232,False,"version: 4.4.7
+repository:
+    Author:
+       middle name: null
+       IsMember: true
+    Type: git
+engines:
+    pnpm: >=8
+keywords:
+    - canvas
+    - responsive
+    - charts","YAML error: while scanning a block scalar; JSON fallback error: ('Unknown identifier', 'version')",0.0,0.0,0.0,0.0,0.0,1.0,0.0
+669284eabea5b8c9655927da,False,"Version: 4.4.7
+ Repository:
+  author:
+   middle name:
+    Is/Member: true
+     Type: git 
+Engines:
+ Pnpm: "">=8""
+Keywords:
+ canvas
+  responsive
+  charts","YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'Version')",1.0,0.0,0.0,0.0,0.0,0.0,0.0
+6715c7aedee148c65c10509c,True,"version: 4.4.7
+repository: 
+  author:
+   middle_name:
+   isMember: true
+  type: git
+engines: 
+  pnpm: "">=8""
+keywords:
+  - canvas
+  - responsive
+  - charts
+   ",,,,,,,,
+678526627e48ded12935af38,False,"=version: 4.4.7
+respiratory:
+    author:
+     middle name: null
+     isMember: true
+    type: git
+  engines:
+    nmp: "">8""
+keywords:
+   - canvas
+   - responsive
+   -charts",YAML error: while parsing a block mapping; JSON fallback error: Can not decode value starting with character '=',0.0,0.0,1.0,0.0,0.0,0.0,0.0
+6738d09a032bf7224008ce7e,False,"version: 6.6.7
+respiratory:
+   author:
+     middle_name:  null
+     isMember: true
+    type: git
+ engines:
+   pnpm: "">=8""
+ keywords:
+   - canvas
+   - responsive
+   - charts","YAML error: while parsing a block mapping; JSON fallback error: ('Unknown identifier', 'version')",0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67d24179c5bd87691f1fe036,True,"version: 4.4.7
+repository:
+    author:
+        name: null
+        IsMember: true
+    type: git
+engines:
+    pnpm >=8
+keywords:
+    - canvas
+    - responsive
+    - charts",,,,,,,,

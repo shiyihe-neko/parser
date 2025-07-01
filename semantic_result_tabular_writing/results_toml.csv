@@ -1,0 +1,220 @@
+participantId,format,code,parsed_code,parsed_code_dict,parsed_method,keys_precision,keys_recall,keys_f1,values_precision,values_recall,values_f1,items_precision,items_recall,items_f1,tree_distance,normalized_distance,tree_similarity
+67e5cf90b79d0874e1cf16b0,toml,"[patients]
+[[patients.patient]]
+name = ""John""
+age = 30
+
+[patients.patient.test]
+blood = ""Normal""
+xray = ""Normal""
+
+[[patients.patient]]
+name = ""Michael""
+age = 45
+
+[[patients.patient.test]]
+blood = ""Elevated Cholesterol""
+xray = ""Normal""
+
+[patients.patient.treatment]
+type = ""Regular Monitoring""","{'patients': {'patient': [{'name': 'John', 'age': 30, 'test': {'blood': 'Normal', 'xray': 'Normal'}}, {'name': 'Michael', 'age': 45, 'test': [{'blood': 'Elevated Cholesterol', 'xray': 'Normal'}], 'treatment': {'type': 'Regular Monitoring'}}]}}","{'patients': {'patient': [{'age': 30, 'name': 'John', 'test': {'blood': 'Normal', 'xray': 'Normal'}}, {'age': 45, 'name': 'Michael', 'test': [{'blood': 'Elevated Cholesterol', 'xray': 'Normal'}], 'treatment': {'type': 'Regular Monitoring'}}]}}",library,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,1.0,0.0
+67d00f24466a67ba7e41228e,toml,"[[patients]]
+[[users]]
+name = ""john""
+[tests] =id ""1"" , result ""Normal""
+name =""Michael""
+[[tests]] = id ""2"", result ""Elevated cholesterol""
+[[[patients]]]
+[[users]]
+name = ""michael""
+[tests] =id ""1"" , result ""Normal
+[treatment] = ""regular monitoring""","{'name': '""michael""'}","{'name': '""michael""'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+6672d878f68b9e349b56e871,toml,name='John'test= Id=1 Results=Normal Id=2 Name='Michael' test Id=1 Results = Normal results= Elevated Cholesterol Id=2 Regula Monitoring                    ,"{'name': ""'John'test= Id=1 Results=Normal Id=2 Name='Michael' test Id=1 Results = Normal results= Elevated Cholesterol Id=2 Regula Monitoring""}","{'name': ""'John'test= Id=1 Results=Normal Id=2 Name='Michael' test Id=1 Results = Normal results= Elevated Cholesterol Id=2 Regula Monitoring""}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+66992f58a7964f557fc75f58,toml,"name= ""John""
+""""normal""""
+""""elevated cholesterol""""
+
+
+
+
+name= ""Michael""
+""""Normal""""","{'name': '""Michael""'}","{'name': '""Michael""'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+64275e53f51a5ed4f6b7d019,toml,"# The picture is very hard to see, so small even if I try to zoom in.
+# I seriously am having a hard time reading the text in the boxes.
+# I'll try anyway.
+
+[patient]
+name = ""John""
+[patient.tests]
+id = 1
+result = ""Normal""
+id = 2
+result = ""Elevated Cholesterol""
+
+[patient]
+name = ""Michael""
+[patient.tests]
+id = 1
+result = ""Normal""
+[patient.treatment]
+isRegularMonitoring = true","{'name': '""Michael""', 'id': '1', 'result': '""Normal""', 'isRegularMonitoring': 'true'}","{'id': '1', 'isRegularMonitoring': 'true', 'name': '""Michael""', 'result': '""Normal""'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+673d0377254c407e5da57f97,toml,"[[patients]]
+name = ""John""
+[[patients.tests]]
+id =1
+result= ""Normal""
+[[patients.tests]]
+id =2
+result = ""Elevated Cholesterol""
+[[patients]]
+name = ""Michael""
+[[patients.tests]]
+id =1
+result= ""Normal""
+[[patients]]
+treatment = ""Regular Monitoring""","{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Michael', 'tests': [{'id': 1, 'result': 'Normal'}]}, {'treatment': 'Regular Monitoring'}]}","{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Michael', 'tests': [{'id': 1, 'result': 'Normal'}]}, {'treatment': 'Regular Monitoring'}]}",library,0.8888888888888888,0.8888888888888888,0.8888888888888888,1.0,0.8888888888888888,0.9411764705882353,0.8888888888888888,0.8888888888888888,0.8888888888888888,3.0,0.15789473684210525,0.8421052631578947
+5e8a5a892f6f027054a83d88,toml,"[[patients]]
+name = ""John""
+
+[[patients.test]]
+id = 1
+result = ""Normal""
+
+[[patients.tests]]
+id = 2
+result = ""Elevated Cholesterol""
+
+[[patients]]
+name = ""Michael""
+treatment = ""Regular Monitoring""
+
+[[patients.tests]]
+id = 1
+result = ""Normal""","{'patients': [{'name': 'John', 'test': [{'id': 1, 'result': 'Normal'}], 'tests': [{'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Michael', 'treatment': 'Regular Monitoring', 'tests': [{'id': 1, 'result': 'Normal'}]}]}","{'patients': [{'name': 'John', 'test': [{'id': 1, 'result': 'Normal'}], 'tests': [{'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Michael', 'tests': [{'id': 1, 'result': 'Normal'}], 'treatment': 'Regular Monitoring'}]}",library,0.7777777777777778,0.7777777777777778,0.7777777777777778,0.7142857142857143,0.5555555555555556,0.6250000000000001,0.5555555555555556,0.5555555555555556,0.5555555555555556,5.0,0.2631578947368421,0.736842105263158
+67bf88cc763aae600b429a3e,toml,"patients
+
+name = ""John""
+test
+id= [1]
+result = ""normal""
+id= [2]
+result = ""elevated cholesterol""
+
+
+
+name =""Michael
+test
+
+id= [1]""
+result ""Normal""
+
+treatment = ""Monitoring""","{'name': '""Michael', 'id': '[1]""', 'result': '""elevated cholesterol""', 'treatment': '""Monitoring""'}","{'id': '[1]""', 'name': '""Michael', 'result': '""elevated cholesterol""', 'treatment': '""Monitoring""'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+63e5b3e89a3823139cb9d35e,toml,"#Patiend 1
+[patiends]
+idpatiend = 1
+name = ""John""
+
+[patiends.tests]
+idpatiend = 1
+id = 1
+result = ""Normal""
+
+[patiends.tests]
+idpatiend = 1
+id = 2
+result = ""Elevated Cholesterol""
+
+#Patiend 2
+[patiends]
+idpatiend = 2
+name = ""Michael""
+
+[patiends.tests]
+idpatiend = 2
+id = 1
+result = ""Normal""
+
+[patiends.treatment]
+idpatiend = 2
+treatment = ""Regular Monitoring""
+
+","{'idpatiend': '2', 'name': '""Michael""', 'id': '1', 'result': '""Normal""', 'treatment': '""Regular Monitoring""'}","{'id': '1', 'idpatiend': '2', 'name': '""Michael""', 'result': '""Normal""', 'treatment': '""Regular Monitoring""'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+667c2175b570aa694ce2f63c,toml,"[Patients]
+
+name=john
+
+[tests]
+
+# ID1 = ""Normal""
+# ID2 = ""Elevated Cholestral
+
+name=Michael
+
+[tests]
+
+# ID1 = ""Normal""
+# Treatment = ""Regular Monitoring""
+","{'name': 'Michael', 'ID1': '""Normal""', 'ID2': '""Elevated Cholestral', 'Treatment': '""Regular Monitoring""'}","{'ID1': '""Normal""', 'ID2': '""Elevated Cholestral', 'Treatment': '""Regular Monitoring""', 'name': 'Michael'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+67eefd0739d752c54dd52686,toml,"patient Name: john 
+test : 1d=1
+result= normal
+test id = 2, result Elevated cholestrol
+
+patient 2
+Name: Micheal
+id=1
+result = normal
+treatment Regular monitoring","{'Name': 'Micheal', 'test': '1d=1', 'result': 'normal', 'id': '1'}","{'Name': 'Micheal', 'id': '1', 'result': 'normal', 'test': '1d=1'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+671b65fe04c301eb14263ba5,toml,"[[ Patient]]
+name:""John""
+# tests
+id=[1]
+# result=[normal]
+id=[2]
+# result=[elevated cholesterol]
+[[patient]]
+name:""Michael""
+#tests
+id=[1]
+#result[normal]
+#treatment[Regular monitoring]","{'name': '""Michael""', 'id': '[1]', 'result': '[elevated cholesterol]'}","{'id': '[1]', 'name': '""Michael""', 'result': '[elevated cholesterol]'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+66a9285501ac98053902d481,toml,"[[patients]]
+name = ""John""
+test = { id = 1, result = ""Normal"" }
+test = { id = 2, result = ""Elevated Cholesterol"" }
+
+[[patients]]
+name = ""Michael""
+test = { id = 1; result = ""Normal"" }
+treatment = ""Regular Monitoring""
+","{'name': '""Michael""', 'test': '{ id = 1; result = ""Normal"" }', 'result': '""Elevated Cholesterol"" }', 'treatment': '""Regular Monitoring""'}","{'name': '""Michael""', 'result': '""Elevated Cholesterol"" }', 'test': '{ id = 1; result = ""Normal"" }', 'treatment': '""Regular Monitoring""'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+665c5d94303fdf202ac9ded0,toml,"[[patients]]
+name = ""John""
+
+[[patients.tests]]
+[[patients.tests.test]]
+id = 1
+result = ""Normal""
+
+[[patients.tests.test]]
+id = 2
+result = ""Elevated Cholesterol""
+
+[[patients]]
+name = ""Michael""
+treatment = ""Regular Monitoring""
+
+[patients.tests]
+[[patients.tests.test]]
+id = 1
+result = ""Normal""
+
+
+","{'patients': [{'name': 'John', 'tests': [{'test': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}]}, {'name': 'Michael', 'treatment': 'Regular Monitoring', 'tests': {'test': [{'id': 1, 'result': 'Normal'}]}}]}","{'patients': [{'name': 'John', 'tests': [{'test': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}]}, {'name': 'Michael', 'tests': {'test': [{'id': 1, 'result': 'Normal'}]}, 'treatment': 'Regular Monitoring'}]}",library,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,0.3333333333333333,0.5,0.3333333333333333,0.3333333333333333,0.3333333333333333,6.0,0.2857142857142857,0.7142857142857143
+67f1c7bd6f1c4a3d8deae02f,toml,"penalities = [""name"",""tests"",treatment]
+treatment = Regular monitoring
+name = [""Michael"", ""John""]
+tests = [""id"", ""result""]
+result = normal
+result = elevated cholesterol
+id = [""1"", ""2""]","{'penalities': '[""name""', 'treatment': 'Regular monitoring', 'name': '[""Michael""', 'tests': '[""id""', 'result': 'elevated cholesterol', 'id': '[""1""'}","{'id': '[""1""', 'name': '[""Michael""', 'penalities': '[""name""', 'result': 'elevated cholesterol', 'tests': '[""id""', 'treatment': 'Regular monitoring'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558

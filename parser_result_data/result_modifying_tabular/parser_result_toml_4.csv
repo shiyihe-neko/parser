@@ -1,0 +1,16 @@
+participantId,format,valid_strict,valid_loose
+67e5cf90b79d0874e1cf16b0,toml,True,True
+67d00f24466a67ba7e41228e,toml,False,False
+6672d878f68b9e349b56e871,toml,False,False
+66992f58a7964f557fc75f58,toml,False,False
+64275e53f51a5ed4f6b7d019,toml,False,False
+673d0377254c407e5da57f97,toml,False,False
+5e8a5a892f6f027054a83d88,toml,False,False
+67bf88cc763aae600b429a3e,toml,False,False
+63e5b3e89a3823139cb9d35e,toml,True,True
+667c2175b570aa694ce2f63c,toml,True,True
+67eefd0739d752c54dd52686,toml,False,False
+671b65fe04c301eb14263ba5,toml,False,False
+66a9285501ac98053902d481,toml,True,True
+665c5d94303fdf202ac9ded0,toml,True,True
+67f1c7bd6f1c4a3d8deae02f,toml,False,False

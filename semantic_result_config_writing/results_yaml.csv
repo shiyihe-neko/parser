@@ -1,0 +1,225 @@
+participantId,format,code,parsed_code,parsed_code_dict,parsed_method,keys_precision,keys_recall,keys_f1,values_precision,values_recall,values_f1,items_precision,items_recall,items_f1,tree_distance,normalized_distance,tree_similarity
+67f0d86fabc081fdc410e828,yaml,"version: 4.4.7
+Repository:
+          : author
+          - middle name: ~
+          - Is member : true
+          : type
+          - git
+engines:
+          - pnpm
+          >=8
+keywords:
+          - canvas
+          - responsive
+          - charts","{'version': '4.4.7', 'Repository': ': author', 'name': '~', 'member': 'true', 'engines': '- pnpm', 'keywords': '- canvas'}","{'Repository': ': author', 'engines': '- pnpm', 'keywords': '- canvas', 'member': 'true', 'name': '~', 'version': '4.4.7'}",regex,0.16666666666666666,0.125,0.14285714285714288,1.0,0.125,0.2222222222222222,0.16666666666666666,0.125,0.14285714285714288,11.0,0.8461538461538461,0.15384615384615385
+6691809035e52ca9b2b0f39a,yaml,"version: 4.4.7
+repository:
+    author:
+      middle name: ~
+      IsMember:
+    type:
+      git:
+engines:
+    pnpm: >=8
+keywords:
+    canvas
+    responsive
+    charts
+    
+       ","{'version': '4.4.7', 'repository': 'author:', 'name': '~', 'IsMember': 'type:', 'git': 'engines:', 'pnpm': '>=8', 'keywords': 'canvas'}","{'IsMember': 'type:', 'git': 'engines:', 'keywords': 'canvas', 'name': '~', 'pnpm': '>=8', 'repository': 'author:', 'version': '4.4.7'}",regex,0.14285714285714285,0.125,0.13333333333333333,1.0,0.125,0.2222222222222222,0.14285714285714285,0.125,0.13333333333333333,11.0,0.8461538461538461,0.15384615384615385
+5ee4a14b578f8a000b384376,yaml,"version: 4.4.7
+repository:
+    author: 
+        middle name: null
+        IsMember: true
+    type: git
+engines:
+    pnpm: >=8
+keywords:
+    - canvas
+    - responsive
+    - charts","{'version': '4.4.7', 'repository': 'author:', 'name': 'null', 'IsMember': 'true', 'type': 'git', 'engines': 'pnpm: >=8', 'keywords': '- canvas'}","{'IsMember': 'true', 'engines': 'pnpm: >=8', 'keywords': '- canvas', 'name': 'null', 'repository': 'author:', 'type': 'git', 'version': '4.4.7'}",regex,0.14285714285714285,0.125,0.13333333333333333,1.0,0.125,0.2222222222222222,0.14285714285714285,0.125,0.13333333333333333,10.0,0.7692307692307693,0.23076923076923073
+63af557b3d4f219c3226b7d6,yaml,"# Example of a YAML format
+version: 4-4-7
+repository:
+    author:
+        -middle name:
+            - null
+            - true
+    type:
+        - git
+engines:
+    - pmpm  
+        >=8
+keywords:
+    -canvas
+    - responsive
+    - charts
+    ","{'version': '4-4-7', 'repository': {'author': {'-middle name': [None, True]}, 'type': ['git']}, 'engines': ['pmpm >=8'], 'keywords': '-canvas - responsive - charts'}","{'engines': ['pmpm >=8'], 'keywords': '-canvas - responsive - charts', 'repository': {'author': {'-middle name': [None, True]}, 'type': ['git']}, 'version': '4-4-7'}",library,0.16666666666666666,0.125,0.14285714285714288,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+66684d30d1a0d64a3a348c82,yaml,"version: 4.4.7
+repository:
+    type: git
+    author:
+        middle name: ishSensher
+        isMember: true
+engines:
+    -pnpm
+    -<18
+keywords:
+    -canvas
+    -responsive
+    -charts","{'version': '4.4.7', 'repository': {'type': 'git', 'author': {'middle name': 'ishSensher', 'isMember': True}}, 'engines': '-pnpm -<18', 'keywords': '-canvas -responsive -charts'}","{'engines': '-pnpm -<18', 'keywords': '-canvas -responsive -charts', 'repository': {'author': {'isMember': True, 'middle name': 'ishSensher'}, 'type': 'git'}, 'version': '4.4.7'}",library,0.5,0.375,0.42857142857142855,0.6666666666666666,0.25,0.36363636363636365,0.3333333333333333,0.25,0.28571428571428575,8.0,0.6153846153846154,0.3846153846153846
+60e2ebb6ad1d5ee0e515a7c5,yaml,"version: 4.4.7
+Respository
+-Author:
+     middle name
+     is member: true
+-Type:
+   git
+Engines:pnpm
+        >=8
+Keywords:
+  -canvas
+  -responsive
+  -charts
+  ","{'version': '4.4.7', '-Author': 'middle name', 'member': 'true', '-Type': 'git', 'Engines': 'pnpm', 'Keywords': '-canvas'}","{'-Author': 'middle name', '-Type': 'git', 'Engines': 'pnpm', 'Keywords': '-canvas', 'member': 'true', 'version': '4.4.7'}",regex,0.16666666666666666,0.125,0.14285714285714288,1.0,0.125,0.2222222222222222,0.16666666666666666,0.125,0.14285714285714288,11.0,0.8461538461538461,0.15384615384615385
+67153c0d669d191ab273b865,yaml,"Version: 4-4-7
+engines: popm >=8
+is Developer: True
+skills:
+- python
+- javaScript
+- YAML
+keywords:
+ canvas
+ responsive
+ charts
+ Repository:
+ author, type, git
+ module name
+ 1st member: True
+","{'Version': '4-4-7', 'engines': 'popm >=8', 'Developer': 'True', 'skills': '- python', 'keywords': 'canvas', 'Repository': 'author', 'member': 'True'}","{'Developer': 'True', 'Repository': 'author', 'Version': '4-4-7', 'engines': 'popm >=8', 'keywords': 'canvas', 'member': 'True', 'skills': '- python'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67ab1d683813ed19603e1030,yaml,"version: 4.4.7
+repository:
+  author:
+    middle name: """"
+    IsMember: true
+  type: git
+engines: 
+  pnpm: "">=8""
+keywords:
+  - canvas
+  - responsive 
+  - charts
+","{'version': '4.4.7', 'repository': {'author': {'middle name': '', 'IsMember': True}, 'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}","{'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts'], 'repository': {'author': {'IsMember': True, 'middle name': ''}, 'type': 'git'}, 'version': '4.4.7'}",library,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0
+60e343946a7faddde88fbe3c,yaml,"Version: 4.4.7
+repository: 
+  author:
+   middle name: 
+     IsMember: true
+  type: git
+engines:
+  pnpm: >=8
+keywords:
+   - canvas
+   - responsive
+   - charts","{'Version': '4.4.7', 'repository': 'author:', 'name': 'IsMember: true', 'type': 'git', 'engines': 'pnpm: >=8', 'keywords': '- canvas'}","{'Version': '4.4.7', 'engines': 'pnpm: >=8', 'keywords': '- canvas', 'name': 'IsMember: true', 'repository': 'author:', 'type': 'git'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+67e0333064ddada0e2fc6f1e,yaml,"
+  ""version"": ""4.4.7"",
+  ""repository"": {
+    ""author"": {
+      ""middle name"": """",
+      ""isMember"": true
+    },
+    ""type"": ""git""
+  },
+  ""engines"": {
+    ""npm"": "">=8""
+  },
+  ""keywords"": [""canvas"", ""responsive"", ""charts""]
+}",{},{},regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+6554e79557e3d6be08e32ceb,yaml,"version : 4.4.7
+repository : author
+           : middle name
+           : IsMember true
+           : type git
+engines:
+   pnpm >=8
+keywords:
+   canvas
+   responsive
+   charts","{'version': '4.4.7', 'repository': 'author', 'name': 'IsMember true', 'engines': 'pnpm >=8', 'keywords': 'canvas'}","{'engines': 'pnpm >=8', 'keywords': 'canvas', 'name': 'IsMember true', 'repository': 'author', 'version': '4.4.7'}",regex,0.2,0.125,0.15384615384615385,1.0,0.125,0.2222222222222222,0.2,0.125,0.15384615384615385,11.0,0.8461538461538461,0.15384615384615385
+645b519f108c046164a6d232,yaml,"version: 4.4.7
+repository:
+    Author:
+       middle name: null
+       IsMember: true
+    Type: git
+engines:
+    pnpm: >=8
+keywords:
+    - canvas
+    - responsive
+    - charts","{'version': '4.4.7', 'repository': 'Author:', 'name': 'null', 'IsMember': 'true', 'Type': 'git', 'engines': 'pnpm: >=8', 'keywords': '- canvas'}","{'IsMember': 'true', 'Type': 'git', 'engines': 'pnpm: >=8', 'keywords': '- canvas', 'name': 'null', 'repository': 'Author:', 'version': '4.4.7'}",regex,0.14285714285714285,0.125,0.13333333333333333,1.0,0.125,0.2222222222222222,0.14285714285714285,0.125,0.13333333333333333,11.0,0.8461538461538461,0.15384615384615385
+669284eabea5b8c9655927da,yaml,"Version: 4.4.7
+ Repository:
+  author:
+   middle name:
+    Is/Member: true
+     Type: git 
+Engines:
+ Pnpm: "">=8""
+Keywords:
+ canvas
+  responsive
+  charts","{'Version': '4.4.7', 'Repository': 'author:', 'name': 'Is/Member: true', 'Type': 'git', 'Engines': 'Pnpm: "">=8""', 'Keywords': 'canvas'}","{'Engines': 'Pnpm: "">=8""', 'Keywords': 'canvas', 'Repository': 'author:', 'Type': 'git', 'Version': '4.4.7', 'name': 'Is/Member: true'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+6715c7aedee148c65c10509c,yaml,"version: 4.4.7
+repository: 
+  author:
+   middle_name:
+   isMember: true
+  type: git
+engines: 
+  pnpm: "">=8""
+keywords:
+  - canvas
+  - responsive
+  - charts
+   ","{'version': '4.4.7', 'repository': {'author': {'middle_name': None, 'isMember': True}, 'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}","{'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts'], 'repository': {'author': {'isMember': True, 'middle_name': None}, 'type': 'git'}, 'version': '4.4.7'}",library,0.75,0.75,0.75,1.0,0.75,0.8571428571428571,0.75,0.75,0.75,2.0,0.15384615384615385,0.8461538461538461
+678526627e48ded12935af38,yaml,"=version: 4.4.7
+respiratory:
+    author:
+     middle name: null
+     isMember: true
+    type: git
+  engines:
+    nmp: "">8""
+keywords:
+   - canvas
+   - responsive
+   -charts","{'version': '4.4.7', 'respiratory': 'author:', 'name': 'null', 'isMember': 'true', 'type': 'git', 'engines': 'nmp: "">8""', 'keywords': '- canvas'}","{'engines': 'nmp: "">8""', 'isMember': 'true', 'keywords': '- canvas', 'name': 'null', 'respiratory': 'author:', 'type': 'git', 'version': '4.4.7'}",regex,0.14285714285714285,0.125,0.13333333333333333,1.0,0.125,0.2222222222222222,0.14285714285714285,0.125,0.13333333333333333,10.0,0.7692307692307693,0.23076923076923073
+6738d09a032bf7224008ce7e,yaml,"version: 6.6.7
+respiratory:
+   author:
+     middle_name:  null
+     isMember: true
+    type: git
+ engines:
+   pnpm: "">=8""
+ keywords:
+   - canvas
+   - responsive
+   - charts","{'version': '6.6.7', 'respiratory': 'author:', 'middle_name': 'null', 'isMember': 'true', 'type': 'git', 'engines': 'pnpm: "">=8""', 'keywords': '- canvas'}","{'engines': 'pnpm: "">=8""', 'isMember': 'true', 'keywords': '- canvas', 'middle_name': 'null', 'respiratory': 'author:', 'type': 'git', 'version': '6.6.7'}",regex,0.14285714285714285,0.125,0.13333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+67d24179c5bd87691f1fe036,yaml,"version: 4.4.7
+repository:
+    author:
+        name: null
+        IsMember: true
+    type: git
+engines:
+    pnpm >=8
+keywords:
+    - canvas
+    - responsive
+    - charts","{'version': '4.4.7', 'repository': {'author': {'name': None, 'IsMember': True}, 'type': 'git'}, 'engines': 'pnpm >=8', 'keywords': ['canvas', 'responsive', 'charts']}","{'engines': 'pnpm >=8', 'keywords': ['canvas', 'responsive', 'charts'], 'repository': {'author': {'IsMember': True, 'name': None}, 'type': 'git'}, 'version': '4.4.7'}",library,0.75,0.75,0.75,1.0,0.75,0.8571428571428571,0.75,0.75,0.75,3.0,0.23076923076923078,0.7692307692307692

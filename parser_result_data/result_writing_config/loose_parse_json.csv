@@ -1,0 +1,16 @@
+participantId,valid,parsed,errorMessage,"('Bad number', '4.4.7')","('Line terminator characters must be escaped inside string literals', 'U+000D')","('Unknown identifier', 'version')",Can not decode value starting with character ':',"Missing value for object property, expected "":""",Unexpected text after end of JSON value,Values must be separated by a comma
+670f9ddb0e32533c222c3031,False,,"('Unknown identifier', 'version')",0.0,0.0,1.0,0.0,0.0,0.0,0.0
+671bdd06525adeea062a1d73,False,,"('Bad number', '4.4.7')",1.0,0.0,0.0,0.0,0.0,0.0,0.0
+66912d7bf9d35c08f6919958,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+6818ca1523ece90f671e3601,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+6680d2279263349cc005956a,True,"{'version': '4.4.7', 'repository': {'author': {'middleName': '...', 'isMember': True}, 'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'chart']}",,,,,,,,
+6081728972120aa7f9685791,True,"{'version': '4.4.7', 'repository': {'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts'], 'author': {'middle name': 'IsMember', 'IsMember': True}}",,,,,,,,
+675aaf0eb1b401136f37c475,False,,"('Line terminator characters must be escaped inside string literals', 'U+000D')",0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67d13a1ec91ae2216896de44,True,"{'version': '4.4.7', 'repository': {'author': {'middle name': '', 'IsMember': True}, 'type': 'git'}, 'engine': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}",,,,,,,,
+68138e7f96395f4c5f3a0a87,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,1.0,0.0,0.0
+67f4ea448eb6a2b293c1f2fc,True,"{'version': '4.4.7', 'repository': {'author': {'middle name': True, 'IsMember': False}}, 'engines': {'type': 'git', 'popes': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}",,,,,,,,
+664e413a5f3eb7f99d90e15b,True,"{'version': '4.4.7', 'repository': {'type': 'git'}, 'engines': {'npm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts'], 'author': {'middleName': None, 'isMember': True}}",,,,,,,,
+65fb236a5a78fcf672df7469,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,1.0,0.0,0.0
+67176f0792ed8c4064f61a2c,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+5795af044a84da00014c5df1,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+61287939bc5a971fc15333e4,False,,Can not decode value starting with character ':',0.0,0.0,0.0,1.0,0.0,0.0,0.0

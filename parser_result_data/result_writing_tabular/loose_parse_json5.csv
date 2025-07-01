@@ -1,0 +1,16 @@
+participantId,valid,parsed,errorMessage,"('Unknown identifier', 'json5')","('Unknown identifier', 'normal')","('Unknown identifier', 'patients')","('Unknown identifier', 'there')",Can not decode value starting with character '(',Can not decode value starting with character ':',"Missing value for object property, expected "":""","Object properties (keys) must be string literals, numbers, or identifiers",Unexpected text after end of JSON value,Values must be separated by a comma
+64457bc906c125cebd4bf66b,False,,Can not decode value starting with character ':',0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+673e43cc760355e9e4f042a3,True,"{'patients': [{'name': 'John', 'tests': [{'id': 1, 'results': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Michael', 'tests': [{'id': 1, 'result': 'Normal'}], 'treatment': 'Regular Monitoring'}]}",,,,,,,,,,,
+6788c1c724c24dc56b08790a,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67c246023b44ca64d40ae45a,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+672d98919cc177d28c204e76,False,,"('Unknown identifier', 'normal')",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+67f1a4f8dd44e7cd5adffa29,False,,"('Unknown identifier', 'json5')",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+672ca6c0324ac26cdc0dd298,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+5b68c9eb87af310001584803,False,,Can not decode value starting with character '(',0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67e17bac09359e09118892b4,False,,"('Unknown identifier', 'there')",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+6606b31155457e4f162ecf5a,True,"{'patients': [{'name': 'john', 'tests': [{'id': 1, 'result': 'normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Michael', 'tests': [{'id': 1, 'result': 'normal'}], 'treatment': 'Regular Monitoring'}]}",,,,,,,,,,,
+67d188bcc201cc08eac23f92,False,,Can not decode value starting with character '(',0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67d548b5aa5737666a77a6d2,False,,"('Unknown identifier', 'patients')",0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+6787d648d7b1963c661f9443,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+67d163e7b7bcc1e9718e01da,True,"{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Micheal', 'tests': [{'id': 1, 'result': 'normal'}], 'treatment': 'regular monitoring'}]}",,,,,,,,,,,
+65fad673a546ab14baf2f8d3,False,,"Object properties (keys) must be string literals, numbers, or identifiers",0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0

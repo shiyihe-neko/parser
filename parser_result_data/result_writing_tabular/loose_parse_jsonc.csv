@@ -1,0 +1,16 @@
+participantId,valid,parsed,errorMessage,"('Unknown identifier', 'patients')","Can not decode value starting with character ','",Can not decode value starting with character '\\',Can not decode value starting with character '}',"Missing value for object property, expected "":""","Object properties (keys) must be string literals, numbers, or identifiers",Unexpected text after end of JSON value,Values must be separated by a comma
+67f5bb69760b211cdfe8021c,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+678bad003d15e6aba1ee5a5d,True,"{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Micheal', 'tests': [{'id': 1, 'result': 'normal'}], 'treatment': 'regular monitoring'}]}",,,,,,,,,
+67f0c5d37f91ceae5cb3b318,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+67aee0dfad3492b61a9ba0eb,False,,Can not decode value starting with character '}',0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+6734346ca8e90c2da6fb4509,True,"{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevalted Cholesterol'}]}, {'name': 'Micheal', 'tests': {'id': 1, 'result': 'Normal'}, 'treatment': 'Regular Monitoring'}]}",,,,,,,,,
+67ab214c2cde1be7c45535ac,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+607728dc0b4f8590b94ae57c,False,,"Object properties (keys) must be string literals, numbers, or identifiers",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+5dafea4de40355001651fa2f,False,,"Can not decode value starting with character ','",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+677d185800ab83d1b0185d82,False,,Can not decode value starting with character '\\',0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+6784ff2095dd9b97e969b01f,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+5ecc71c95c92c2000a9e9a19,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+66781db404eab5e142f849d9,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67e12acb51605ac16c227598,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+66a662a0a709312db9de01f2,False,,"('Unknown identifier', 'patients')",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+67ab650c320eccf6141d4010,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0

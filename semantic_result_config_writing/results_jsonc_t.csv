@@ -1,0 +1,307 @@
+participantId,format,code,parsed_code,parse_method,key_precision,key_recall,key_f1,value_precision,value_recall,value_f1,kv_precision,kv_recall,kv_f1,ted,normalized_ted,tree_similarity
+67895b7d6400163124042af7,jsonc,"{
+    // version details
+    ""version"": ""4.4.8"", // software version
+    
+    //repository information
+    ""repository"": ""4.4.8""
+     ""author"": {
+         ""middleName"": null, // no middle name given
+          ""ismember"": true // indicate membership status
+     }
+{,
+// keywords for categorization
+""keywrods"": [
+    ""type"", // Dta type
+    ""canvas"", // Graphics-related functionality
+    ""responsive"", // Responsive design
+    ""charts"" // Charting abilities
+    ]
+}","{'version': '4.4.8', 'repository': '4.4.8', 'middleName': None, 'ismember': True, 'Graphics': 'related', 'items': ['type', '// Dta type\r\n    ""canvas', '// Graphics-related functionality\r\n    ""responsive', '// Responsive design\r\n    ""charts"" // Charting abilities']}",regex,0.1111111111111111,0.125,0.11764705882352941,0.0,0.0,0.0,0.0,0.0,0.0,14.0,1.0769230769230769,-0.07692307692307687
+6708da9c62672d0fe65b6683,jsonc,"())   ""version""4.4.7
+()     ""repository""author,type,git,middlename,IsMember,true
+()      ""engines"" pupm,>=8
+()      ""keywords""cavas,responsive,charts
+()   ()""""",{},failed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+613a541cf948d295c1df8752,jsonc,"{
+    {
+        ""version:"" ""447"",
+    },
+    {
+        ""repository:"" [
+            {
+            ""author""
+            {
+                ""middle name:"" ""null""
+                ""isMember:"" true
+            }
+        }
+        {
+            ""type""
+            {""git""
+            }
+        }
+        ]
+    },
+    {
+        ""engines:""
+        {
+            ""pnpm:"" >=8
+        }
+    },
+    {
+        ""keywords:""
+        {
+            ""canvas"",
+            ""responsive"",
+            ""charts""
+        }
+    }
+}
+    
+        
+    ","{'version': '', 'repository': '[\r\n            {', 'name': '', 'isMember': 'true\r\n            }\r\n        }\r\n        {', 'engines': '{', 'pnpm': '>=8\r\n        }\r\n    },\r\n    {', 'keywords': '{'}",regex,0.14285714285714285,0.125,0.13333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67c1dd323984fa84ae83e162,jsonc,"{
+  ""version"":version""'//
+  447
+ ""repository"": ""Repository""' /*
+  ""author
+  type
+  git
+ Code storage * //
+  ""engines"": ""Engines"", //
+  pnpm
+  >=8
+   ""keywords"": ""Keywords""/*
+   canvas
+   responsive
+   charts
+   git */
+}
+ ""middle name
+ isMember
+ tru""
+ }","{'repository': 'Repository', 'engines': 'Engines', 'keywords': 'Keywords', 'pnpm': '=8'}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+6723422d5f63c70998014b03,jsonc,"{
+""person"": {
+    ""name"": ""Alice"",
+    ""address"": {
+        ""city"": ""New York"",
+        ""zip"": ""10001""
+    } ,
+    ""skills"": [
+        { ""name"": ""Python"", ""Level"": ""Advanced"" }
+        { ""name"" : ""JavaScript"", ""Level"":""Intermediate""
+            
+        }]
+    }
+    }
+}
+}","{'name': 'Alice', 'city': 'New York', 'zip': '10001', 'Level': 'Advanced', 'items': ['{ ""name"": ""Python', 'Level"": ""Advanced"" }\r\n        { ""name"" : ""JavaScript', 'Level"":""Intermediate""\r\n            \r\n        }']}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0
+589cd166b2a7180001f0527d,jsonc,"{
+    ""version"": 4.4.7
+    
+}
+
+{
+    ""repository""
+    ""author""
+    Middle name:null
+    
+}
+
+{
+    ""IsMember"": true
+}
+
+{
+    'type':git
+{
+
+""keywords"": [""canvas"", ""responsive"", ""charts"",],
+
+}
+","{'version': 4.4, 'IsMember': True, 'name': None, 'git': '""keywords"": [""canvas"", ""responsive"", ""charts"",],', 'items': ['canvas', 'responsive', 'charts']}",regex,0.14285714285714285,0.125,0.13333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0
+6735b2a6112cf17b7b8df8d1,jsonc,"""verison""; ""4.4.7""
+""repository"" : {
+    ""author"" ; {
+        ""middle name"": null,
+        ""isMember"": true
+
+    }
+    }
+}.
+""engines"" : {
+    ""npm"" : ""+8""
+}
+""keywords"": {
+    ""type"",
+    ""canvas"",
+    ""responsive"",
+    ""Charts"",
+    ""git""
+}","{'npm': '+8', 'middle_name': None, 'isMember': True}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67da5ae29f57419143d2b99a,jsonc,"[
+    {""name"": ""version""
+        ""color"": ""purple""
+        ""value"": ""4.4.7""
+    },
+    {
+        ""name"": ""repository"",
+        ""color"": ""purple"",
+        ""children"": [
+            {
+                ""name"": ""author"",
+                ""color"": ""orange"",
+                ""children"": [
+                    {
+                        ""name"": ""middle name"",
+                        ""color"": ""green"",
+                        {
+                            ""name"": null,
+                            ""color"": ""blue""
+                            
+                        }
+                    }]
+            }""name"": ""isMember"",
+            ""color"": ""green"",
+            ""value"": ""true""
+    }
+            ]
+    }]","{'name': 'version', 'color': 'purple', 'value': '4.4.7', 'items': ['{\r\n                ""name"": ""author', 'color"": ""orange', 'children"": [\r\n                    {\r\n                        ""name"": ""middle name', 'color"": ""green', '{\r\n                            ""name"": null', 'color"": ""blue""\r\n                            \r\n                        }\r\n                    }']}",regex,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,1.0769230769230769,-0.07692307692307687
+66684beba2a2d24645a6d782,jsonc,"{
+  // Toplevel elements
+  ""version"": ""1.0.0"".
+  ""repository"": {
+     // repository metadata
+      ""author"":{ 
+          ""name"": author name 
+        ""email"": ""author@example.com"",
+        ""url"": ""https://author,wbsite""
+      },
+      ""type"":git"", // Type of ripository
+  ","{'version': '1.0.0', 'email': 'author@example.com', 'url': 'https://author,wbsite', 'https': '//author'}",regex,0.25,0.125,0.16666666666666666,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+588ab33542c8e900019d02ae,jsonc,"{
+    ""Version"": ""4.4.7"",
+    ""Repository"": {
+        ""author"": {""middle name"", 
+                  ""is member"": true
+        ""Type"": ""Git""
+    },
+    ""engines"": {
+    ""pnpm"": "">=8""
+    },
+    ""keywords"" [
+        ""canvas""
+        ""responsive
+        ""charts""
+        ],
+    }","{'Version': '4.4.7', 'Type': 'Git', 'pnpm': '>=8', 'is_member': True}",regex,0.25,0.125,0.16666666666666666,1.0,0.125,0.2222222222222222,0.25,0.125,0.16666666666666666,12.0,0.9230769230769231,0.07692307692307687
+65fb13bebfa339f73b4cf76a,jsonc,"// top level configuration for the pacckage
+'version':'4.4.7', version number of the package
+
+'repository':{
+    'author':{
+        'middle name': null, //author's middle name
+        'is member' true //boolean flag indicating membeship status
+        {,
+        'type': 'git'  //repository type
+        
+    }
+}","{'version': '4.4.7', 'type': 'git', 'status': "",\r\n        'type': 'git'  //repository type""}",regex,0.3333333333333333,0.125,0.18181818181818182,1.0,0.125,0.2222222222222222,0.3333333333333333,0.125,0.18181818181818182,10.0,0.7692307692307693,0.23076923076923073
+671e39c25e5e3f340a6f21d4,jsonc,"{   
+    // project version
+    ""version"" : ""4.4.7"",
+    
+    
+    // source code respiratory
+    ""type"": ""gift""
+    
+},
+
+
+  // Engine requirements
+  ""engines"":{
+      ""pnpm"": "">=8""
+      
+      
+      
+      // Relevant keywords for the project
+      ""keywords"" :[
+         ""canvas""
+         ""responsive""
+         ""charts""
+         
+         ],
+         
+         
+         //project author details 
+         ""author"" : {
+           ""middle name"" : """",
+           ""ismember"": true
+           
+         }
+         ]
+  
+  ","{'version': '4.4.7', 'type': 'gift', 'pnpm': '>=8', 'middle_name': '', 'ismember': True, 'items': ['canvas""\r\n         ""responsive""\r\n         ""charts']}",regex,0.16666666666666666,0.125,0.14285714285714288,1.0,0.125,0.2222222222222222,0.16666666666666666,0.125,0.14285714285714288,11.0,0.8461538461538461,0.15384615384615385
+67c6ed1e12728e4fe7a1edf6,jsonc,"{
+    ""version"":""4.4.7"",
+    ""repository"":{
+        ""type"":""git"",
+        ""url"":""git""
+    },
+""author"":{
+    ""inside name"":""John Doe"",
+    ""is Member"":true
+},
+""engines"":{
+    ""npm"":"">=8""
+},
+""keywords"":[
+    ""canvas"",
+    ""responsive"",
+    charts
+    ]
+}","OrderedDict([('version', '4.4.7'), ('repository', OrderedDict([('type', 'git'), ('url', 'git')])), ('author', OrderedDict([('inside name', 'John Doe'), ('is Member', True)])), ('engines', OrderedDict([('npm', '>=8')])), ('keywords', ['canvas', 'responsive', 'charts'])])",lenient,0.5555555555555556,0.625,0.5882352941176471,1.0,0.625,0.7692307692307693,0.5555555555555556,0.625,0.5882352941176471,8.0,0.5714285714285714,0.4285714285714286
+672b5998daafdbf9c43a531b,jsonc,"//version of the data format""version"":""1.0"",
+//Repository information
+""repository"": 
+""type"" : ""git"" 
+//""URL"":
+""https//example.comrepo.git""
+// Engine requirements
+""engines""
+//Node.js version required
+""node"": "">14.00""
+//""npm"":>6.0.0
+relevent keywords for the project
+""keywords:
+serialization""
+""data
+study
+usability""","{'version': '1.0', 'repository': 'type', 'URL': 'https//example.comrepo.git', 'node': '>14.00', 'keywords': 'serialization'}",regex,0.2,0.125,0.15384615384615385,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+65298aca34ac384b783169d4,jsonc,"{
+    ""version"": {4.4.7
+       
+    }
+""repository""
+{ ""author"",
+""middle name"",
+}
+""Ismember""
+    true,
+}
+""type""
+{
+   ""git"",
+}      
+""engines""
+{
+  [""pnpm""
+>=8 ]  }
+""keywords""
+{
+   ""canvas"", 
+   ""responsive"",
+   ""charts"",
+}",{},failed,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687

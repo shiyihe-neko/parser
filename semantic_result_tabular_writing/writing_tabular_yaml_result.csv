@@ -1,0 +1,193 @@
+participantId,format,code,parsed_code,parsed_code_dict,parsed_method,keys_precision,keys_recall,keys_f1,values_precision,values_recall,values_f1,items_precision,items_recall,items_f1,tree_distance,normalized_distance,tree_similarity
+67e25388d573ec2d5f1c8442,yaml,"person:
+  name: John
+tests
+  # id:1
+  normal
+  #id: 2
+  elavated cholesterol
+  
+  
+  person:
+    name: Michael
+    tests
+    #id:1
+    normal
+    treatment:
+    Regular monitoring","{'person': 'name: Michael', 'id': '1', 'treatment': 'Regular monitoring'}","{'id': '1', 'person': 'name: Michael', 'treatment': 'Regular monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,16.0,0.8888888888888888,0.11111111111111116
+67dc19c31078d1581e39e75a,yaml,"name: John
+age:
+treatment: 
+id: 1
+result: Normal
+id: 2
+result: Elevated Cholesterol
+
+name: Michael
+age:
+treatment: Regular Monitoring
+id: 1
+result: Normal","{'name': 'Michael', 'age': None, 'treatment': 'Regular Monitoring', 'id': 1, 'result': 'Normal'}","{'age': None, 'id': 1, 'name': 'Michael', 'result': 'Normal', 'treatment': 'Regular Monitoring'}",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,13.0,0.7222222222222222,0.2777777777777778
+67adb520391eb17f214a50b4,yaml,"patients:
+    name: John
+    tests:
+    - id: 1
+    - result: normal
+    -id: 2
+    -result: elevated cholesterol
+    name: Michael
+    tests:
+    -id: 1
+    -result: normal
+    -treatment: regular monitoring","{'patients': {'name': 'Michael', 'tests': None, '-id': 1, '-result': 'normal', '-treatment': 'regular monitoring'}}","{'patients': {'-id': 1, '-result': 'normal', '-treatment': 'regular monitoring', 'name': 'Michael', 'tests': None}}",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,15.0,0.8333333333333334,0.16666666666666663
+66049694dfb8828a8f3dce70,yaml,"patients
+  name: John
+  tests: 
+    id: 1
+    result: Normal
+    id: 2
+    result: Elevated Cholesterol
+  name: Michael
+  tests: 
+    id: 1
+    result: Normal
+  treatment: Regular Monitoring","{'name': 'Michael', 'tests': 'id: 1', 'result': 'Normal', 'id': '2', 'treatment': 'Regular Monitoring'}","{'id': '2', 'name': 'Michael', 'result': 'Normal', 'tests': 'id: 1', 'treatment': 'Regular Monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,14.0,0.7777777777777778,0.2222222222222222
+6787e4bd2bf9557a90208f03,yaml,"patient: 
+   name: John
+tests:
+   id: 1
+   result: Normal
+   id: 2
+   result: Elevataed Cholesterol
+   
+patients:
+   name: Micheal
+tests:
+   id: 1
+   results: Normal
+treatments: Regular Monitoring
+   
+","{'patient': {'name': 'John'}, 'tests': {'id': 1, 'results': 'Normal'}, 'patients': {'name': 'Micheal'}, 'treatments': 'Regular Monitoring'}","{'patient': {'name': 'John'}, 'patients': {'name': 'Micheal'}, 'tests': {'id': 1, 'results': 'Normal'}, 'treatments': 'Regular Monitoring'}",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,15.0,0.8333333333333334,0.16666666666666663
+67f184a3b82990251abd1592,yaml,"# Example of a YAML file                                                                                     patients:                                                                                                   name:Michael                                                                                        tests:                                                                                                         id:
+             - 1                                                                                            result:                                                                                    - Normal                                                                                   name:John                                                                                  tests:                                                                                         id:                                                                                            - 1                                                                                      result:                                                                                    - Normal                                                                             id:                                                                                             - 2                                                                                       result:                                                                                    - Elevated Cholesterol                                                                                                                                                                        ","{'patients': 'name:Michael                                                                                        tests:                                                                                                         id:', 'result': '- Normal                                                                                   name:John                                                                                  tests:                                                                                         id:                                                                                            - 1                                                                                      result:                                                                                    - Normal                                                                             id:                                                                                             - 2                                                                                       result:                                                                                    - Elevated Cholesterol'}","{'patients': 'name:Michael                                                                                        tests:                                                                                                         id:', 'result': '- Normal                                                                                   name:John                                                                                  tests:                                                                                         id:                                                                                            - 1                                                                                      result:                                                                                    - Normal                                                                             id:                                                                                             - 2                                                                                       result:                                                                                    - Elevated Cholesterol'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,17.0,0.9444444444444444,0.05555555555555558
+60fce3df91350150e2e88423,yaml,"Patients: 
+  Name: John
+  Tests: 
+   Id: 1
+     Result: Normal 
+   Id: 2
+     Result: Elevated Cholesterol 
+
+
+  Name: Michael
+  Tests: 
+    Id: 1
+     Result: Normal 
+  Treatment: Regular Monitoring ","{'Patients': 'Name: John', 'Tests': 'Id: 1', 'Result': 'Normal', 'Id': '2', 'Name': 'Michael', 'Treatment': 'Regular Monitoring'}","{'Id': '2', 'Name': 'Michael', 'Patients': 'Name: John', 'Result': 'Normal', 'Tests': 'Id: 1', 'Treatment': 'Regular Monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,17.0,0.9444444444444444,0.05555555555555558
+67d29234dbfdb6668d124115,yaml,"""petient""
+name: John
+tests:
+id: 1
+result: Normal
+id: 2
+result: Elevated Cholesterol
+
+""patient""
+name: Michael
+tests:
+id: 1
+result: Normal
+treatment: Regular Monitoring
+","{'name': 'Michael', 'tests': 'id: 1', 'result': 'Normal', 'id': '2', 'treatment': 'Regular Monitoring'}","{'id': '2', 'name': 'Michael', 'result': 'Normal', 'tests': 'id: 1', 'treatment': 'Regular Monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,14.0,0.7777777777777778,0.2222222222222222
+671a519900a99ebc15a67672,yaml,"# patient
+patient_name: john
+Tests:
+  - id: 1
+  results: Normal
+  - id: 2
+  results: Elevated cholesterol
+  ptient_name: Michael
+  tests:
+  id:1
+  results: normal
+  treatment: regular Monitoring
+
+","{'patient_name': 'john', 'Tests': '- id: 1', 'results': 'normal', 'id': '2', 'ptient_name': 'Michael', 'tests': 'id:1', 'treatment': 'regular Monitoring'}","{'Tests': '- id: 1', 'id': '2', 'patient_name': 'john', 'ptient_name': 'Michael', 'results': 'normal', 'tests': 'id:1', 'treatment': 'regular Monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,16.0,0.8888888888888888,0.11111111111111116
+637d8ca00150ac6e71a34ec9,yaml,"patient:
+    John:
+        id: 1
+        result: normal
+        id: 2
+        result: elevated cholesterol
+    Michael:
+        id: 1
+        result: normal
+        treatment: regular monitoring","{'patient': {'John': {'id': 2, 'result': 'elevated cholesterol'}, 'Michael': {'id': 1, 'result': 'normal', 'treatment': 'regular monitoring'}}}","{'patient': {'John': {'id': 2, 'result': 'elevated cholesterol'}, 'Michael': {'id': 1, 'result': 'normal', 'treatment': 'regular monitoring'}}}",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,15.0,0.8333333333333334,0.16666666666666663
+67f3619e16d4ca195fbd1bd0,yaml,"patient:
+   - name: john
+     tests:
+        - id: 1
+          result: normal
+        - id: 2
+          result: Elevated Cholesterol
+    - name: Micheal
+      tests:
+      - id: 1
+        result: normal
+     treatment: regular monitoring","{'patient': '- name: john', 'tests': '- id: 1', 'result': 'normal', 'id': '2', 'name': 'Micheal', 'treatment': 'regular monitoring'}","{'id': '2', 'name': 'Micheal', 'patient': '- name: john', 'result': 'normal', 'tests': '- id: 1', 'treatment': 'regular monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,16.0,0.8888888888888888,0.11111111111111116
+67d1283c8f6169900d0072d2,yaml," patience.John
+ Id 1
+ result normal
+ RESULT Elevated cholesterol
+ 
+ patient 2
+ name michael
+ redult normal
+ treatment regular monitoring
+ 
+ test results normal","patience.John Id 1 result normal RESULT Elevated cholesterol
+patient 2 name michael redult normal treatment regular monitoring
+test results normal","patience.John Id 1 result normal RESULT Elevated cholesterol
+patient 2 name michael redult normal treatment regular monitoring
+test results normal",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,18.0,1.0,0.0
+67f913a9b5c79e960807c7e3,yaml,"patients:
+    - name: John
+      tests:
+        - id: 1
+        results: Normal
+        - id: 2
+        results: Elevated Cholesterol
+        
+    - name: Michael
+        tests:
+        -id: 1
+        results: Normal
+        treatment: Regular Monitoring
+        ","{'patients': '- name: John', 'tests': '-id: 1', 'results': 'Normal', 'id': '2', 'name': 'Michael', 'treatment': 'Regular Monitoring'}","{'id': '2', 'name': 'Michael', 'patients': '- name: John', 'results': 'Normal', 'tests': '-id: 1', 'treatment': 'Regular Monitoring'}",regex,0.0,0.0,0,0,0.0,0,0.0,0.0,0,15.0,0.8333333333333334,0.16666666666666663
+672003022f1b667a20157c45,yaml,"patients:
+name: John
+tests: 
+      id: 1
+      result: Normal
+      id: 2
+      result: Elevated Cholesterol
+
+name: Michael
+tests:
+    id: 1
+    result: Normal
+treatment:
+    Regular Monitoring","{'patients': None, 'name': 'Michael', 'tests': {'id': 1, 'result': 'Normal'}, 'treatment': 'Regular Monitoring'}","{'name': 'Michael', 'patients': None, 'tests': {'id': 1, 'result': 'Normal'}, 'treatment': 'Regular Monitoring'}",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,13.0,0.7222222222222222,0.2777777777777778
+5d766978f47e6200019a2acf,yaml,"patients:
+  name: John
+  tests:
+    id: 1
+    result: Normal
+    id: 2
+    result: Elevated Cholesterol
+    
+  name: Michael
+  tests:
+  id: 1
+  result: Normal
+  treatment: Regular Monitoring","{'patients': {'name': 'Michael', 'tests': None, 'id': 1, 'result': 'Normal', 'treatment': 'Regular Monitoring'}}","{'patients': {'id': 1, 'name': 'Michael', 'result': 'Normal', 'tests': None, 'treatment': 'Regular Monitoring'}}",library,0.0,0.0,0,0,0.0,0,0.0,0.0,0,13.0,0.7222222222222222,0.2777777777777778

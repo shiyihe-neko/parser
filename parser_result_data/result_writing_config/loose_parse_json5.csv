@@ -1,0 +1,16 @@
+participantId,valid,parsed,errorMessage,"('Bad number', '4.4.7')","('Line terminator characters must be escaped inside string literals', 'U+000D')","('Unknown identifier', 'version')",Can not decode value starting with character ':',"Missing value for object property, expected "":""",Values must be separated by a comma
+5f7f239e9b204e05b6c36538,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,1.0
+678faf5b31008609fd85b185,False,,"('Unknown identifier', 'version')",0.0,0.0,1.0,0.0,0.0,0.0
+65e85a421f2dee53c62fbf45,False,,"('Bad number', '4.4.7')",1.0,0.0,0.0,0.0,0.0,0.0
+666b0b42bb6fa2822fa27a32,False,,"('Bad number', '4.4.7')",1.0,0.0,0.0,0.0,0.0,0.0
+674f479b2a4ef75e4551f258,False,,"('Bad number', '4.4.7')",1.0,0.0,0.0,0.0,0.0,0.0
+60ec51c51a3158a50ded8a3e,True,"{'version': '4-4-7', 'repository': {'type': 'git', 'author': {'middle name': None, 'isMember': True}}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}",,,,,,,
+6647e8618c77f7b938865d25,True,"{'version': '4.4.7', 'repository': 'npnm', 'engines': {'node': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts'], 'author': {'fullname': 'Jade name', 'isMember': True}, 'type': 'git'}",,,,,,,
+5ea90bb434d5e337e98c7edd,False,,Can not decode value starting with character ':',0.0,0.0,0.0,1.0,0.0,0.0
+67caa7fe00179edfb74d3e1a,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,1.0
+65f4ab7884f8411c9e11a34e,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,1.0
+67a8fa10b4db1990f7372f01,False,,"('Line terminator characters must be escaped inside string literals', 'U+000D')",0.0,1.0,0.0,0.0,0.0,0.0
+675330fb23080b9ae3ec8239,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,1.0
+681374d36d7bd7ccb6f914f5,True,"{'version': '4.4.7', 'repository': {'author': {'middle name': '', 'IsMember': True}, 'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}",,,,,,,
+5755c957eb80c4000741a9ce,True,"{'version': '4.4.7', 'repository': {'author': {'middle name': '', 'IsMember': True}, 'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}",,,,,,,
+6693d3ae2bd15cf7a058e6a7,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,1.0,0.0

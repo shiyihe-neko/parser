@@ -1,0 +1,216 @@
+participantId,format,code,valid,errorMessage,"(""Expected b'JSON5Value' near 1, found U+0076"", None, 'v')","(""Expected b'colon' near 15, found U+0034"", {}, '4')","(""Expected b'comma' or U+007d near 102, found U+0061"", {'name'","(""Expected b'comma' or U+007d near 22, found U+0072"", {'version'","(""Expected b'comma' or U+007d near 23, found U+0022"", {'version'","(""Expected b'comma' or U+007d near 61, found U+003a"", {'version'","(""Expected b'comma' or U+007d near 76, found U+0022"", {'categories'","(""Unclosed b'NumericLiteral' starting near 13"", {'version'","(""Unclosed b'NumericLiteral' starting near 16"", {'version'","(""Unclosed b'NumericLiteral' starting near 19"", {'version'","(""Unclosed b'string' starting near 17"", {'version'"
+5f7f239e9b204e05b6c36538,json5,"{ ""version"": ""4.4.7""
+""repository"":{
+""author"":{
+    ""authorname"" [
+    ""name1""
+    ""name2""
+    ],
+}
+""email:
+""email1""
+""email2""]
+
+""JMember
+]""name'
+""name3""[]",False,"(""Expected b'comma' or U+007d near 23, found U+0022"", {'version': '4.4.7'}, '""')",0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+678faf5b31008609fd85b185,json5,"version : 
+repository: {
+    author
+    middle name: {
+    ismember: true
+    }
+    type: git
+engines
+    pnpm: >=8
+keywords
+    canvas
+    responsive
+    charts
+
+",False,"(""Expected b'JSON5Value' near 1, found U+0076"", None, 'v')",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+65e85a421f2dee53c62fbf45,json5,"{
+version: 4.4.7
+}
+
+""repository"": {
+author:{
+""isMember"": true,
+""middle name"": null
+}
+
+engines:{
+pnpm: >=8
+
+""keywords"": [""Canvas"", ""Charts""]//Responsive
+}",False,"(""Unclosed b'NumericLiteral' starting near 13"", {'version': None}, None)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+666b0b42bb6fa2822fa27a32,json5,"{
+    ""version"": 4.4.7 
+    
+ }  ""repository"" : ""author"": 
+          ""middle name"" : }
+           ""IsMember"" : true
+            ""type"" : git
+           
+    ""engines"" : ""pnpm"", >=8
+}      ""keywords"" : canvas; responsive; charts",False,"(""Unclosed b'NumericLiteral' starting near 19"", {'version': None}, None)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+674f479b2a4ef75e4551f258,json5,"{
+""version"" : 4.4.7
+'engines' [pnpm] : >=8
+{ ""keywords""
+ [""canvas"", ""responsive"", ""charts""]
+}
+""repository"" : [""author
+""midddle, name"",
+""IsMember"" = true
+type = ""git""""]
+}",False,"(""Unclosed b'NumericLiteral' starting near 16"", {'version': None}, None)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+60ec51c51a3158a50ded8a3e,json5,"{
+    ""version"": ""4-4-7"",
+    ""repository"":{
+        ""type"": ""git"",
+        ""author"":{
+            ""middle name"": null,
+            ""isMember"": true
+        }
+    },
+    ""engines"":{
+        ""pnpm"": "">=8""
+    },
+    ""keywords"": [""canvas"", ""responsive"", ""charts""]
+}",True,,,,,,,,,,,,
+6647e8618c77f7b938865d25,json5,"{
+    version: ""4.4.7"",
+    repository: ""npnm"",
+    engines: {
+        node:"">=8""
+    },
+    keywords:[""canvas"",""responsive"",""charts""],
+     author: {
+        fullname: ""Jade name"",
+        isMember: true
+     },
+     type: ""git""
+    
+}",True,,,,,,,,,,,,
+5ea90bb434d5e337e98c7edd,json5,"{
+""version"":4.47,
+""repository"":[
+{""author"": ""middle name"":, ""isMember"": true},
+{""type"": ""git"",},
+]
+""engines"": ""pnpm"":<=8
+""keywords"": ""canvas"", ""responsive"", ""charts""
+}
+",False,"(""Expected b'comma' or U+007d near 61, found U+003a"", {'version': 4.47, 'repository': [{'author': 'middle name'}]}, ':')",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67caa7fe00179edfb74d3e1a,json5,"{
+    ""categories"": {
+        ""purple"": [""engines"", ""keywords""]
+        ""gold"": [
+        ""left"": [""canva""]
+        ""middle"": [""responsive""]
+        ""right"": [""charts"", ""pnpm""]
+        ],
+        ""green"": ["".=8""]
+    }
+}",False,"(""Expected b'comma' or U+007d near 76, found U+0022"", {'categories': {'purple': ['engines', 'keywords']}}, '""')",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+65f4ab7884f8411c9e11a34e,json5,"{
+    ""name"": ""figure"",
+    ""version"": ""4.4.7"",
+    ""type"": ""Repository"",
+    ""type"": ""git""
+    author: ""middle name""
+    {
+    isMember: true
+    }
+    ""engines"": ""pnpm"" >=8
+    {
+    ""keywords"":
+    canvas
+    responsive
+    charts
+    }
+}",False,"(""Expected b'comma' or U+007d near 102, found U+0061"", {'name': 'figure', 'version': '4.4.7', 'type': 'git'}, 'a')",0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+67a8fa10b4db1990f7372f01,json5,"{
+    version: ""4.4.7
+    respository: null,
+    engines: {
+    pnpm: "">=8""
+    },
+    keyworsds: {
+        ""canvas""
+        ""responsive,""
+        ""charts""
+        author: {
+            middlename: null,
+            isMember: true
+        }
+    }
+}",False,"(""Unclosed b'string' starting near 17"", {'version': None}, None)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+675330fb23080b9ae3ec8239,json5,"{
+version: ""4.4.7""
+repository: null,
+engine: {
+    pnpm: "">=8""
+    type: ""git""
+    
+},
+keywords: {
+    ""cavas"",
+    ""responsive"",
+    ""charts""
+},
+authour: {
+    middle name:null,
+    isMember: true
+}
+}",False,"(""Expected b'comma' or U+007d near 22, found U+0072"", {'version': '4.4.7'}, 'r')",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+681374d36d7bd7ccb6f914f5,json5,"{
+    ""version"": '4.4.7',
+    ""repository"":{
+        ""author"":{
+            ""middle name"": '',
+            ""IsMember"": true
+        },
+        ""type"": 'git'
+    },
+    ""engines"":{
+        ""pnpm"": "">=8""
+    },
+    ""keywords"": ['canvas', 'responsive','charts']
+}",True,,,,,,,,,,,,
+5755c957eb80c4000741a9ce,json5,"{
+    version: ""4.4.7"",
+    repository: {
+        author: {
+            ""middle name"": """",
+            IsMember: true
+        },
+        type: ""git""
+    },
+    engines: {
+        pnpm :"">=8""
+    },
+    keywords: [""canvas"", ""responsive"", ""charts""]
+}",True,,,,,,,,,,,,
+6693d3ae2bd15cf7a058e6a7,json5,"{
+ ""version"" 4.4.7
+ 
+}
+ ""repository""
+   ""author""
+   ""middle name""
+   ""IsMember""
+      ""true""
+ {
+   ""type"":
+    ""git""
+ }  
+  ""engines""
+    ""pnpm"" >=8
+
+{
+  ""keywords""
+     ""canvas""
+     ""responsive""
+     ""charts""",False,"(""Expected b'colon' near 15, found U+0034"", {}, '4')",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

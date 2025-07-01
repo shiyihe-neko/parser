@@ -1,0 +1,205 @@
+participantId,format,code,parsed_code,parsed_code_dict,parsed_method,parsed_code_json,keys_precision,keys_recall,keys_f1,values_precision,values_recall,values_f1,items_precision,items_recall,items_f1,tree_distance,normalized_distance,tree_similarity
+669b961e1c9cf30a26bb57d2,xml,"<patients>
+    <patient>
+        <name>John</name>
+        <test>
+            <id>1
+            <results>
+                <tests
+            </results></id>
+        </test>
+        </name>
+    </patient></patient>","{'patient': {'name': 'John', 'test': {'id': {'results': '<tests'}}}}","{'patient': {'name': 'John', 'test': {'id': {'results': '<tests'}}}}",regex,"{""patient"": {""name"": ""John"", ""test"": {""id"": {""results"": ""<tests""}}}}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+60721c2da01b3a616edba9a7,xml,"<?xml version=""1.0"" encoding=""UTF-8""?>
+<hopital>
+  <patient>
+     <name>John</name>
+      <tests id=""1"">
+        <results>Normal</results>
+       </tests>
+      <test id=""2"">
+        <result>Elevated Cholesterol</result>
+        </test>
+    </patient>
+<patient>
+    <name>Michael</name>
+        <test id=""1""><result>Normal</result>
+        <treatment>Regualar Monitoring</treatment>
+     </patient>
+</hospital>
+","{'patient': [{'name': 'John', 'results': 'Normal', 'result': 'Elevated Cholesterol'}, {'name': 'Michael', 'result': 'Normal', 'treatment': 'Regualar Monitoring'}]}","{'patient': [{'name': 'John', 'result': 'Elevated Cholesterol', 'results': 'Normal'}, {'name': 'Michael', 'result': 'Normal', 'treatment': 'Regualar Monitoring'}]}",regex,"{""patient"": [{""name"": ""John"", ""result"": ""Elevated Cholesterol"", ""results"": ""Normal""}, {""name"": ""Michael"", ""result"": ""Normal"", ""treatment"": ""Regualar Monitoring""}]}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,0.7777777777777778,0.2222222222222222
+67d95269b47464c18da766ca,xml,"<person id=""101>patients
+<name>John</name>
+<id 1>Result, Normal!>
+<id 2>Result, Elevated Cholesterol>
+</person>Michael>
+<id 1> Result, <Treatment></ Regular Monitoring>
+</id 1> Result,<Normal></person>",{'name': 'John'},{'name': 'John'},regex,"{""name"": ""John""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+6740ae39809389d7da9de209,xml,"<patient>
+    <name>john</name>
+    <test>
+        <id>1</id>
+        <result>normal</result>
+        <id>2</id>
+        <result>elevated cholesterol</result>
+    </test>
+    <name>Micheal</name>
+    <test>
+        <id>1</id>
+        <result>nomarl</result>
+    <treatment>regular monitoring</treatment>    
+    </test>
+</patient>","{'patient': {'name': ['john', 'Micheal'], 'test': [{'id': ['1', '2'], 'result': ['normal', 'elevated cholesterol']}, {'id': '1', 'result': 'nomarl', 'treatment': 'regular monitoring'}]}}","{'patient': {'name': ['john', 'Micheal'], 'test': [{'id': ['1', '2'], 'result': ['normal', 'elevated cholesterol']}, {'id': '1', 'result': 'nomarl', 'treatment': 'regular monitoring'}]}}",xmltodict,"{""patient"": {""name"": [""john"", ""Micheal""], ""test"": [{""id"": [""1"", ""2""], ""result"": [""normal"", ""elevated cholesterol""]}, {""id"": ""1"", ""result"": ""nomarl"", ""treatment"": ""regular monitoring""}]}}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,1.0555555555555556,-0.05555555555555558
+62fd14d7b1e0729dc8aadb79,xml,"<?xml version=""1.0"" encoding=""UTF-8""?>
+
+<patients>
+    
+<patient>
+    <name>John</name>
+    <tests>
+        <test>
+            <id>1</id>
+            <result>Normal</result>
+        </test>
+        
+        <test>
+            <id>2</id>
+            <result>Elevated Cholestrol</result>
+        </test>
+    </tests>
+</patient>
+
+<patient>
+    <name>Michael</name>
+    <tests>
+        <test>
+            <id>1</id>
+            <result>Normal</result>
+        </test>
+    </tests>
+    <treatment>Regular Monitoring</treatment>
+</patient>
+
+</patients>","{'patients': {'patient': [{'name': 'John', 'tests': {'test': [{'id': '1', 'result': 'Normal'}, {'id': '2', 'result': 'Elevated Cholestrol'}]}}, {'name': 'Michael', 'tests': {'test': {'id': '1', 'result': 'Normal'}}, 'treatment': 'Regular Monitoring'}]}}","{'patients': {'patient': [{'name': 'John', 'tests': {'test': [{'id': '1', 'result': 'Normal'}, {'id': '2', 'result': 'Elevated Cholestrol'}]}}, {'name': 'Michael', 'tests': {'test': {'id': '1', 'result': 'Normal'}}, 'treatment': 'Regular Monitoring'}]}}",xmltodict,"{""patients"": {""patient"": [{""name"": ""John"", ""tests"": {""test"": [{""id"": ""1"", ""result"": ""Normal""}, {""id"": ""2"", ""result"": ""Elevated Cholestrol""}]}}, {""name"": ""Michael"", ""tests"": {""test"": {""id"": ""1"", ""result"": ""Normal""}}, ""treatment"": ""Regular Monitoring""}]}}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0.4,0.6
+67e4920c40c9561040ca01d0,xml,"<Patients>
+     </patient>
+      </Name>R Michael</Name>
+      </Tests>
+        </Test>
+          </Name>John</Name>
+          </Result>Normal</Result>",{'#text': 'R Michael\r\n      \r\n        \r\n          John\r\n          Normal'},{'#text': 'R Michael\r\n      \r\n        \r\n          John\r\n          Normal'},regex,"{""#text"": ""R Michael\r\n      \r\n        \r\n          John\r\n          Normal""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+677c52fe648cd68583dd3b1e,xml,"  <patients>
+    <patient>
+      <name>John</name>
+      <tests>
+        <test>
+          <id>1</id>
+          <result>Normal</result>
+        </test>
+        <test>
+          <id>2</id>
+          <result>Elevated Cholesterol</result>
+        </test>
+      </tests>
+    </patient> 
+    <patient>
+      <name>Michael</name>
+      <tests>
+        <test>
+          <id>1</id>
+          <result>Normal</result>
+        </test>
+      </tests>
+      <treatment>Regular Monitoring</treatment>
+    </patient>
+  </patients>","{'patients': {'patient': [{'name': 'John', 'tests': {'test': [{'id': '1', 'result': 'Normal'}, {'id': '2', 'result': 'Elevated Cholesterol'}]}}, {'name': 'Michael', 'tests': {'test': {'id': '1', 'result': 'Normal'}}, 'treatment': 'Regular Monitoring'}]}}","{'patients': {'patient': [{'name': 'John', 'tests': {'test': [{'id': '1', 'result': 'Normal'}, {'id': '2', 'result': 'Elevated Cholesterol'}]}}, {'name': 'Michael', 'tests': {'test': {'id': '1', 'result': 'Normal'}}, 'treatment': 'Regular Monitoring'}]}}",xmltodict,"{""patients"": {""patient"": [{""name"": ""John"", ""tests"": {""test"": [{""id"": ""1"", ""result"": ""Normal""}, {""id"": ""2"", ""result"": ""Elevated Cholesterol""}]}}, {""name"": ""Michael"", ""tests"": {""test"": {""id"": ""1"", ""result"": ""Normal""}}, ""treatment"": ""Regular Monitoring""}]}}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0.35,0.65
+67eff2b1a264260e948a4d14,xml,"<patients=""101"">
+    <name>John</name>
+    <test>Id</test>1
+    <test>Result</test>Normal
+    <test>Id</test>2
+    <test>Result</test>Elevated Cholssterol
+<patients=""102"">
+    <name>Michael</name>
+    <tests>Id</tests>1
+    <tests>Result</tests>Normal
+    <treatment>Regular Monitoring</treatment>","{'name': ['John', 'Michael'], 'test': ['Id', 'Result', 'Id', 'Result'], 'tests': ['Id', 'Result'], 'treatment': 'Regular Monitoring'}","{'name': ['John', 'Michael'], 'test': ['Id', 'Result', 'Id', 'Result'], 'tests': ['Id', 'Result'], 'treatment': 'Regular Monitoring'}",regex,"{""name"": [""John"", ""Michael""], ""test"": [""Id"", ""Result"", ""Id"", ""Result""], ""tests"": [""Id"", ""Result""], ""treatment"": ""Regular Monitoring""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+6501c0a2e788b5556c24569d,xml,"<patients>
+    <person id=0>
+        <name>John</name>
+        <tests>
+            <test id=1>
+                <result>Normal</result>
+            </test>
+            <test id=2>
+                <result>Elevated Cholesterol</result>
+            </test>
+        </tests>
+    </person>
+    <person id=1>
+        <name>Michael</name>
+        <tests>
+            <test id=1>
+                <result>Normal</result>
+            </test>
+        </tests>
+        <treatment>Regular Monitoring</treatment>
+    </person>
+</patients>
+    ","{'patients': {'name': ['John', 'Michael'], 'tests': [{'result': ['Normal', 'Elevated Cholesterol']}, {'result': 'Normal'}], 'treatment': 'Regular Monitoring'}}","{'patients': {'name': ['John', 'Michael'], 'tests': [{'result': ['Normal', 'Elevated Cholesterol']}, {'result': 'Normal'}], 'treatment': 'Regular Monitoring'}}",regex,"{""patients"": {""name"": [""John"", ""Michael""], ""tests"": [{""result"": [""Normal"", ""Elevated Cholesterol""]}, {""result"": ""Normal""}], ""treatment"": ""Regular Monitoring""}}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,0.8333333333333334,0.16666666666666663
+66bb6b7e0ccbed81f3ed30a8,xml,"<person> 
+<name> john</name>
+
+<test> id </test>
+<result> normal</result>
+<test>id2 </test>
+<result> elevated cholesterol </result>
+
+<person>
+<person>
+    
+    <name> Michael</name>
+</person>
+<test>
+</test>
+    <test id1></test>
+    <result>normal</result>
+    <treatment> regular monitoring</treatment>","{'person': {'name': ['john', 'Michael'], 'test': ['id', 'id2'], 'result': ['normal', 'elevated cholesterol']}, 'test': '', 'result': 'normal', 'treatment': 'regular monitoring'}","{'person': {'name': ['john', 'Michael'], 'result': ['normal', 'elevated cholesterol'], 'test': ['id', 'id2']}, 'result': 'normal', 'test': '', 'treatment': 'regular monitoring'}",regex,"{""person"": {""name"": [""john"", ""Michael""], ""result"": [""normal"", ""elevated cholesterol""], ""test"": [""id"", ""id2""]}, ""result"": ""normal"", ""test"": """", ""treatment"": ""regular monitoring""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,1.0555555555555556,-0.05555555555555558
+6753746b1f8827e2bd586bf0,xml,"<patients></patients>
+<name>
+</John>
+<tests> 
+<id1>
+<result></normal>
+<id2>
+<result></Elevated cholesterol>
+<name>
+<micheal>
+<tests>
+<id1><>
+<result></normal>
+<treatment></regular monitoringt>
+",{'patients': ''},{'patients': ''},regex,"{""patients"": """"}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+669a84e18da4349ece0ea67c,xml,"<patients></patients>
+<name>John</name>
+<test>ID,Results</test>
+<Result>Normal</Result>
+<name>Michael</name>
+<test>ID, Result</test>
+<Result>Normal</Result>","{'patients': None, 'name': ['John', 'Michael'], 'test': ['ID,Results', 'ID, Result'], 'Result': ['Normal', 'Normal']}","{'Result': ['Normal', 'Normal'], 'name': ['John', 'Michael'], 'patients': None, 'test': ['ID,Results', 'ID, Result']}",xmltodict,"{""Result"": [""Normal"", ""Normal""], ""name"": [""John"", ""Michael""], ""patients"": null, ""test"": [""ID,Results"", ""ID, Result""]}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+67ab57e88fd0774428bd1f32,xml,<patients></patients>patient><name>John</name><tests><test><id>1</id><result>Normal</result></test><test><id>2</id><result>Elevated Cholesterol</result></test></tests></patient><name>Michael</name><test><test><id>1</id><result>Normal</result></test></tests><treatment>Regular Monitoring</treatment></patient></patients>,"{'patients': '', 'name': ['John', 'Michael'], 'tests': {'test': [{'id': '1', 'result': 'Normal'}, {'id': '2', 'result': 'Elevated Cholesterol'}]}, 'test': {'id': '1', 'result': 'Normal'}, 'treatment': 'Regular Monitoring'}","{'name': ['John', 'Michael'], 'patients': '', 'test': {'id': '1', 'result': 'Normal'}, 'tests': {'test': [{'id': '1', 'result': 'Normal'}, {'id': '2', 'result': 'Elevated Cholesterol'}]}, 'treatment': 'Regular Monitoring'}",regex,"{""name"": [""John"", ""Michael""], ""patients"": """", ""test"": {""id"": ""1"", ""result"": ""Normal""}, ""tests"": {""test"": [{""id"": ""1"", ""result"": ""Normal""}, {""id"": ""2"", ""result"": ""Elevated Cholesterol""}]}, ""treatment"": ""Regular Monitoring""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,1.0,0.0
+677d32c679491be18090225b,xml,"<patients>
+    
+</patients><name>john</name
+<tests>
+</tests>
+<id>1</id> <reslt>normal </reslt>
+<result>elevated cholestrol</result>
+
+<name>michael</name>
+<tests></tests>
+<id>1</id>
+<result>Normal</result>
+
+<treatment>Regular monitoring</treatment>
+","{'patients': '', 'name': {'tests': '', 'id': '1', 'reslt': 'normal', 'result': 'elevated cholestrol'}, 'tests': '', 'id': '1', 'result': 'Normal', 'treatment': 'Regular monitoring'}","{'id': '1', 'name': {'id': '1', 'reslt': 'normal', 'result': 'elevated cholestrol', 'tests': ''}, 'patients': '', 'result': 'Normal', 'tests': '', 'treatment': 'Regular monitoring'}",regex,"{""id"": ""1"", ""name"": {""id"": ""1"", ""reslt"": ""normal"", ""result"": ""elevated cholestrol"", ""tests"": """"}, ""patients"": """", ""result"": ""Normal"", ""tests"": """", ""treatment"": ""Regular monitoring""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116

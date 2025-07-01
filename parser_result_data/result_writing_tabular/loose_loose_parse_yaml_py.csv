@@ -1,0 +1,189 @@
+participantId,valid,code,errorMessage,"YAML error: expected '<document start>', but found '<block mapping start>'; JSON fallback error: Unexpected text after end of JSON value","YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'Patients')","YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'patients')",YAML error: sequence entries are not allowed here; JSON fallback error: Spaces may not appear between a +/- number sign and the digits,"YAML error: while parsing a block collection; JSON fallback error: ('Unknown identifier', 'patient')","YAML error: while parsing a block collection; JSON fallback error: ('Unknown identifier', 'patient_name')","YAML error: while parsing a block collection; JSON fallback error: ('Unknown identifier', 'patients')","YAML error: while scanning a simple key; JSON fallback error: ('Unknown identifier', 'person')"
+67e25388d573ec2d5f1c8442,False,"person:
+  name: John
+tests
+  # id:1
+  normal
+  #id: 2
+  elavated cholesterol
+  
+  
+  person:
+    name: Michael
+    tests
+    #id:1
+    normal
+    treatment:
+    Regular monitoring","YAML error: while scanning a simple key; JSON fallback error: ('Unknown identifier', 'person')",0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67dc19c31078d1581e39e75a,True,"name: John
+age:
+treatment: 
+id: 1
+result: Normal
+id: 2
+result: Elevated Cholesterol
+
+name: Michael
+age:
+treatment: Regular Monitoring
+id: 1
+result: Normal",,,,,,,,,
+67adb520391eb17f214a50b4,True,"patients:
+    name: John
+    tests:
+    - id: 1
+    - result: normal
+    -id: 2
+    -result: elevated cholesterol
+    name: Michael
+    tests:
+    -id: 1
+    -result: normal
+    -treatment: regular monitoring",,,,,,,,,
+66049694dfb8828a8f3dce70,False,"patients
+  name: John
+  tests: 
+    id: 1
+    result: Normal
+    id: 2
+    result: Elevated Cholesterol
+  name: Michael
+  tests: 
+    id: 1
+    result: Normal
+  treatment: Regular Monitoring","YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'patients')",0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+6787e4bd2bf9557a90208f03,True,"patient: 
+   name: John
+tests:
+   id: 1
+   result: Normal
+   id: 2
+   result: Elevataed Cholesterol
+   
+patients:
+   name: Micheal
+tests:
+   id: 1
+   results: Normal
+treatments: Regular Monitoring
+   
+",,,,,,,,,
+67f184a3b82990251abd1592,False,"# Example of a YAML file                                                                                     patients:                                                                                                   name:Michael                                                                                        tests:                                                                                                         id:
+             - 1                                                                                            result:                                                                                    - Normal                                                                                   name:John                                                                                  tests:                                                                                         id:                                                                                            - 1                                                                                      result:                                                                                    - Normal                                                                             id:                                                                                             - 2                                                                                       result:                                                                                    - Elevated Cholesterol                                                                                                                                                                        ",YAML error: sequence entries are not allowed here; JSON fallback error: Spaces may not appear between a +/- number sign and the digits,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+60fce3df91350150e2e88423,False,"Patients: 
+  Name: John
+  Tests: 
+   Id: 1
+     Result: Normal 
+   Id: 2
+     Result: Elevated Cholesterol 
+
+
+  Name: Michael
+  Tests: 
+    Id: 1
+     Result: Normal 
+  Treatment: Regular Monitoring ","YAML error: mapping values are not allowed here; JSON fallback error: ('Unknown identifier', 'Patients')",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+67d29234dbfdb6668d124115,False,"""petient""
+name: John
+tests:
+id: 1
+result: Normal
+id: 2
+result: Elevated Cholesterol
+
+""patient""
+name: Michael
+tests:
+id: 1
+result: Normal
+treatment: Regular Monitoring
+","YAML error: expected '<document start>', but found '<block mapping start>'; JSON fallback error: Unexpected text after end of JSON value",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+671a519900a99ebc15a67672,False,"# patient
+patient_name: john
+Tests:
+  - id: 1
+  results: Normal
+  - id: 2
+  results: Elevated cholesterol
+  ptient_name: Michael
+  tests:
+  id:1
+  results: normal
+  treatment: regular Monitoring
+
+","YAML error: while parsing a block collection; JSON fallback error: ('Unknown identifier', 'patient_name')",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+637d8ca00150ac6e71a34ec9,True,"patient:
+    John:
+        id: 1
+        result: normal
+        id: 2
+        result: elevated cholesterol
+    Michael:
+        id: 1
+        result: normal
+        treatment: regular monitoring",,,,,,,,,
+67f3619e16d4ca195fbd1bd0,False,"patient:
+   - name: john
+     tests:
+        - id: 1
+          result: normal
+        - id: 2
+          result: Elevated Cholesterol
+    - name: Micheal
+      tests:
+      - id: 1
+        result: normal
+     treatment: regular monitoring","YAML error: while parsing a block collection; JSON fallback error: ('Unknown identifier', 'patient')",0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+67d1283c8f6169900d0072d2,True," patience.John
+ Id 1
+ result normal
+ RESULT Elevated cholesterol
+ 
+ patient 2
+ name michael
+ redult normal
+ treatment regular monitoring
+ 
+ test results normal",,,,,,,,,
+67f913a9b5c79e960807c7e3,False,"patients:
+    - name: John
+      tests:
+        - id: 1
+        results: Normal
+        - id: 2
+        results: Elevated Cholesterol
+        
+    - name: Michael
+        tests:
+        -id: 1
+        results: Normal
+        treatment: Regular Monitoring
+        ","YAML error: while parsing a block collection; JSON fallback error: ('Unknown identifier', 'patients')",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+672003022f1b667a20157c45,True,"patients:
+name: John
+tests: 
+      id: 1
+      result: Normal
+      id: 2
+      result: Elevated Cholesterol
+
+name: Michael
+tests:
+    id: 1
+    result: Normal
+treatment:
+    Regular Monitoring",,,,,,,,,
+5d766978f47e6200019a2acf,True,"patients:
+  name: John
+  tests:
+    id: 1
+    result: Normal
+    id: 2
+    result: Elevated Cholesterol
+    
+  name: Michael
+  tests:
+  id: 1
+  result: Normal
+  treatment: Regular Monitoring",,,,,,,,,

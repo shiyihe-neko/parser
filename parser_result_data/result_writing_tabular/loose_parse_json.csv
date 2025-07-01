@@ -1,0 +1,18 @@
+participantId,valid,parsed,errorMessage,"('Line terminator characters must be escaped inside string literals', 'U+000D')","('Unknown identifier', 'Name')","('Unknown identifier', 'Note')",Can not decode value starting with character ':',Expected a '}' but saw ']',"Missing value for object property, expected "":""","Object properties (keys) must be string literals, numbers, or identifiers",Unexpected text after end of JSON value,Values must be separated by a comma
+66475d6f7b27e4443ef0d031,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+67e571bef6af7ecd9c29ad72,True,"{'patients': [{'name': 'John', 'tests': [{'id': 1, 'results': 'Normal'}], 'treatment': 'Regular Monitoring'}, {'name': 'Michael', 'tests': [{'id': 1, 'results': 'Elevated Cholesterol'}, {'id': 1, 'results': 'Normal'}]}]}",,,,,,,,,,
+60f1f1d4ac991a259b83f603,False,,"('Unknown identifier', 'Note')",0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+673c13c9d37c8a73bc80b8ce,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+667ac09492ea0caadf488520,False,,"('Unknown identifier', 'Name')",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+67debe02a893eea51e8d02f2,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+615200d54efc832849db2259,False,,"('Line terminator characters must be escaped inside string literals', 'U+000D')",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+66b0d065329001a04e5ae671,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+5e3b5fa9255e7a37bc841135,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+5d30dfa68b1523000134878f,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67cb01a82dda2577eb6ee320,False,,Can not decode value starting with character ':',0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67cd944859dabbd1d4552d39,False,,Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+57c357770e6a1f00015f6038,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+5f29eff59714081a3594a331,False,,Expected a '}' but saw ']',0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+65be552ceed6a0595fa1feb5,False,,Values must be separated by a comma,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+667983594f7d5d70a78c6e5a,False,,"Missing value for object property, expected "":""",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+66b246951b9aefec80b7158a,False,,"Object properties (keys) must be string literals, numbers, or identifiers",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0

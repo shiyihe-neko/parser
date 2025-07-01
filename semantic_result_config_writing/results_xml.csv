@@ -1,0 +1,195 @@
+participantId,format,code,parsed_code,parsed_code_dict,parsed_method,parsed_code_json,keys_precision,keys_recall,keys_f1,values_precision,values_recall,values_f1,items_precision,items_recall,items_f1,tree_distance,normalized_distance,tree_similarity
+57ca4b09993b08000192297b,xml,"<version>4.4.7</version>
+<repository>
+    <author>
+        <middle_name=""""/>
+        <IsMember>true</IsMember>
+    </author>
+    <type>git</type>
+</repository>
+<engines>
+    <pnpm> >=8 </pnpm>
+</engines>
+<keywords>canvas</keywords>
+<keywords>responsive</keywords>
+<keywords>charts</keywords>","{'version': '4.4.7', 'repository': {'author': {'IsMember': 'true'}, 'type': 'git'}, 'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts']}","{'engines': {'pnpm': '>=8'}, 'keywords': ['canvas', 'responsive', 'charts'], 'repository': {'author': {'IsMember': 'true'}, 'type': 'git'}, 'version': '4.4.7'}",regex,"{""engines"": {""pnpm"": "">=8""}, ""keywords"": [""canvas"", ""responsive"", ""charts""], ""repository"": {""author"": {""IsMember"": ""true""}, ""type"": ""git""}, ""version"": ""4.4.7""}",1.0,0.875,0.9333333333333333,0.8571428571428571,0.75,0.7999999999999999,0.8571428571428571,0.75,0.7999999999999999,2.0,0.15384615384615385,0.8461538461538461
+6693ce87e76d32ccf07fbcd8,xml,"<?xml version = ""4.47"" encoding = ""UTF-8""?>
+<repository>
+    <author>
+        <middle_name></middle>
+        <IsMember>true</IsMember>
+    </author>
+    <type>git</type>
+</repository>
+<engines>
+    <pnpon> >=8 </pnpon>
+</engines>
+<keywords>
+    <canvas></canvas>
+    <responsive></responsive>
+    <charts></charts>
+</keywords>","{'repository': {'author': {'IsMember': 'true'}, 'type': 'git'}, 'engines': {'pnpon': '>=8'}, 'keywords': {'canvas': '', 'responsive': '', 'charts': ''}}","{'engines': {'pnpon': '>=8'}, 'keywords': {'canvas': '', 'charts': '', 'responsive': ''}, 'repository': {'author': {'IsMember': 'true'}, 'type': 'git'}}",regex,"{""engines"": {""pnpon"": "">=8""}, ""keywords"": {""canvas"": """", ""charts"": """", ""responsive"": """"}, ""repository"": {""author"": {""IsMember"": ""true""}, ""type"": ""git""}}",0.3333333333333333,0.25,0.28571428571428575,0.5,0.125,0.2,0.16666666666666666,0.125,0.14285714285714288,7.0,0.5384615384615384,0.46153846153846156
+60f70af563ef757f65e750e0,xml,"</version> 
+    <4.4.7>
+</repository>
+    <author>middle name</author>
+    <IsMember>true</IsMember>
+</engines>
+    <pnpm>>=8</pnpm>
+</keywords>
+    <canvas>    
+    </responsive>
+    </charts>
+    ","{'author': 'middle name', 'IsMember': 'true', 'pnpm': '>=8'}","{'IsMember': 'true', 'author': 'middle name', 'pnpm': '>=8'}",regex,"{""IsMember"": ""true"", ""author"": ""middle name"", ""pnpm"": "">=8""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67c045fa5074c5500ca40e76,xml,"<root>
+<version>4.4.7</version>
+<respository>
+<authot>
+<middle_name></LsMember</middle_name>
+<isMember>true></isMember>
+</author>
+<type>git</type>
+</repository>
+<engines>
+ <npm>>=6</npm>
+ </engines>
+   <keywords>
+     <keyword>canvas</keyword>
+     <keyword>responsive</keyword>
+     <keyword>charts</keyword>
+     </keywords>
+     
+        ","{'version': '4.4.7', 'middle_name': '</LsMember', 'isMember': 'true>', 'type': 'git', 'engines': {'npm': '>=6'}, 'keywords': {'keyword': ['canvas', 'responsive', 'charts']}}","{'engines': {'npm': '>=6'}, 'isMember': 'true>', 'keywords': {'keyword': ['canvas', 'responsive', 'charts']}, 'middle_name': '</LsMember', 'type': 'git', 'version': '4.4.7'}",regex,"{""engines"": {""npm"": "">=6""}, ""isMember"": ""true>"", ""keywords"": {""keyword"": [""canvas"", ""responsive"", ""charts""]}, ""middle_name"": ""</LsMember"", ""type"": ""git"", ""version"": ""4.4.7""}",0.125,0.125,0.125,1.0,0.125,0.2222222222222222,0.125,0.125,0.125,10.0,0.7692307692307693,0.23076923076923073
+67d2eaf9d5996dc6be1c7072,xml,"<?xml version=""1.0"" encoding=""UTF-8""?>
+<root>
+    <version>4.4.7</version>
+    <type>pnpm</type>
+    </repository>
+    <keywords>canvas</keywords>
+    <keywords>responsive</keywords>
+    <keywords>charts</keywords>","{'version': '4.4.7', 'type': 'pnpm', 'keywords': ['canvas', 'responsive', 'charts']}","{'keywords': ['canvas', 'responsive', 'charts'], 'type': 'pnpm', 'version': '4.4.7'}",regex,"{""keywords"": [""canvas"", ""responsive"", ""charts""], ""type"": ""pnpm"", ""version"": ""4.4.7""}",0.8,0.5,0.6153846153846154,1.0,0.5,0.6666666666666666,0.8,0.5,0.6153846153846154,7.0,0.5384615384615384,0.46153846153846156
+651b29ff3a6cadf518640abe,xml,"<？xml version=""4.4.7"" encoding></？xml>
+<repository></repository>author</middle_name>
+<repository></repository>type<git>
+                         author<middle_name></middle>
+                                <IsMember></IsMember=true>
+<engines></engines>pnpm>=8
+<keywords></keywords>
+    <canvas></canvas>
+    <responsive></responsive>
+    <charts></charts>
+","{'repository': ['', ''], 'engines': '', 'keywords': '', 'canvas': '', 'responsive': '', 'charts': ''}","{'canvas': '', 'charts': '', 'engines': '', 'keywords': '', 'repository': ['', ''], 'responsive': ''}",regex,"{""canvas"": """", ""charts"": """", ""engines"": """", ""keywords"": """", ""repository"": ["""", """"], ""responsive"": """"}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0.8461538461538461,0.15384615384615385
+67aca6831f2b0b79416bdb6c,xml,"<?xml version=""1.0""?> <root></root>
+<root>
+<version>2.4.7/versio>
+<repository><engineer>
+><keywords><propan/></keywords></
+respository
+</engineer> <root></root>","{'#text': ['', {'engineer': {'keywords': ''}}]}","{'#text': ['', {'engineer': {'keywords': ''}}]}",regex,"{""#text"": ["""", {""engineer"": {""keywords"": """"}}]}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,1.0,0.0
+677f8968bbb08bc37c8d2a4b,xml,"<data>
+    <element name=""keyword""></element>
+      <git=3.0>
+          <engines=3.0>
+       </PNPM=8.0>
+       <git=>=8</git>
+      <element name=""metadata"">   
+      </element>
+      ",{'#text': '=8'},{'#text': '=8'},regex,"{""#text"": ""=8""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+672f51ea346fba23ddd5a793,xml,"<version>4.4.7</version>
+    <repository>
+        <auhor>
+            <middle_name/>
+            <isMember>true</isMember>
+            </author>
+            <type>git</type>
+            </repository>
+            <engines>
+                <npm>7</npm>
+                <yarn>1</yarn>
+                </engines>
+                <keywords>
+                    <keyword>canvas</keyword>
+                    <keyword>responsive</keyword>
+                    <keyword>charts<keyword></keyword>","{'version': '4.4.7', 'repository': {'isMember': 'true', 'type': 'git'}, 'engines': {'npm': '7', 'yarn': '1'}, 'keyword': ['canvas', 'responsive', 'charts']}","{'engines': {'npm': '7', 'yarn': '1'}, 'keyword': ['canvas', 'responsive', 'charts'], 'repository': {'isMember': 'true', 'type': 'git'}, 'version': '4.4.7'}",regex,"{""engines"": {""npm"": ""7"", ""yarn"": ""1""}, ""keyword"": [""canvas"", ""responsive"", ""charts""], ""repository"": {""isMember"": ""true"", ""type"": ""git""}, ""version"": ""4.4.7""}",0.25,0.25,0.25,1.0,0.25,0.4,0.25,0.25,0.25,9.0,0.6923076923076923,0.3076923076923077
+62d7fef5538b81f205ba4656,xml,"<?xml version=""4.4.7"" encoding=""UTF-8"">
+<repository>
+<author>
+<middle_name></middle_name>
+<isMember>True</isMember>
+</author>
+<type>Git</type>
+<engines>
+<pnpm>>=8</pnpm>
+<keywords>
+<canvas></canvas>
+<responsive></responsive>
+<charts></charts>
+</keywords>
+</engines>
+</repository>","{'repository': {'author': {'middle_name': '', 'isMember': 'True'}, 'type': 'Git', 'engines': {'pnpm': '>=8', 'keywords': {'canvas': '', 'responsive': '', 'charts': ''}}}}","{'repository': {'author': {'isMember': 'True', 'middle_name': ''}, 'engines': {'keywords': {'canvas': '', 'charts': '', 'responsive': ''}, 'pnpm': '>=8'}, 'type': 'Git'}}",regex,"{""repository"": {""author"": {""isMember"": ""True"", ""middle_name"": """"}, ""engines"": {""keywords"": {""canvas"": """", ""charts"": """", ""responsive"": """"}, ""pnpm"": "">=8""}, ""type"": ""Git""}}",0.14285714285714285,0.125,0.13333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,14.0,1.0769230769230769,-0.07692307692307687
+67406c1303bd39d206ff2b50,xml,"<?xml version=""4.4.7"" encoding=""UTF-8""?>
+    </repository>
+        <type>git</type>
+        </author>
+        <middle_name></middle>
+        <IsMember>true</IsMember>
+    </engines>
+        <pnpm>>=8</pnpm>
+    <keywords>canvas</keywords>
+    <keywords>responsive</keywords>
+    <keywords>charts</keywords>","{'type': 'git', 'IsMember': 'true', 'pnpm': '>=8', 'keywords': ['canvas', 'responsive', 'charts']}","{'IsMember': 'true', 'keywords': ['canvas', 'responsive', 'charts'], 'pnpm': '>=8', 'type': 'git'}",regex,"{""IsMember"": ""true"", ""keywords"": [""canvas"", ""responsive"", ""charts""], ""pnpm"": "">=8"", ""type"": ""git""}",0.5,0.375,0.42857142857142855,1.0,0.375,0.5454545454545454,0.5,0.375,0.42857142857142855,7.0,0.5384615384615384,0.46153846153846156
+67f66486e35051403284eb5e,xml,"""version.4.4.7.0""
+""repository"": {
+""author"":{
+""Ismember"":""man""
+""Ismember"": true
+}
+""type"":""kit""
+}
+""engines""{
+""pnpm"""";{
+""version"" : ""<=8""
+}
+}'
+""keywords"": [""canvas"" , responsive, charts""
+}","{'#text': '""version.4.4.7.0""\r\n""repository"": {\r\n""author"":{\r\n""Ismember"":""man""\r\n""Ismember"": true\r\n}\r\n""type"":""kit""\r\n}\r\n""engines""{\r\n""pnpm"""";{\r\n""version"" : ""<=8""\r\n}\r\n}\'\r\n""keywords"": [""canvas"" , responsive, charts""\r\n}'}","{'#text': '""version.4.4.7.0""\r\n""repository"": {\r\n""author"":{\r\n""Ismember"":""man""\r\n""Ismember"": true\r\n}\r\n""type"":""kit""\r\n}\r\n""engines""{\r\n""pnpm"""";{\r\n""version"" : ""<=8""\r\n}\r\n}\'\r\n""keywords"": [""canvas"" , responsive, charts""\r\n}'}",regex,"{""#text"": ""\""version.4.4.7.0\""\r\n\""repository\"": {\r\n\""author\"":{\r\n\""Ismember\"":\""man\""\r\n\""Ismember\"": true\r\n}\r\n\""type\"":\""kit\""\r\n}\r\n\""engines\""{\r\n\""pnpm\""\"";{\r\n\""version\"" : \""<=8\""\r\n}\r\n}'\r\n\""keywords\"": [\""canvas\"" , responsive, charts\""\r\n}""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+60f7c71d1cffec381351b0b3,xml,"<version>4.4.7</version>
+<repository=""author""> type</repository>
+<engines="">=8""></pnpm>
+ <keywords></keywords>canvas
+ <keyword>responsive</keywordkeywords>
+ <keywords>charts</keywords 
+ <type>git</type>
+  <author></author>middlename
+  <author></author>Ismember
+  <Ismember>true</Ismember>","{'version': '4.4.7', 'keywords': '', 'type': 'git', 'author': ['', ''], 'Ismember': 'true'}","{'Ismember': 'true', 'author': ['', ''], 'keywords': '', 'type': 'git', 'version': '4.4.7'}",regex,"{""Ismember"": ""true"", ""author"": ["""", """"], ""keywords"": """", ""type"": ""git"", ""version"": ""4.4.7""}",0.16666666666666666,0.125,0.14285714285714288,1.0,0.125,0.2222222222222222,0.16666666666666666,0.125,0.14285714285714288,10.0,0.7692307692307693,0.23076923076923073
+5fb4fcd1fce53c30649dd704,xml," XML <version 4.4.7>
+     <repository>
+         <author/<middle_name>
+                 <IsMember>/<true>
+         <type/<git>
+     <engines/<pnpm>=8>
+     <keywords>
+         <canvas>
+         <responsive>
+         <charts>          
+              ",{'#text': 'XML \r\n     \r\n         \r\n                 /\r\n         \r\n     =8>'},{'#text': 'XML \r\n     \r\n         \r\n                 /\r\n         \r\n     =8>'},regex,"{""#text"": ""XML \r\n     \r\n         \r\n                 /\r\n         \r\n     =8>""}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+5c4f5967aac8be0001716a65,xml,"<?xml version=""1.0"" encoding=""UTF-8""?>
+<!--- Nested structure example XML File -->
+<version>""4.4.7""</version>
+<respository>
+    <author>
+        <middle_name>""""</middle_name>
+        <IsMember>true</IsMember>
+    </author>
+    <type>""git""</type>
+</respository>
+<engines>
+    <pnpm>"">=8""</pnpm>
+</engines>
+<keywords>
+    <canvas></canvas>
+    <responsive></responsive>
+    <charts></charts>
+</keywords>
+","{'version': '""4.4.7""', 'respository': {'author': {'middle_name': '""""', 'IsMember': 'true'}, 'type': '""git""'}, 'engines': {'pnpm': '"">=8""'}, 'keywords': {'canvas': None, 'responsive': None, 'charts': None}}","{'engines': {'pnpm': '"">=8""'}, 'keywords': {'canvas': None, 'charts': None, 'responsive': None}, 'respository': {'author': {'IsMember': 'true', 'middle_name': '""""'}, 'type': '""git""'}, 'version': '""4.4.7""'}",xmltodict,"{""engines"": {""pnpm"": ""\"">=8\""""}, ""keywords"": {""canvas"": null, ""charts"": null, ""responsive"": null}, ""respository"": {""author"": {""IsMember"": ""true"", ""middle_name"": ""\""\""""}, ""type"": ""\""git\""""}, ""version"": ""\""4.4.7\""""}",0.25,0.25,0.25,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0.6923076923076923,0.3076923076923077

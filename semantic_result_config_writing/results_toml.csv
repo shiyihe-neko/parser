@@ -1,0 +1,184 @@
+participantId,format,code,parsed_code,parsed_code_dict,parsed_method,keys_precision,keys_recall,keys_f1,values_precision,values_recall,values_f1,items_precision,items_recall,items_f1,tree_distance,normalized_distance,tree_similarity
+659960f32faa4ff4b116de92,toml,"version = 4.4.7
+[repository]
+type = ""git""
+[repository.author]
+name = ""Alice""
+isMember= true
+[engines]
+pnpm = "">=8""
+keywords = [""canvas"", ""responsive"", ""charts""]
+","{'version': '4.4.7', 'type': '""git""', 'name': '""Alice""', 'isMember': 'true', 'pnpm': '"">=8""', 'keywords': '[""canvas""'}","{'isMember': 'true', 'keywords': '[""canvas""', 'name': '""Alice""', 'pnpm': '"">=8""', 'type': '""git""', 'version': '4.4.7'}",regex,0.16666666666666666,0.125,0.14285714285714288,1.0,0.125,0.2222222222222222,0.16666666666666666,0.125,0.14285714285714288,11.0,0.8461538461538461,0.15384615384615385
+67b8636acd5ed420cc098b64,toml,"version = ""4-4-7""
+(repository)
+(repository.author)
+middle _name =""""
+Ismember =true 
+
+(repository.type)
+git = """"
+
+(engines)
+pnpm = "">8""
+
+keywords = {""canvas"",""responsive"",""charts""}","{'version': '""4-4-7""', '_name': '""""', 'Ismember': 'true', 'git': '""""', 'pnpm': '"">8""', 'keywords': '{""canvas""'}","{'Ismember': 'true', '_name': '""""', 'git': '""""', 'keywords': '{""canvas""', 'pnpm': '"">8""', 'version': '""4-4-7""'}",regex,0.16666666666666666,0.125,0.14285714285714288,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67d1cc8044430e99a7d91b4a,toml,"version = ""4.4.7""
+
+[resposity] 
+type = ""git
+author.middle-name= ""same"" 
+author.isMember = true
+
+[engines] 
+npm = "">=8""
+
+keywords = [""canvas"",""responsive"",""charts""]
+","{'version': '""4.4.7""', 'type': '""git', 'middle-name': '""same""', 'isMember': 'true', 'npm': '"">=8""', 'keywords': '[""canvas""'}","{'isMember': 'true', 'keywords': '[""canvas""', 'middle-name': '""same""', 'npm': '"">=8""', 'type': '""git', 'version': '""4.4.7""'}",regex,0.16666666666666666,0.125,0.14285714285714288,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67d03135f855dd0ff0994265,toml,"version =''4.4.7''
+repository= ''github.com/user/repo''
+engines =[''1.4.0''] pnp
+processing =''3.5.4'' 
+name=''John Ban''
+email= ''John.Ban@outmail.com
+keywords =[''canvas'', ''responsive'',''charts'']","{'version': ""''4.4.7''"", 'repository': ""''github.com/user/repo''"", 'engines': ""[''1.4.0''] pnp"", 'processing': ""''3.5.4''"", 'name': ""''John Ban''"", 'email': ""''John.Ban@outmail.com"", 'keywords': ""[''canvas''""}","{'email': ""''John.Ban@outmail.com"", 'engines': ""[''1.4.0''] pnp"", 'keywords': ""[''canvas''"", 'name': ""''John Ban''"", 'processing': ""''3.5.4''"", 'repository': ""''github.com/user/repo''"", 'version': ""''4.4.7''""}",regex,0.14285714285714285,0.125,0.13333333333333333,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+5e5c993cd0394c474f7cc502,toml,"version = 4.4.7
+[[repository]]
+[author]
+middle name = 
+IsMember = true
+[type]
+type = git
+ 
+engines = { pnpm >=8 }
+
+keywords = [""canvas"", ""responsive"", ""charts""]","{'version': '4.4.7', 'name': 'IsMember = true', 'type': 'git', 'engines': '{ pnpm >=8 }', 'keywords': '[""canvas""'}","{'engines': '{ pnpm >=8 }', 'keywords': '[""canvas""', 'name': 'IsMember = true', 'type': 'git', 'version': '4.4.7'}",regex,0.2,0.125,0.15384615384615385,1.0,0.125,0.2222222222222222,0.2,0.125,0.15384615384615385,10.0,0.7692307692307693,0.23076923076923073
+5b3ec4332a5fbf00014eae57,toml,"version = ""4.4.7""
+
+[[repository]]
+[author]
+middleName = """"
+isMember = true
+
+[[repository]]
+[type] = ""git""
+
+[engines]
+pnpm = "">=8""
+
+keywords = [""canvas"", ""responsive"", ""charts""]","{'version': '""4.4.7""', 'middleName': '""""', 'isMember': 'true', 'pnpm': '"">=8""', 'keywords': '[""canvas""'}","{'isMember': 'true', 'keywords': '[""canvas""', 'middleName': '""""', 'pnpm': '"">=8""', 'version': '""4.4.7""'}",regex,0.2,0.125,0.15384615384615385,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+6682a94b061954ae8483fb08,toml,"version = ""4.4.7""
+
+[repository]
+
+[repository.author]
+middle_name = """"
+IsMember = true
+
+[repository.type]
+type = ""git""
+
+[engines]
+pnpm = "">=8""
+
+keywords = [""canvas"", ""responsive"", ""charts""]","{'version': '4.4.7', 'repository': {'author': {'middle_name': '', 'IsMember': True}, 'type': {'type': 'git'}}, 'engines': {'pnpm': '>=8', 'keywords': ['canvas', 'responsive', 'charts']}}","{'engines': {'keywords': ['canvas', 'responsive', 'charts'], 'pnpm': '>=8'}, 'repository': {'author': {'IsMember': True, 'middle_name': ''}, 'type': {'type': 'git'}}, 'version': '4.4.7'}",library,0.375,0.375,0.375,1.0,0.375,0.5454545454545454,0.375,0.375,0.375,6.0,0.42857142857142855,0.5714285714285714
+67bf5ad9c5a4637861cfd21e,toml,"version="" 4.4.7""
+respiratory
+url=
+engines= [""gears"", ""sprockets""]
+keywords= [ ""canvas"", ""responsive"",""charts""]
+author
+middle- name= true
+Is-Member= true","{'version': '"" 4.4.7""', 'url': 'engines= [""gears""', 'keywords': '[ ""canvas""', 'name': 'true', 'Is-Member': 'true'}","{'Is-Member': 'true', 'keywords': '[ ""canvas""', 'name': 'true', 'url': 'engines= [""gears""', 'version': '"" 4.4.7""'}",regex,0.2,0.125,0.15384615384615385,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+66311bae532a469f4858933e,toml,"version = 4.4.7
+
+[repository]
+author ={ middle_name = """", IsMember = true }
+type = git
+[engines]
+pnpm = >=8
+
+keywords = [""canvas"", ""responsive"", ""charts""]","{'version': '4.4.7', 'author': '{ middle_name = """"', 'IsMember': 'true }', 'type': 'git', 'pnpm': '>=8', 'keywords': '[""canvas""'}","{'IsMember': 'true }', 'author': '{ middle_name = """"', 'keywords': '[""canvas""', 'pnpm': '>=8', 'type': 'git', 'version': '4.4.7'}",regex,0.16666666666666666,0.125,0.14285714285714288,1.0,0.125,0.2222222222222222,0.16666666666666666,0.125,0.14285714285714288,10.0,0.7692307692307693,0.23076923076923073
+611d0afbb2a19acfd012545b,toml,"Version=""4.4.7""
+
+[Repository.author]
+
+middle_name=""""
+
+isMember=true
+
+[Engines]
+
+pnppm="">=8""
+
+type=""git""
+
+[keyword]
+
+canvas=""""
+
+responsive=""""
+
+charts=""""","{'Version': '4.4.7', 'Repository': {'author': {'middle_name': '', 'isMember': True}}, 'Engines': {'pnppm': '>=8', 'type': 'git'}, 'keyword': {'canvas': '', 'responsive': '', 'charts': ''}}","{'Engines': {'pnppm': '>=8', 'type': 'git'}, 'Repository': {'author': {'isMember': True, 'middle_name': ''}}, 'Version': '4.4.7', 'keyword': {'canvas': '', 'charts': '', 'responsive': ''}}",library,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,1.1538461538461537,-0.15384615384615374
+606c7d27f4f3ae688332a55d,toml,"version = 4.4.7
+
+engines = {pnpm >= 8}
+
+keywords={canvas, responsive, charts}
+
+repository={author, type}
+
+repository.author = {middle_name, IsMember = True)
+
+repository.type = {git}","{'version': '4.4.7', 'engines': '{pnpm >= 8}', 'keywords': '{canvas', 'repository': '{author', 'author': '{middle_name', 'IsMember': 'True)', 'type': '{git}'}","{'IsMember': 'True)', 'author': '{middle_name', 'engines': '{pnpm >= 8}', 'keywords': '{canvas', 'repository': '{author', 'type': '{git}', 'version': '4.4.7'}",regex,0.14285714285714285,0.125,0.13333333333333333,1.0,0.125,0.2222222222222222,0.14285714285714285,0.125,0.13333333333333333,11.0,0.8461538461538461,0.15384615384615385
+67d0251c804fc17732eb948a,toml,"version: ""4.4.7""
+repository:""git
+[author]
+middle name =
+IsMember = true
+ [engines]
+ pn = "">=8""
+[keywords]
+   tags = ""canvas"", ""responsive"", ""charts""
+   ","{'version': '""4.4.7""', 'repository': '""git', 'name': 'IsMember = true', 'pn': '"">=8""', 'tags': '""canvas""'}","{'name': 'IsMember = true', 'pn': '"">=8""', 'repository': '""git', 'tags': '""canvas""', 'version': '""4.4.7""'}",regex,0.2,0.125,0.15384615384615385,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+67d11644421446068e1fec14,toml,"version ""4.4.7""
+
+[keywords]
+values = [""canvas"", ""responsive"", ""charts""]
+
+[engines.pnpm]
+version = "">=8""
+
+[repository]
+type = ""git""
+
+[repository.author]
+middle_name = """"
+isMember = true","{'values': '[""canvas""', 'version': '"">=8""', 'type': '""git""', 'middle_name': '""""', 'isMember': 'true'}","{'isMember': 'true', 'middle_name': '""""', 'type': '""git""', 'values': '[""canvas""', 'version': '"">=8""'}",regex,0.2,0.125,0.15384615384615385,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+65feaaac53eb219f09ad5ea0,toml,"version = 44.7
+
+keywords = (""canvas"", ""responsive"", ""charts"")
+
+(repository)
+type = ""git""
+url = 
+
+(author)
+middle name = John
+IsMember-true
+
+engines = >=8 
+","{'version': '44.7', 'keywords': '(""canvas""', 'type': '""git""', 'url': '(author)', 'name': 'John', 'engines': '>=8'}","{'engines': '>=8', 'keywords': '(""canvas""', 'name': 'John', 'type': '""git""', 'url': '(author)', 'version': '44.7'}",regex,0.16666666666666666,0.125,0.14285714285714288,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.9230769230769231,0.07692307692307687
+60e2bf0aa568b97e8d525872,toml,"version = ""4.4.7""
+
+[keywords]
+keywords = [""canvas"", ""responsive"", ""charts""]
+
+[engines]
+pnpm = "">=8""
+
+[repository]
+type = ""git""
+
+[repository.author]
+""middle name"" = """"
+Ismember = true","{'version': '4.4.7', 'keywords': {'keywords': ['canvas', 'responsive', 'charts']}, 'engines': {'pnpm': '>=8'}, 'repository': {'type': 'git', 'author': {'middle name': '', 'Ismember': True}}}","{'engines': {'pnpm': '>=8'}, 'keywords': {'keywords': ['canvas', 'responsive', 'charts']}, 'repository': {'author': {'Ismember': True, 'middle name': ''}, 'type': 'git'}, 'version': '4.4.7'}",library,0.5,0.5,0.5,1.0,0.5,0.6666666666666666,0.5,0.5,0.5,2.0,0.14285714285714285,0.8571428571428572

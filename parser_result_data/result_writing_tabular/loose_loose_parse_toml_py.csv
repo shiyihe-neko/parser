@@ -1,0 +1,220 @@
+participantId,valid,code,errorMessage,TOML error: Duplicate keys! (line 10 column 1 char 237); JSON fallback: Can not decode value starting with character '#',"TOML error: Duplicate keys! (line 4 column 1 char 71); JSON fallback: ('Unknown identifier', 'patients')",TOML error: Duplicate keys! (line 8 column 1 char 63); JSON fallback: Unexpected text after end of JSON value,"TOML error: Found invalid character in key name: 'J'. Try quoting the key name. (line 2 column 8 char 21); JSON fallback: ('Unknown identifier', 'Patient')",TOML error: Found tokens after a closed string. Invalid TOML. (line 1 column 1 char 0); JSON fallback: Unexpected text after end of JSON value,"TOML error: Key name found without value. Reached end of line. (line 1 column 11 char 10); JSON fallback: ('Line terminator characters must be escaped inside string literals', 'U+000D')","TOML error: Key name found without value. Reached end of line. (line 1 column 22 char 21); JSON fallback: ('Line terminator characters must be escaped inside string literals', 'U+000D')",TOML error: This float doesn't have a leading digit (line 1 column 1 char 0); JSON fallback: Unexpected text after end of JSON value,"TOML error: Unbalanced quotes (line 10 column 35 char 230); JSON fallback: ('Unknown identifier', 'patients')","TOML error: What? tests already exists?{'idpatiend': 1, 'name': 'John', 'tests': {'idpatiend': 1, 'id': 1, 'result': 'Normal'}} (line 11 column 1 char 128); JSON fallback: Can not decode value starting with character '#'","TOML error: invalid literal for int() with base 0: 'john' (line 3 column 1 char 14); JSON fallback: ('Unknown identifier', 'Patients')"
+67e5cf90b79d0874e1cf16b0,True,"[patients]
+[[patients.patient]]
+name = ""John""
+age = 30
+
+[patients.patient.test]
+blood = ""Normal""
+xray = ""Normal""
+
+[[patients.patient]]
+name = ""Michael""
+age = 45
+
+[[patients.patient.test]]
+blood = ""Elevated Cholesterol""
+xray = ""Normal""
+
+[patients.patient.treatment]
+type = ""Regular Monitoring""",,,,,,,,,,,,
+67d00f24466a67ba7e41228e,False,"[[patients]]
+[[users]]
+name = ""john""
+[tests] =id ""1"" , result ""Normal""
+name =""Michael""
+[[tests]] = id ""2"", result ""Elevated cholesterol""
+[[[patients]]]
+[[users]]
+name = ""michael""
+[tests] =id ""1"" , result ""Normal
+[treatment] = ""regular monitoring""","TOML error: Unbalanced quotes (line 10 column 35 char 230); JSON fallback: ('Unknown identifier', 'patients')",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+6672d878f68b9e349b56e871,False,name='John'test= Id=1 Results=Normal Id=2 Name='Michael' test Id=1 Results = Normal results= Elevated Cholesterol Id=2 Regula Monitoring                    ,TOML error: Found tokens after a closed string. Invalid TOML. (line 1 column 1 char 0); JSON fallback: Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+66992f58a7964f557fc75f58,False,"name= ""John""
+""""normal""""
+""""elevated cholesterol""""
+
+
+
+
+name= ""Michael""
+""""Normal""""",TOML error: Duplicate keys! (line 8 column 1 char 63); JSON fallback: Unexpected text after end of JSON value,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+64275e53f51a5ed4f6b7d019,False,"# The picture is very hard to see, so small even if I try to zoom in.
+# I seriously am having a hard time reading the text in the boxes.
+# I'll try anyway.
+
+[patient]
+name = ""John""
+[patient.tests]
+id = 1
+result = ""Normal""
+id = 2
+result = ""Elevated Cholesterol""
+
+[patient]
+name = ""Michael""
+[patient.tests]
+id = 1
+result = ""Normal""
+[patient.treatment]
+isRegularMonitoring = true",TOML error: Duplicate keys! (line 10 column 1 char 237); JSON fallback: Can not decode value starting with character '#',1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+673d0377254c407e5da57f97,True,"[[patients]]
+name = ""John""
+[[patients.tests]]
+id =1
+result= ""Normal""
+[[patients.tests]]
+id =2
+result = ""Elevated Cholesterol""
+[[patients]]
+name = ""Michael""
+[[patients.tests]]
+id =1
+result= ""Normal""
+[[patients]]
+treatment = ""Regular Monitoring""",,,,,,,,,,,,
+5e8a5a892f6f027054a83d88,True,"[[patients]]
+name = ""John""
+
+[[patients.test]]
+id = 1
+result = ""Normal""
+
+[[patients.tests]]
+id = 2
+result = ""Elevated Cholesterol""
+
+[[patients]]
+name = ""Michael""
+treatment = ""Regular Monitoring""
+
+[[patients.tests]]
+id = 1
+result = ""Normal""",,,,,,,,,,,,
+67bf88cc763aae600b429a3e,False,"patients
+
+name = ""John""
+test
+id= [1]
+result = ""normal""
+id= [2]
+result = ""elevated cholesterol""
+
+
+
+name =""Michael
+test
+
+id= [1]""
+result ""Normal""
+
+treatment = ""Monitoring""","TOML error: Key name found without value. Reached end of line. (line 1 column 11 char 10); JSON fallback: ('Line terminator characters must be escaped inside string literals', 'U+000D')",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+63e5b3e89a3823139cb9d35e,False,"#Patiend 1
+[patiends]
+idpatiend = 1
+name = ""John""
+
+[patiends.tests]
+idpatiend = 1
+id = 1
+result = ""Normal""
+
+[patiends.tests]
+idpatiend = 1
+id = 2
+result = ""Elevated Cholesterol""
+
+#Patiend 2
+[patiends]
+idpatiend = 2
+name = ""Michael""
+
+[patiends.tests]
+idpatiend = 2
+id = 1
+result = ""Normal""
+
+[patiends.treatment]
+idpatiend = 2
+treatment = ""Regular Monitoring""
+
+","TOML error: What? tests already exists?{'idpatiend': 1, 'name': 'John', 'tests': {'idpatiend': 1, 'id': 1, 'result': 'Normal'}} (line 11 column 1 char 128); JSON fallback: Can not decode value starting with character '#'",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+667c2175b570aa694ce2f63c,False,"[Patients]
+
+name=john
+
+[tests]
+
+# ID1 = ""Normal""
+# ID2 = ""Elevated Cholestral
+
+name=Michael
+
+[tests]
+
+# ID1 = ""Normal""
+# Treatment = ""Regular Monitoring""
+","TOML error: invalid literal for int() with base 0: 'john' (line 3 column 1 char 14); JSON fallback: ('Unknown identifier', 'Patients')",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+67eefd0739d752c54dd52686,False,"patient Name: john 
+test : 1d=1
+result= normal
+test id = 2, result Elevated cholestrol
+
+patient 2
+Name: Micheal
+id=1
+result = normal
+treatment Regular monitoring","TOML error: Key name found without value. Reached end of line. (line 1 column 22 char 21); JSON fallback: ('Line terminator characters must be escaped inside string literals', 'U+000D')",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+671b65fe04c301eb14263ba5,False,"[[ Patient]]
+name:""John""
+# tests
+id=[1]
+# result=[normal]
+id=[2]
+# result=[elevated cholesterol]
+[[patient]]
+name:""Michael""
+#tests
+id=[1]
+#result[normal]
+#treatment[Regular monitoring]","TOML error: Found invalid character in key name: 'J'. Try quoting the key name. (line 2 column 8 char 21); JSON fallback: ('Unknown identifier', 'Patient')",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+66a9285501ac98053902d481,False,"[[patients]]
+name = ""John""
+test = { id = 1, result = ""Normal"" }
+test = { id = 2, result = ""Elevated Cholesterol"" }
+
+[[patients]]
+name = ""Michael""
+test = { id = 1; result = ""Normal"" }
+treatment = ""Regular Monitoring""
+","TOML error: Duplicate keys! (line 4 column 1 char 71); JSON fallback: ('Unknown identifier', 'patients')",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+665c5d94303fdf202ac9ded0,True,"[[patients]]
+name = ""John""
+
+[[patients.tests]]
+[[patients.tests.test]]
+id = 1
+result = ""Normal""
+
+[[patients.tests.test]]
+id = 2
+result = ""Elevated Cholesterol""
+
+[[patients]]
+name = ""Michael""
+treatment = ""Regular Monitoring""
+
+[patients.tests]
+[[patients.tests.test]]
+id = 1
+result = ""Normal""
+
+
+",,,,,,,,,,,,
+67f1c7bd6f1c4a3d8deae02f,False,"penalities = [""name"",""tests"",treatment]
+treatment = Regular monitoring
+name = [""Michael"", ""John""]
+tests = [""id"", ""result""]
+result = normal
+result = elevated cholesterol
+id = [""1"", ""2""]",TOML error: This float doesn't have a leading digit (line 1 column 1 char 0); JSON fallback: Unexpected text after end of JSON value,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0

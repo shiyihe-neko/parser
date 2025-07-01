@@ -1,0 +1,62 @@
+[
+  {
+    "participantId": "test_case_1",
+    "format": "jsonc",
+    "code": "{\n  // standard key-value\n  \"name\": \"Shiyi\",\n\n  // number value with comment\n  \"age\": 26,\n\n  // nested object with trailing comma\n  \"details\": {\n    \"city\": \"Salt Lake City\",\n    \"student\": true,\n  },\n\n  // trailing comma in array\n  \"hobbies\": [\n    \"photography\",\n    \"baking\",\n  ],\n}",
+    "expected_valid": true
+  },
+  {
+    "participantId": "test_case_2",
+    "format": "jsonc",
+    "code": "{\n  \"valid\": true // no trailing comma, still valid\n}",
+    "expected_valid": true
+  },
+  {
+    "participantId": "test_case_3",
+    "format": "jsonc",
+    "code": "{\n  \"name\": \"Shiyi\",\n}",
+    "expected_valid": true
+  },
+  {
+    "participantId": "test_case_4",
+    "format": "jsonc",
+    "code": "{\n  \"nickname\": 'neko'\n}",
+    "expected_valid": false
+  },
+  {
+    "participantId": "test_case_5",
+    "format": "jsonc",
+    "code": "{\n  \"age\": / this is a comment / 23\n}",
+    "expected_valid": false
+  },
+  {
+    "participantId": "test_case_6",
+    "format": "jsonc",
+    "code": "{\n  \"a\": 1\n  \"b\": 2\n}",
+    "expected_valid": false
+  },
+  {
+    "participantId": "test_case_7",
+    "format": "jsonc",
+    "code": "{\n  \"a\": 1,",
+    "expected_valid": false
+  },
+  {
+    "participantId": "test_case_8",
+    "format": "jsonc",
+    "code": "{\n  \"x\": 10,\n  \"y\": 20,\n}",
+    "expected_valid": true
+  },
+  {
+    "participantId": "test_case_9",
+    "format": "jsonc",
+    "code": "{\n  \"list\": [\n    1,\n    2,\n    3,\n  ]\n}",
+    "expected_valid": true
+  },
+  {
+    "participantId": "test_case_10",
+    "format": "jsonc",
+    "code": "{\n  \"a\": 1,,\n}",
+    "expected_valid": false
+  }
+]

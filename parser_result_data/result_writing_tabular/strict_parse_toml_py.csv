@@ -1,0 +1,220 @@
+participantId,format,code,valid,errorMessage,Duplicate keys! (line 10 column 1 char 231),Duplicate keys! (line 4 column 1 char 67),Found invalid character in key name: ':'. Try quoting the key name. (line 2 column 5 char 18),Found invalid character in key name: 'N'. Try quoting the key name. (line 1 column 9 char 8),Found invalid character in key name: 'n'. Try quoting the key name. (line 2 column 3 char 16),Found tokens after a closed string. Invalid TOML. (line 1 column 1 char 0),Invalid date or number (line 3 column 1 char 14),Key name found without value. Reached end of line. (line 1 column 10 char 9),This float doesn't have a leading digit (line 1 column 1 char 0),Unbalanced quotes (line 10 column 34 char 221),"What? tests already exists?{'idpatiend': 1, 'name': 'John', 'tests': {'idpatiend': 1, 'id': 1, 'result': 'Normal'}} (line 11 column 1 char 118)"
+67e5cf90b79d0874e1cf16b0,toml,"[patients]
+[[patients.patient]]
+name = ""John""
+age = 30
+
+[patients.patient.test]
+blood = ""Normal""
+xray = ""Normal""
+
+[[patients.patient]]
+name = ""Michael""
+age = 45
+
+[[patients.patient.test]]
+blood = ""Elevated Cholesterol""
+xray = ""Normal""
+
+[patients.patient.treatment]
+type = ""Regular Monitoring""",True,,,,,,,,,,,,
+67d00f24466a67ba7e41228e,toml,"[[patients]]
+[[users]]
+name = ""john""
+[tests] =id ""1"" , result ""Normal""
+name =""Michael""
+[[tests]] = id ""2"", result ""Elevated cholesterol""
+[[[patients]]]
+[[users]]
+name = ""michael""
+[tests] =id ""1"" , result ""Normal
+[treatment] = ""regular monitoring""",False,Unbalanced quotes (line 10 column 34 char 221),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+6672d878f68b9e349b56e871,toml,name='John'test= Id=1 Results=Normal Id=2 Name='Michael' test Id=1 Results = Normal results= Elevated Cholesterol Id=2 Regula Monitoring                    ,False,Found tokens after a closed string. Invalid TOML. (line 1 column 1 char 0),0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+66992f58a7964f557fc75f58,toml,"name= ""John""
+""""normal""""
+""""elevated cholesterol""""
+
+
+
+
+name= ""Michael""
+""""Normal""""",False,Found invalid character in key name: 'n'. Try quoting the key name. (line 2 column 3 char 16),0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+64275e53f51a5ed4f6b7d019,toml,"# The picture is very hard to see, so small even if I try to zoom in.
+# I seriously am having a hard time reading the text in the boxes.
+# I'll try anyway.
+
+[patient]
+name = ""John""
+[patient.tests]
+id = 1
+result = ""Normal""
+id = 2
+result = ""Elevated Cholesterol""
+
+[patient]
+name = ""Michael""
+[patient.tests]
+id = 1
+result = ""Normal""
+[patient.treatment]
+isRegularMonitoring = true",False,Duplicate keys! (line 10 column 1 char 231),1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+673d0377254c407e5da57f97,toml,"[[patients]]
+name = ""John""
+[[patients.tests]]
+id =1
+result= ""Normal""
+[[patients.tests]]
+id =2
+result = ""Elevated Cholesterol""
+[[patients]]
+name = ""Michael""
+[[patients.tests]]
+id =1
+result= ""Normal""
+[[patients]]
+treatment = ""Regular Monitoring""",True,,,,,,,,,,,,
+5e8a5a892f6f027054a83d88,toml,"[[patients]]
+name = ""John""
+
+[[patients.test]]
+id = 1
+result = ""Normal""
+
+[[patients.tests]]
+id = 2
+result = ""Elevated Cholesterol""
+
+[[patients]]
+name = ""Michael""
+treatment = ""Regular Monitoring""
+
+[[patients.tests]]
+id = 1
+result = ""Normal""",True,,,,,,,,,,,,
+67bf88cc763aae600b429a3e,toml,"patients
+
+name = ""John""
+test
+id= [1]
+result = ""normal""
+id= [2]
+result = ""elevated cholesterol""
+
+
+
+name =""Michael
+test
+
+id= [1]""
+result ""Normal""
+
+treatment = ""Monitoring""",False,Key name found without value. Reached end of line. (line 1 column 10 char 9),0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+63e5b3e89a3823139cb9d35e,toml,"#Patiend 1
+[patiends]
+idpatiend = 1
+name = ""John""
+
+[patiends.tests]
+idpatiend = 1
+id = 1
+result = ""Normal""
+
+[patiends.tests]
+idpatiend = 1
+id = 2
+result = ""Elevated Cholesterol""
+
+#Patiend 2
+[patiends]
+idpatiend = 2
+name = ""Michael""
+
+[patiends.tests]
+idpatiend = 2
+id = 1
+result = ""Normal""
+
+[patiends.treatment]
+idpatiend = 2
+treatment = ""Regular Monitoring""
+
+",False,"What? tests already exists?{'idpatiend': 1, 'name': 'John', 'tests': {'idpatiend': 1, 'id': 1, 'result': 'Normal'}} (line 11 column 1 char 118)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+667c2175b570aa694ce2f63c,toml,"[Patients]
+
+name=john
+
+[tests]
+
+# ID1 = ""Normal""
+# ID2 = ""Elevated Cholestral
+
+name=Michael
+
+[tests]
+
+# ID1 = ""Normal""
+# Treatment = ""Regular Monitoring""
+",False,Invalid date or number (line 3 column 1 char 14),0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+67eefd0739d752c54dd52686,toml,"patient Name: john 
+test : 1d=1
+result= normal
+test id = 2, result Elevated cholestrol
+
+patient 2
+Name: Micheal
+id=1
+result = normal
+treatment Regular monitoring",False,Found invalid character in key name: 'N'. Try quoting the key name. (line 1 column 9 char 8),0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+671b65fe04c301eb14263ba5,toml,"[[ Patient]]
+name:""John""
+# tests
+id=[1]
+# result=[normal]
+id=[2]
+# result=[elevated cholesterol]
+[[patient]]
+name:""Michael""
+#tests
+id=[1]
+#result[normal]
+#treatment[Regular monitoring]",False,Found invalid character in key name: ':'. Try quoting the key name. (line 2 column 5 char 18),0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+66a9285501ac98053902d481,toml,"[[patients]]
+name = ""John""
+test = { id = 1, result = ""Normal"" }
+test = { id = 2, result = ""Elevated Cholesterol"" }
+
+[[patients]]
+name = ""Michael""
+test = { id = 1; result = ""Normal"" }
+treatment = ""Regular Monitoring""
+",False,Duplicate keys! (line 4 column 1 char 67),0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+665c5d94303fdf202ac9ded0,toml,"[[patients]]
+name = ""John""
+
+[[patients.tests]]
+[[patients.tests.test]]
+id = 1
+result = ""Normal""
+
+[[patients.tests.test]]
+id = 2
+result = ""Elevated Cholesterol""
+
+[[patients]]
+name = ""Michael""
+treatment = ""Regular Monitoring""
+
+[patients.tests]
+[[patients.tests.test]]
+id = 1
+result = ""Normal""
+
+
+",True,,,,,,,,,,,,
+67f1c7bd6f1c4a3d8deae02f,toml,"penalities = [""name"",""tests"",treatment]
+treatment = Regular monitoring
+name = [""Michael"", ""John""]
+tests = [""id"", ""result""]
+result = normal
+result = elevated cholesterol
+id = [""1"", ""2""]",False,This float doesn't have a leading digit (line 1 column 1 char 0),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0

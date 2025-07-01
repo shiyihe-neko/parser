@@ -1,0 +1,240 @@
+participantId,format,code,valid,errorMessage,Expecting ',"Expecting ',' delimiter",Expecting value,Invalid control character at
+670f9ddb0e32533c222c3031,json,"version{4.4.7}
+            repository:author""middle name: IsMember{true}
+                          type> git
+ engines-pupm->=8  
+ 
+ 
+ 
+keywords :{cavas}
+          :responsive""
+          :chart""",False,Expecting value: line 1 column 1 (char 0),0.0,0.0,1.0,0.0
+671bdd06525adeea062a1d73,json,"{
+    ""version"": 4.4.7,
+    ""repository"": {
+        ""author"": {
+            ""middle name"": """",
+            ""isMember"": true
+        },
+        ""type"": ""git""
+    },
+    ""engines"": {
+        ""pnpm"": "">=8""
+    },
+    ""keywords"": [""canvas"", ""responsive"", ""charts""]
+}",False,"Expecting ',' delimiter: line 2 column 19 (char 21)",0.0,1.0,0.0,0.0
+66912d7bf9d35c08f6919958,json,"''version"": ""4.4.7"",
+""repository"":{
+    ""authory"":{
+        ""middle name"":""""
+        ""isMember"": true
+    },
+    ""type"":""git""
+},
+""engines"": {
+},
+""engines"":{
+    ""npm"": "">=8""
+}
+""keyword"": [""canvas"", ""responsive"", "" charts""]
+}",False,Expecting value: line 1 column 1 (char 0),0.0,0.0,1.0,0.0
+6818ca1523ece90f671e3601,json,"{
+    ""version"": ""4.4.7""
+""engines"": {
+    ""pnpm"" "">=8""
+    {
+}keyworods"":[""canvas"",""responsive "", ""charts"",
+""author""{
+""middlename"":""is a member""
+""member""true
+{
+""type"": ""git""
+",False,"Expecting ',' delimiter: line 3 column 1 (char 27)",0.0,1.0,0.0,0.0
+6680d2279263349cc005956a,json,"{
+    ""version"": ""4.4.7"" ,
+    ""repository"" : {
+      ""author"" : {
+          ""middleName"" : ""..."",
+          ""isMember"" : true
+      },
+      ""type"" : ""git""
+    },
+    ""engines"" : {
+      ""pnpm"" :  "">=8""
+    },
+    ""keywords"" : [""canvas"", ""responsive"", ""chart""]
+}",True,,,,,
+6081728972120aa7f9685791,json,"{
+    ""version"": ""4.4.7"",
+    ""repository"": {
+        ""type"": ""git""
+    },
+    ""engines"": {
+        ""pnpm"": "">=8""
+    },
+    ""keywords"": [""canvas"", ""responsive"", ""charts""],
+    ""author"": {
+        ""middle name"": ""IsMember"",
+        ""IsMember"": true
+    }
+}",True,,,,,
+675aaf0eb1b401136f37c475,json,"{
+""version"": ""4.4.7"",
+""repository"": {
+    ""author"": {
+        ""middle name"": """",
+        ""IsMember"": ""true"",
+        ""type"":""git
+        
+    }
+  },
+  ""engine"": {
+      ""pnpm"": "">=8""
+   },
+   ""keywords"": [
+       ""canva"",
+       "" responsive"",
+       ""chart""
+     ]
+}
+
+
+
+
+
+
+
+
+
+
+
+",False,Invalid control character at: line 7 column 20 (char 134),0.0,0.0,0.0,1.0
+67d13a1ec91ae2216896de44,json,"{
+    ""version"": ""4.4.7"",
+    ""repository"": {
+         ""author"": {
+             ""middle name"": """",
+             ""IsMember"": true
+             
+         },
+         ""type"": ""git""
+    },
+    ""engine"": {
+        ""pnpm"": "">=8""
+    },
+    ""keywords"": [""canvas"", ""responsive"", ""charts""]
+}",True,,,,,
+68138e7f96395f4c5f3a0a87,json,"{
+    ""version"": ""1"",
+    ""repository"": ""1"",
+    ""engones"" {
+        ""pnpm"":4.4.7
+        ""node"": "">=8"",
+},
+     ""keywords"": null,
+     ""author"": {
+         ""git"" : null
+         ""middle name"" : null,
+         
+     }
+        ""type"": null
+        ""isMember"": true
+    
+},
+         ""type"": null
+         ""canvas"": null
+         ""responsive"": null
+         ""charts"": null
+}
+        
+        ",False,Expecting ':' delimiter: line 4 column 15 (char 62),1.0,0.0,0.0,0.0
+67f4ea448eb6a2b293c1f2fc,json,"{
+    ""version"": ""4.4.7"",
+    ""repository"": {
+        ""author"": {
+            ""middle name"": true,
+            ""IsMember"": false
+            
+        }
+    },
+    ""engines"": {
+        ""type"": ""git"",
+        ""popes"": "">=8""
+        
+    },
+    ""keywords"": [
+        ""canvas"",
+        ""responsive"",
+        ""charts""]
+}",True,,,,,
+664e413a5f3eb7f99d90e15b,json,"{
+    ""version"": ""4.4.7"",
+    ""repository"": {
+       ""type"": ""git""  
+    },
+    ""engines"": {
+        ""npm"": "">=8""
+    },
+    ""keywords"": [
+        ""canvas"",
+        ""responsive"",
+        ""charts""
+    ],
+    ""author"": {
+        ""middleName"": null,
+        ""isMember"": true
+    }
+        
+}",True,,,,,
+65fb236a5a78fcf672df7469,json,"{
+    
+    ""version"": ""4.4.7"",
+    
+    ""repository"":  {
+        
+       ""author"": {   
+         
+        ""middle name"",
+        
+        ""IsMember"": true
+        
+       },
+       
+       ""type"": ""git""
+       
+    },
+    ""engines"": {
+        
+    },
+    ""keywords"": [
+        ""canvas"",
+        ""responsive,
+        ""charts""
+        ]
+        
+    }
+}",False,Expecting ':' delimiter: line 9 column 22 (char 127),1.0,0.0,0.0,0.0
+67176f0792ed8c4064f61a2c,json,"{
+    ""version"": [4,4,7]
+    
+    ""respiratory"":
+        ""author"":{
+        ""middlename"":null
+        ""IsMember"":true,
+        ""type"":""git""
+        },
+    ""engines"":{
+    ""pnpm"":"">=8"" 
+    },
+    ""keywords"":[""canvas"",""responsive"",""charts""]
+}",False,"Expecting ',' delimiter: line 4 column 5 (char 37)",0.0,1.0,0.0,0.0
+5795af044a84da00014c5df1,json,"{
+    ""version"": ""4.4.7"",
+    ""repository"": { ""author"": { ""isMember"":true, ""middlename"": null }, ""type"":""git"" },
+    ""engines"": { ""pnpm"": "">=8"" }
+    ""keywords"": { ""canvas"", ""responsive"", ""charts"" }
+}",False,"Expecting ',' delimiter: line 5 column 5 (char 154)",0.0,1.0,0.0,0.0
+61287939bc5a971fc15333e4,json,"[""version"": ""4-4,7]
+[""repository:""author,""-middle name"",""ismember-true"",type-""gift""]
+[""engines:""pnpm"",-"">=8""]
+[keywords:""canvas"""",responsive"",""charts""]",False,"Expecting ',' delimiter: line 1 column 11 (char 10)",0.0,1.0,0.0,0.0

@@ -1,0 +1,2964 @@
+participantId,format,code,task,valid,errorMessage,Closing brace `}` expected,Closing bracket `]` expected,Colon expected,Comma expected,Invalid symbol,Property name expected,Unexpected end of string,Value expected
+67f5bb69760b211cdfe8021c,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+       ""information"" : {
+           ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      }
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+      ""information"" : {
+          ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      }
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+       ""information"" : {
+           ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+       }
+      },
+      {
+        ""title"": ""Caught"",
+       ""information"" : {
+           ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+       }
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+      ""information""  : { 
+          ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      }
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+       ""information"" : {
+           ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+       }
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+       ""informatio"" : { 
+           year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+       }
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+      ""information"" : {
+          ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      }
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+       ""information"" : {
+           ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie"" ,
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action"" ,
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+       }
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Invalid symbol at offset 4469; Unexpected end of string at offset 4473; Colon expected at offset 4491,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+678bad003d15e6aba1ee5a5d,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""Caught"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""information"":{
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+        }
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""information"":{
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+        }
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""information"":{
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+       }
+      }
+    ]
+  }
+}",modifying-task-tabular-4,True,,,,,,,,,
+67f0c5d37f91ceae5cb3b318,jsonc,"{
+  ""information"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""information"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""information"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""information"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""information"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""information"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""information"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""information"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""information"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,True,,,,,,,,,
+67aee0dfad3492b61a9ba0eb,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""information"":
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""information"":
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""information"":
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Comma expected at offset 129; Property name expected at offset 129; Value expected at offset 135; Comma expected at offset 745; Property name expected at offset 745; Value expected at offset 751; Comma expected at offset 1356; Property name expected at offset 1356; Value expected at offset 1362; Comma expected at offset 1974; Property name expected at offset 1974; Value expected at offset 1980; Comma expected at offset 2540; Property name expected at offset 2540; Value expected at offset 2546; Comma expected at offset 3383; Property name expected at offset 3383; Value expected at offset 3389; Comma expected at offset 4385; Property name expected at offset 4385; Value expected at offset 4391; Comma expected at offset 5409; Property name expected at offset 5409; Value expected at offset 5415; Comma expected at offset 6400; Property name expected at offset 6400; Value expected at offset 6406,0.0,0.0,0.0,9.0,0.0,9.0,0.0,9.0
+6734346ca8e90c2da6fb4509,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""information"": {  ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": [] }
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""information"": { ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": [] }
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""information"": { ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": [] }
+      },
+      {
+        ""title"": ""Caught"",
+        ""information"": { ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": [] }
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""information"":{""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []}
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+       ""information"": { ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": [] }
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""information"": { ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": [] }
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""information"": { ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]}
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""information"": { ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]}
+      }
+    ]
+  }
+}",modifying-task-tabular-4,True,,,,,,,,,
+67ab214c2cde1be7c45535ac,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+        ""Information""
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+        ""Information""
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+        ""Information""
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+        ""Information""
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+        ""Information""
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+        ""Information""
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+         ""Information""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ""Information""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Comma expected at offset 614; Colon expected at offset 635; Comma expected at offset 1229; Colon expected at offset 1250; Comma expected at offset 2399; Colon expected at offset 2420; Comma expected at offset 3240; Colon expected at offset 3261; Comma expected at offset 4245; Colon expected at offset 4266; Comma expected at offset 5267; Colon expected at offset 5288; Comma expected at offset 6242; Comma expected at offset 7241,0.0,0.0,6.0,8.0,0.0,0.0,0.0,0.0
+607728dc0b4f8590b94ae57c,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [],
+            ""genres"": [
+                ""Silent"",
+                ""Short""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 3,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-03-15"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""James H. White"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 500,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [],
+            ""genres"": [
+            ""Silent"",
+            ""Short""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 2,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-05-10"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""James H. White"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 450,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [
+            ""Buffalo Bill (William F. Cody)""
+            ],
+            ""genres"": [
+            ""Documentary""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 5,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-07-04"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""Unknown"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 600,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""Caught"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [],
+            ""genres"": [
+            ""Drama""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 2,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-02-20"",
+            ""production_company"": ""Biograph Company"",
+            ""director"": ""William Heise"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 400,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [
+            ""Unknown Clowns""
+            ],
+            ""genres"": [
+            ""Silent"",
+            ""Comedy""
+            ],
+            ""href"": ""Clowns_Spinning_Hats"",
+            ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+            ""country"": ""United States"",
+            ""runtime"": 3,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-04-07"",
+            ""production_company"": ""Lubin Films"",
+            ""director"": ""Unknown"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 500,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [
+            ""J. Stuart Blackton""
+            ],
+            ""genres"": [
+            ""Silent"",
+            ""Animation""
+            ],
+            ""href"": ""The_Enchanted_Drawing"",
+            ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+            ""thumbnail_width"": 320,
+            ""thumbnail_height"": 240,
+            ""country"": ""United States"",
+            ""runtime"": 2,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-11-16"",
+            ""production_company"": ""Vitagraph Studios"",
+            ""director"": ""J. Stuart Blackton"",
+            ""writer"": ""J. Stuart Blackton"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 700,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""information"": {
+            ""year"": 1900,
+            ""cast"": [
+            ""Paul Boyton""
+            ],
+            ""genres"": [
+            ""Short"",
+            ""Silent""
+            ],
+            ""href"": ""Feeding_Sea_Lions"",
+            ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+            ""country"": ""United States"",
+            ""runtime"": 3,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-03-10"",
+            ""production_company"": ""Lubin Studios"",
+            ""director"": ""Unknown"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 450,
+            ""box_office"": null,
+            ""awards"": []
+        },
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""information"": {
+            ""year"": 1902,
+            ""cast"": [
+            ""Georges Méliès""
+            ],
+            ""genres"": [
+            ""Sci-Fi"",
+            ""Adventure""
+            ],
+            ""href"": ""A_Trip_to_the_Moon"",
+            ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+            ""thumbnail_width"": 320,
+            ""thumbnail_height"": 240,
+            ""country"": ""France"",
+            ""runtime"": 14,
+            ""language"": ""Silent"",
+            ""release_date"": ""1902-09-01"",
+            ""production_company"": ""Star Film Company"",
+            ""director"": ""Georges Méliès"",
+            ""writer"": ""Georges Méliès"",
+            ""cinematography"": ""Georges Méliès"",
+            ""budget"": 10000,
+            ""box_office"": 20000,
+            ""awards"": [
+                ""Considered a milestone in cinema history""
+            ]
+        },
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""information"": {
+            ""year"": 1903,
+            ""cast"": [
+            ""Gilbert M. Anderson"",
+            ""A. C. Abadie""
+            ],
+            ""genres"": [
+                ""Western"",
+                ""Action""
+            ],
+            ""href"": ""The_Great_Train_Robbery"",
+            ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+            ""thumbnail_width"": 320,
+            ""thumbnail_height"": 240,
+            ""country"": ""United States"",
+            ""runtime"": 12,
+            ""language"": ""Silent"",
+            ""release_date"": ""1903-12-01"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""Edwin S. Porter"",
+            ""writer"": ""Scott Marble"",
+            ""cinematography"": ""Edwin S. Porter"",
+            ""budget"": 150,
+            ""box_office"": 5000,
+            ""awards"": [
+                ""One of the earliest crime films""
+            ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Comma expected at offset 8151; Property name expected at offset 8151; Value expected at offset 8156; Comma expected at offset 8159; Value expected at offset 8159; Closing bracket `]` expected at offset 8160; Closing brace `}` expected at offset 8160; Closing brace `}` expected at offset 8160,2.0,1.0,0.0,2.0,0.0,1.0,0.0,2.0
+5dafea4de40355001651fa2f,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""information
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Unexpected end of string at offset 2220; Comma expected at offset 2242,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0
+6784ff2095dd9b97e969b01f,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+          ""information"": 1900, ""silent short""
+        ""title"": ""After Dark in Central Park"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Colon expected at offset 98,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+5ecc71c95c92c2000a9e9a19,jsonc,"{
+  ""movies"": {
+    ""movie"": {
+        ""Information"":[
+          {
+            ""title"": ""After Dark in Central Park"",
+            ""year"": 1900,
+            ""cast"": [],
+            ""genres"": [
+              ""Silent"",
+              ""Short""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 3,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-03-15"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""James H. White"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 500,
+            ""box_office"": null,
+            ""awards"": []
+          }
+      },
+      {
+          ""Information"":
+            ""title"": ""Boarding School Girls' Pajama Parade"",
+            ""year"": 1900,
+            ""cast"": [],
+            ""genres"": [
+              ""Silent"",
+              ""Short""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 2,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-05-10"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""James H. White"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 450,
+            ""box_office"": null,
+            ""awards"": []
+          },
+      {
+          ""Information"":
+            ""title"": ""Buffalo Bill's Wild West Parade"",
+            ""year"": 1900,
+            ""cast"": [
+              ""Buffalo Bill (William F. Cody)""
+            ],
+            ""genres"": [
+              ""Documentary""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 5,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-07-04"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""Unknown"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 600,
+            ""box_office"": null,
+            ""awards"": []
+      },
+      {
+          ""Information"":
+            ""title"": ""Caught"",
+            ""year"": 1900,
+            ""cast"": [],
+            ""genres"": [
+              ""Drama""
+            ],
+            ""href"": null,
+            ""country"": ""United States"",
+            ""runtime"": 2,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-02-20"",
+            ""production_company"": ""Biograph Company"",
+            ""director"": ""William Heise"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 400,
+            ""box_office"": null,
+            ""awards"": []
+      },
+      {
+        ""Information"":
+            ""title"": ""Clowns Spinning Hats"",
+            ""year"": 1900,
+            ""cast"": [
+              ""Unknown Clowns""
+            ],
+            ""genres"": [
+              ""Silent"",
+              ""Comedy""
+            ],
+            ""href"": ""Clowns_Spinning_Hats"",
+            ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+            ""country"": ""United States"",
+            ""runtime"": 3,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-04-07"",
+            ""production_company"": ""Lubin Films"",
+            ""director"": ""Unknown"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 500,
+            ""box_office"": null,
+            ""awards"": []
+      },
+      {
+          ""Information"":
+            ""title"": ""The Enchanted Drawing"",
+            ""year"": 1900,
+            ""cast"": [
+              ""J. Stuart Blackton""
+            ],
+            ""genres"": [
+              ""Silent"",
+              ""Animation""
+            ],
+            ""href"": ""The_Enchanted_Drawing"",
+            ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+            ""thumbnail_width"": 320,
+            ""thumbnail_height"": 240,
+            ""country"": ""United States"",
+            ""runtime"": 2,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-11-16"",
+            ""production_company"": ""Vitagraph Studios"",
+            ""director"": ""J. Stuart Blackton"",
+            ""writer"": ""J. Stuart Blackton"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 700,
+            ""box_office"": null,
+            ""awards"": []
+      },
+      {
+        ""Information"":
+            ""title"": ""Feeding Sea Lions"",
+            ""year"": 1900,
+            ""cast"": [
+              ""Paul Boyton""
+            ],
+            ""genres"": [
+              ""Short"",
+              ""Silent""
+            ],
+            ""href"": ""Feeding_Sea_Lions"",
+            ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+            ""country"": ""United States"",
+            ""runtime"": 3,
+            ""language"": ""Silent"",
+            ""release_date"": ""1900-03-10"",
+            ""production_company"": ""Lubin Studios"",
+            ""director"": ""Unknown"",
+            ""writer"": ""Unknown"",
+            ""cinematography"": ""Unknown"",
+            ""budget"": 450,
+            ""box_office"": null,
+            ""awards"": []
+      },
+      {
+        ""Information"":
+            ""title"": ""A Trip to the Moon"",
+            ""year"": 1902,
+            ""cast"": [
+              ""Georges Méliès""
+            ],
+            ""genres"": [
+              ""Sci-Fi"",
+              ""Adventure""
+            ],
+            ""href"": ""A_Trip_to_the_Moon"",
+            ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+            ""thumbnail_width"": 320,
+            ""thumbnail_height"": 240,
+            ""country"": ""France"",
+            ""runtime"": 14,
+            ""language"": ""Silent"",
+            ""release_date"": ""1902-09-01"",
+            ""production_company"": ""Star Film Company"",
+            ""director"": ""Georges Méliès"",
+            ""writer"": ""Georges Méliès"",
+            ""cinematography"": ""Georges Méliès"",
+            ""budget"": 10000,
+            ""box_office"": 20000,
+            ""awards"": [
+              ""Considered a milestone in cinema history""
+            ]
+      },
+      {
+        ""Information"":
+            ""title"": ""The Great Train Robbery"",
+            ""year"": 1903,
+            ""cast"": [
+              ""Gilbert M. Anderson"",
+              ""A. C. Abadie""
+            ],
+            ""genres"": [
+              ""Western"",
+              ""Action""
+            ],
+            ""href"": ""The_Great_Train_Robbery"",
+            ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+            ""thumbnail_width"": 320,
+            ""thumbnail_height"": 240,
+            ""country"": ""United States"",
+            ""runtime"": 12,
+            ""language"": ""Silent"",
+            ""release_date"": ""1903-12-01"",
+            ""production_company"": ""Edison Manufacturing Company"",
+            ""director"": ""Edwin S. Porter"",
+            ""writer"": ""Scott Marble"",
+            ""cinematography"": ""Edwin S. Porter"",
+            ""budget"": 150,
+            ""box_office"": 5000,
+            ""awards"": [
+              ""One of the earliest crime films""
+            ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Comma expected at offset 730; Value expected at offset 730; Comma expected at offset 788; Property name expected at offset 788; Value expected at offset 828; Comma expected at offset 1486; Property name expected at offset 1486; Value expected at offset 1521; Comma expected at offset 2211; Property name expected at offset 2211; Value expected at offset 2221; Comma expected at offset 2835; Property name expected at offset 2835; Value expected at offset 2859; Comma expected at offset 3767; Property name expected at offset 3767; Value expected at offset 3792; Comma expected at offset 4869; Property name expected at offset 4869; Value expected at offset 4890; Comma expected at offset 5980; Property name expected at offset 5980; Value expected at offset 6002; Comma expected at offset 7070; Property name expected at offset 7070; Value expected at offset 7097; Closing brace `}` expected at offset 8138,1.0,0.0,0.0,9.0,0.0,8.0,0.0,9.0
+66781db404eab5e142f849d9,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""new key"" : ""information"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""new key"" : ""information"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""new key"": ""information"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""new key"": ""information"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""new key"": ""information"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""new key"": ""information"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""new key"": ""information"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""new key"": ""information"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""new key"": ""information"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,True,,,,,,,,,
+66a662a0a709312db9de01f2,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },informatiom
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Invalid symbol at offset 614,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+67ab650c320eccf6141d4010,jsonc,"{
+  ""movies"": {
+    ""movie"": [
+      {
+        ""title"": ""After Dark in Central Park"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-15"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },  []
+      {
+        ""title"": ""Boarding School Girls' Pajama Parade"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Silent"",
+          ""Short""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-05-10"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""James H. White"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Buffalo Bill's Wild West Parade"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Buffalo Bill (William F. Cody)""
+        ],
+        ""genres"": [
+          ""Documentary""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 5,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-07-04"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 600,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Caught"",
+        ""year"": 1900,
+        ""cast"": [],
+        ""genres"": [
+          ""Drama""
+        ],
+        ""href"": null,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-02-20"",
+        ""production_company"": ""Biograph Company"",
+        ""director"": ""William Heise"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 400,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Clowns Spinning Hats"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Unknown Clowns""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Comedy""
+        ],
+        ""href"": ""Clowns_Spinning_Hats"",
+        ""extract"": ""Clowns Spinning Hats is a black-and-white silent film featuring clowns throwing hats back and forth to each other. It was written and produced by Lubin Films and released April 7, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-04-07"",
+        ""production_company"": ""Lubin Films"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 500,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""The Enchanted Drawing"",
+        ""year"": 1900,
+        ""cast"": [
+          ""J. Stuart Blackton""
+        ],
+        ""genres"": [
+          ""Silent"",
+          ""Animation""
+        ],
+        ""href"": ""The_Enchanted_Drawing"",
+        ""extract"": ""The Enchanted Drawing is a 1900 silent film directed by J. Stuart Blackton. It is best known for containing the first animated sequences recorded on standard picture film, which has led Blackton to be considered the father of American animation."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 2,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-11-16"",
+        ""production_company"": ""Vitagraph Studios"",
+        ""director"": ""J. Stuart Blackton"",
+        ""writer"": ""J. Stuart Blackton"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 700,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""Feeding Sea Lions"",
+        ""year"": 1900,
+        ""cast"": [
+          ""Paul Boyton""
+        ],
+        ""genres"": [
+          ""Short"",
+          ""Silent""
+        ],
+        ""href"": ""Feeding_Sea_Lions"",
+        ""extract"": ""Feeding Sea Lions is a short silent film featuring Paul Boyton feeding sea lions at his Sea Lion Park at Coney Island. Boyton is shown feeding the trained sea lions, twelve in number. The sea lions follow Boyton up the steps of the pool and then follow him back into the water. One of them steals food out of the basket. The film was made by Lubin Studios on March 10, 1900."",
+        ""country"": ""United States"",
+        ""runtime"": 3,
+        ""language"": ""Silent"",
+        ""release_date"": ""1900-03-10"",
+        ""production_company"": ""Lubin Studios"",
+        ""director"": ""Unknown"",
+        ""writer"": ""Unknown"",
+        ""cinematography"": ""Unknown"",
+        ""budget"": 450,
+        ""box_office"": null,
+        ""awards"": []
+      },
+      {
+        ""title"": ""A Trip to the Moon"",
+        ""year"": 1902,
+        ""cast"": [
+          ""Georges Méliès""
+        ],
+        ""genres"": [
+          ""Sci-Fi"",
+          ""Adventure""
+        ],
+        ""href"": ""A_Trip_to_the_Moon"",
+        ""extract"": ""A Trip to the Moon (French: Le Voyage dans la Lune) is a 1902 French silent film directed by Georges Méliès. It is widely regarded as the first science fiction film ever made."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""France"",
+        ""runtime"": 14,
+        ""language"": ""Silent"",
+        ""release_date"": ""1902-09-01"",
+        ""production_company"": ""Star Film Company"",
+        ""director"": ""Georges Méliès"",
+        ""writer"": ""Georges Méliès"",
+        ""cinematography"": ""Georges Méliès"",
+        ""budget"": 10000,
+        ""box_office"": 20000,
+        ""awards"": [
+          ""Considered a milestone in cinema history""
+        ]
+      },
+      {
+        ""title"": ""The Great Train Robbery"",
+        ""year"": 1903,
+        ""cast"": [
+          ""Gilbert M. Anderson"",
+          ""A. C. Abadie""
+        ],
+        ""genres"": [
+          ""Western"",
+          ""Action""
+        ],
+        ""href"": ""The_Great_Train_Robbery"",
+        ""extract"": ""The Great Train Robbery is a 1903 American silent short film directed by Edwin S. Porter. It is considered one of the earliest narrative films."",
+        ""thumbnail_width"": 320,
+        ""thumbnail_height"": 240,
+        ""country"": ""United States"",
+        ""runtime"": 12,
+        ""language"": ""Silent"",
+        ""release_date"": ""1903-12-01"",
+        ""production_company"": ""Edison Manufacturing Company"",
+        ""director"": ""Edwin S. Porter"",
+        ""writer"": ""Scott Marble"",
+        ""cinematography"": ""Edwin S. Porter"",
+        ""budget"": 150,
+        ""box_office"": 5000,
+        ""awards"": [
+          ""One of the earliest crime films""
+        ]
+      }
+    ]
+  }
+}",modifying-task-tabular-4,False,Comma expected at offset 626,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0

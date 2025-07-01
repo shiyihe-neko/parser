@@ -1,0 +1,355 @@
+participantId,format,code,valid,errorMessage,Expecting ',"Expecting ',' delimiter",Expecting property name enclosed in double quotes,Expecting value,Extra data,Invalid control character at
+66475d6f7b27e4443ef0d031,json,"{
+    patients
+    if(name)=John
+    then{
+        tests,
+        if(id)=1,
+        then(result)=Normal,
+        if(id=2),
+        then(result)=Elevated Cholesterol
+    }
+     if(name)=Michael
+    then{
+        tests,
+        if(id)=1,
+        then(result)=Normal
+    treatment=Regular Monitoring    
+}",False,Expecting property name enclosed in double quotes: line 2 column 5 (char 7),0.0,0.0,1.0,0.0,0.0,0.0
+67e571bef6af7ecd9c29ad72,json,"{
+    ""patients"" : [
+     {
+         ""name"" : ""John"", 
+         ""tests"" : [
+          {
+              ""id"" : 1,
+              ""results"" : ""Normal""
+          }
+             ],
+             ""treatment"" : ""Regular Monitoring""
+     },
+     {
+         ""name"" : ""Michael"",
+         ""tests"" : [
+        {
+            ""id"" : 1, 
+            ""results"" : ""Elevated Cholesterol""
+        },
+        {
+            ""id"" : 1, 
+            ""results"" : ""Normal""
+        }
+        ]
+     }
+    
+    ]
+}",True,,,,,,,
+60f1f1d4ac991a259b83f603,json,"Note: Different colors represent different levels of the nested structure. Purple rectangles indicate the top-level elements. 
+
+                       Patient
+                       
+                       
+                       
+    Name     tests       Name      tests    treatment
+    
+    John                           Michel           Bergulaf
+                                                    Monitoring
+    
+    
+    
+    
+    id    result      id    result          id      result
+    1     Normal      2     Elevated        1       Normal
+                            Cholesterol",False,Expecting value: line 1 column 1 (char 0),0.0,0.0,0.0,1.0,0.0,0.0
+673c13c9d37c8a73bc80b8ce,json,"{
+    ""patient"" : {
+        ""name"" : ""John"",
+        ""tests"" : [
+            {""Id"" :""1"", ""results"" : ""Normal"" }
+            {""Id"" : ""2"", ""results"" : ""Elavated Cholestrol"" }
+            ]
+    }
+   ""patient"" :{
+            ""name"" : ""Michael"",
+            ""tests"" : [
+                {""Id"" : ""1"" , ""results"" : ""Normal""}
+                ]
+                {""treatment"" : ""Regular Monitoring""}
+                
+   }        
+    
+}",False,"Expecting ',' delimiter: line 6 column 13 (char 129)",0.0,1.0,0.0,0.0,0.0,0.0
+667ac09492ea0caadf488520,json,"Name
+"" John""
+""ID""(1
+""Results""(normal)
+(2) ""elevated Cho;esterol
+
+
+
+
+Name,(Michael)
+,Michael
+""ID""(1
+"" Results""(normal)
+""Treatment ( regular monitoring)
+",False,Expecting value: line 1 column 1 (char 0),0.0,0.0,0.0,1.0,0.0,0.0
+67debe02a893eea51e8d02f2,json,"{
+    ""patients""
+    ""name"":""John""
+
+ ""Tests"":[
+     {""id"":1
+     ""results"":""normal""]
+     ""Tests"":[
+         {""id"":2
+         ""results"":""elevated cholesterol""
+         ]
+         }
+{
+    ""patients""
+    ""name"":""Michael""
+    ""Tests"":[
+        {""id"":1
+        ""results"":normal
+    ""Treatment"":""Regular monitoring""
+    
+}
+ ",False,Expecting ':' delimiter: line 3 column 5 (char 23),1.0,0.0,0.0,0.0,0.0,0.0
+615200d54efc832849db2259,json,"{
+    ""patients"":
+    {
+        ""name"": ""John"",
+        ""tests"": 
+        {
+            ""id"": ""1"",
+            ""results"": ""Normal"",
+            ""id"": ""2,
+            ""results"": ""Elevated Cholestrol""
+            
+            
+        },
+        
+        ""name"": ""Michael"",
+        ""tets"": 
+        {
+            ""id"": ""1"",
+            ""result"": ""Normal""
+        
+        },
+        
+        ""treatment"": ""Regular Monitoring""
+      
+    }
+    
+}",False,Invalid control character at: line 9 column 22 (char 161),0.0,0.0,0.0,0.0,0.0,1.0
+66b0d065329001a04e5ae671,json,"{
+    ""patients"": 
+    {
+    ""name"": ""John"",
+    ""tests"":
+    { ""id"": 1
+    ""result"": ""normal""
+      ""id"": 2
+      ""result"": ""eleveted cholesterol""
+    },
+    ""name"": ""Michael"",
+    ""tests"":
+    {""id"": 1
+    ""result"": ""normal""
+    { ""treatment"": ""regular monitoring""
+
+        
+    }
+",False,"Expecting ',' delimiter: line 7 column 5 (char 82)",0.0,1.0,0.0,0.0,0.0,0.0
+5e3b5fa9255e7a37bc841135,json,"{
+    ""patients"": {
+        ""name"": ""john"",
+        ""tests"": [
+            {""id"": 1, ""result"": ""normal""}
+            {""id"": 2, ""result"": ""elevated cholesterol""}
+            ]
+           
+        ""name"":""Michael"",
+        ""tests"": [
+            {""id"": 1, ""result"": ""normal""}
+            ]
+        ""treatment"": ""Regular Monitoring""
+    }
+}",False,"Expecting ',' delimiter: line 6 column 13 (char 122)",0.0,1.0,0.0,0.0,0.0,0.0
+5d30dfa68b1523000134878f,json,"{
+    ""patients"":{
+        ""name"": ""John"",
+        ""tests"": [
+            { ""id"": 1,""result"": ""Normal""},
+            { ""id"": 2, ""result"": ""Elevated Cholesterol""}
+        ]
+        
+        ""name"": ""Michael"",
+        ""tests"": [
+            { ""id"": 1, ""result"": ""Normal""}
+        ]
+        ""treatment"": ""Regular Monitoring""
+    
+  
+        
+    }
+    
+}",False,"Expecting ',' delimiter: line 9 column 9 (char 197)",0.0,1.0,0.0,0.0,0.0,0.0
+67cb01a82dda2577eb6ee320,json,"{
+    ""patients"": [
+        ""name"": ""John"",
+        ""tests"": [
+            {
+                ""id"": 1,
+            ""result"": ""Normal""
+            },
+            {
+                ""id"": 2,
+                ""result"": ""Elevated""
+                }
+                ],
+                ""treatment"": null
+}
+],
+""treatment"": null
+},
+{
+    ""name"": ""Michael"",
+    ""tests"": [
+        {
+            ""id"":1,
+            ""result"": ""Normal""
+        }
+        ],
+        ""treatment"": ""Regular Monitoring""
+}
+]
+}",False,"Expecting ',' delimiter: line 3 column 15 (char 36)",0.0,1.0,0.0,0.0,0.0,0.0
+67cd944859dabbd1d4552d39,json,"""person"" : {
+    ""name"" : ""John"" ,
+    ""tests"" :{
+    ""Id"" : ""1"" ,
+    ""result"" : ""normal"" ,
+    ""Id"" : ""2"" ,
+    ""Result"" : ""Elevated Cholestrol"" ,
+""Person"" : {
+    ""name"" : ""Michael""
+    ""tests"" : {
+    ""Id"" : ""1"" ,
+    ""result"" : ""Normal"" ,
+    ""treatment"" : {
+    ""regular monitoring""
+    }
+    }
+}",False,Extra data: line 1 column 10 (char 9),0.0,0.0,0.0,0.0,1.0,0.0
+57c357770e6a1f00015f6038,json,"{
+    ""patients"":{
+        ""name"":""John"",
+        ""tests"":{
+            ""id"":""1"",
+            ""result"":""Normal"",
+            ""id"":""2"",
+            ""result"":""Elevated Cholersterol""
+        }
+        ""name"": ""Michael"",
+        ""tests"":{
+            ""id"":""1"",
+            ""result"":""Normal""
+        }
+        ""treatment"":""regular Monitoring""    
+        
+    }
+}",False,"Expecting ',' delimiter: line 10 column 9 (char 207)",0.0,1.0,0.0,0.0,0.0,0.0
+5f29eff59714081a3594a331,json,"{
+    ""patient"": {
+        ""name"": ""John"",
+        ""tests"": [
+            {""id"": 1,
+            ""result"": ""normal""}
+            {""id"": 2,
+            ""result"": ""Elevated Cholesterol""
+        ],
+        ""name"": ""Michael"",
+        ""tests"": [
+            {""id"": 1,
+                ""result"": ""Normal""
+            }],
+            ""treatment"": ""Regular Monitoring""
+    }
+}",False,"Expecting ',' delimiter: line 7 column 13 (char 134)",0.0,1.0,0.0,0.0,0.0,0.0
+65be552ceed6a0595fa1feb5,json,"{
+    ""patients"": [
+        {
+            ""name"": ""John"",
+            ""tests"": [
+                {""id"": 1,
+                ""result"": ""Elevated Cholesterol""
+        }
+    ]
+}
+{
+    ""name"": ""Michael"",
+    ""tests"": [
+     {
+         ""id"": ""A""
+         ""result"": ""Normal""
+     }
+    ],
+    ""treatment"": ""Regular Monitoring""
+}
+]
+}",False,"Expecting ',' delimiter: line 11 column 1 (char 184)",0.0,1.0,0.0,0.0,0.0,0.0
+667983594f7d5d70a78c6e5a,json,"[  
+   {
+       ""name"": ""john"",
+       ""tests"": [
+         { 
+           ""ID""  ""1""
+           ""result"": ""normal
+         } ,
+         {
+             ""ID"" : ""2""
+             ""result"" : ""elevated cholesterol""
+         }
+         ]
+   } ,
+   {
+        ""name"": ""Michael""
+        ""treatment"" : ""regular monitor"" ,
+        ""test"" :  [
+            {
+                ""ID"": ""1""
+                ""result"" : ""normal""
+            }
+            
+         ]
+   
+   
+   
+   
+         
+           ",False,Expecting ':' delimiter: line 6 column 18 (char 84),1.0,0.0,0.0,0.0,0.0,0.0
+66b246951b9aefec80b7158a,json,"{ 
+    ""patients"": 
+    {
+        ""name"": ""John"",
+        ""tests"":
+        {
+            ""id"":1,
+            ""results"":""normal""
+        },
+        {
+            ""id"":2,
+            ""results"":""Elevated Cholesterol""
+        }
+    },
+    {
+        ""name"": ""Michael"",
+        ""tests"":
+        {
+            ""id"":1,
+            ""results"":""normal""
+        },
+        ""treatment"":""Regular Monitoring""
+    }",False,Expecting property name enclosed in double quotes: line 10 column 9 (char 156),0.0,0.0,1.0,0.0,0.0,0.0

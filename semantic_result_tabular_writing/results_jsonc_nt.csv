@@ -1,0 +1,256 @@
+participantId,format,code,parsed_code,key_precision,key_recall,key_f1,value_precision,value_recall,value_f1,kv_precision,kv_recall,kv_f1,ted,normalized_ted,tree_similarity
+67f5bb69760b211cdfe8021c,jsonc,"{
+    ""patients"" : {
+        ""name"" : ""john"",
+        ""tests"" : [
+            {""Id"" : ""1"" , ""result"" : ""normal""},
+            { ""Id"" : ""2"" , ""result"" : ""Elevated Cholestrol""}
+            ]
+            
+        ""name""  : ""Michael"", 
+        ""tests"" : [
+            {""id"" : ""1"" , ""result"" : ""Normal""},
+        ""treatment"" : ""Regular Monitoring"" 
+        ]
+}","{'name': 'john', 'Id': '1', 'result': 'normal', 'id': '1', 'treatment': 'Regular Monitoring', 'items': ['{""Id"" : ""1', 'result"" : ""normal""}', '{ ""Id"" : ""2', 'result"" : ""Elevated Cholestrol""}']}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+678bad003d15e6aba1ee5a5d,jsonc,"{
+    ""patients"": [
+        {
+          ""name"": ""John"",
+          ""tests"": [
+            {
+                ""id"": 1,
+                ""result"": ""Normal""
+            },
+            {
+                ""id"": 2,
+                ""result"": ""Elevated Cholesterol""
+            }
+           ]
+        },
+        {
+            ""name"": ""Micheal"",
+            ""tests"": [
+                {
+                    ""id"": 1,
+                    ""result"": ""normal""
+                }
+             ],
+             ""treatment"": ""regular monitoring""
+        }
+    ]
+        
+}","{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevated Cholesterol'}]}, {'name': 'Micheal', 'tests': [{'id': 1, 'result': 'normal'}], 'treatment': 'regular monitoring'}]}",1.0,1.0,1.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,3.0,0.16666666666666666,0.8333333333333334
+67f0c5d37f91ceae5cb3b318,jsonc,"""person"":{ 
+    ""name"": John
+    ""tests"": [
+       {""id"":1
+       ""result"":normal
+       ""id"":2
+       ""result"":Evaluated Cholestrol}]}
+       ""person"":{
+           ""name"": Michael
+           ""tests"":[
+               {""id"":1
+                  ""result"":normal
+                  ""treatment"":Regular Monitoring
+               }]
+       }","{'id': 1, 'items': ['{""id"":1\r\n       ""result"":normal\r\n       ""id"":2\r\n       ""result"":Evaluated Cholestrol}']}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+67aee0dfad3492b61a9ba0eb,jsonc,"{ ""patients"" :
+}
+{
+    ""person"" : {
+ ""name""  : ""John"",
+ ""tests"" :
+      ""id"" : 1
+      ""result"" : ""normal""
+      :""id"" :2
+      ""result"" : ""elevated cholesterol""
+}
+{    ""person"" : {
+    ""name"" : ""Michael""
+    ""tests"" :
+    'id' : 1
+    ""result"" : normal
+    ""treatment"" : ""regular monitoring""
+    
+    
+}","{'name': 'John', 'tests': 'id', 'result': 'normal', 'treatment': 'regular monitoring', 'id': 1}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+6734346ca8e90c2da6fb4509,jsonc,"//Patients 
+{
+ ""patients"": [
+     {
+     ""name"": ""John"",
+     ""tests"": [
+         {""id"": 1 , ""result"": ""Normal"" },
+         {""id"": 2, ""result"": ""Elevalted Cholesterol""}
+         ]
+     
+ },
+     {
+     ""name"": ""Micheal"",
+     ""tests"": {""id"": 1 , ""result"": ""Normal"" },
+      ""treatment"": ""Regular Monitoring""
+ }
+ ]
+  
+}
+
+","{'patients': [{'name': 'John', 'tests': [{'id': 1, 'result': 'Normal'}, {'id': 2, 'result': 'Elevalted Cholesterol'}]}, {'name': 'Micheal', 'tests': {'id': 1, 'result': 'Normal'}, 'treatment': 'Regular Monitoring'}]}",0.7777777777777778,0.7777777777777778,0.7777777777777778,0.7142857142857143,0.5555555555555556,0.6250000000000001,0.5555555555555556,0.5555555555555556,0.5555555555555556,3.0,0.16666666666666666,0.8333333333333334
+67ab214c2cde1be7c45535ac,jsonc,"{
+     ""patients""
+     ""name"": ""John
+   ""Tests"":[
+       {""id"":1
+       ""results"":""normal""
+       ""Tests"":[
+        {""id"":2
+        ""results"":""elevated cholesterol""
+        ]
+        }
+{
+    ""patients""
+    ""name"":""Michael""
+    ""Tests"":[
+        {""id"":1
+        ""results"":normal
+        ""treatment"": Regular monitoring
+    
+}","{'name': 'John', 'results': 'normal', 'id': 1, 'items': ['{""id"":1\r\n       ""results"":""normal""\r\n       ""Tests"":[\r\n        {""id"":2\r\n        ""results"":""elevated cholesterol']}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+607728dc0b4f8590b94ae57c,jsonc,"{
+    ""patients"": {
+        ""name"": ""John"",
+        ""tests"": [
+            {""id"": 1}, 
+            {""result"": ""Normal""}
+        ],
+        [
+            {""id"": 2},
+            {""result"": ""Elevated Cholesterol""}
+        ]
+    },
+    {
+        ""name"": ""Michael"",
+        ""test"": [
+            {""id"": 1},
+            {""result"": ""Normal""}
+            ],
+        ""treatment"": ""Regular Monitoring""
+    }
+}","{'name': 'John', 'result': 'Normal', 'treatment': 'Regular Monitoring', 'id': 1, 'items': ['{""id"": 1}', '{""result"": ""Normal""}']}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,0.7777777777777778,0.2222222222222222
+5dafea4de40355001651fa2f,jsonc,",,patients'' : {
+,,name"" : John
+,,tests''{   
+name: {John, Michael}
+result {normal}https://shiyihe-neko.github.io/reVISit_study/a-usability-study-tabular/assets/tasks/fig/tabular_write.png","{'result': 'normal', 'a': {'usability': 'study'}, 'shiyihe': 'neko.github.io', 'study': 'tabular'}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+677d185800ab83d1b0185d82,jsonc,"\""patients"":{
+  ""name"":{john,}
+  
+\""tests1"":{
+      ""id"":{,}
+       ""results"":{normal}
+    id:2
+    results:{elevated cholesterol}
+     ""id"":1
+     ""results"":normal
+ patients"":{
+     ""name"":michael
+ }    test:
+      id:1
+      results:normal
+      id:2
+     treatment: regular monitroring","{'id': 1, 'test': 'id', 'results': 'normal', 'treatment': 'regular'}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116
+6784ff2095dd9b97e969b01f,jsonc,"""patients"":{""name"",""tests"",""name"",""test"",""treatment""},
+    ""name"":{""John"",""Michael""},
+    ""tests"":{""id"",""result""},
+    ""treatment"": {""Regular Monitoring""},
+    ""id"":{1,2},
+    ""result"":{""Normal"",""Elevated Cholesterol""},
+    
+    ",{},0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+5ecc71c95c92c2000a9e9a19,jsonc,"{
+    ""patients"":{
+        ""name"": ""John"",
+        ""tests"": [
+            {""id"": 1, ""result"": ""Normal""}, 
+            {""id"": 2, ""result"": ""Elevated Cholesterol""}
+            ]
+        ""name"": ""Michael"",
+        ""tests"": [
+            {""id"": 1, ""result"": Normal}
+            ]
+        ""treatment"": ""Regular Monitoring""
+    }
+    
+}","{'name': 'John', 'result': 'Normal', 'treatment': 'Regular Monitoring', 'id': 1, 'items': ['{""id"": 1', 'result"": ""Normal""}', '{""id"": 2', 'result"": ""Elevated Cholesterol""}']}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,0.8333333333333334,0.16666666666666663
+66781db404eab5e142f849d9,jsonc,"{
+    // Top-level key
+    ""patients"" :[
+        {
+            // First patient
+            ""name"" : ""John"",
+            
+            // Test results for John
+            ""tests"" : [
+                {
+                    
+                    ""id"" : 1, 
+                    ""results"" : ""Normal""
+                } ,       
+                {
+                    ""id"" : 2
+                    ""results"" : ""Elevated Cholesterol""
+                }
+              ]
+        },
+        {
+            // Second patient
+            ""name"" : ""Micheal"",
+            // Test results for Micheal
+            ""tests"" : [
+                {
+                    ""id"" : 1,
+                    ""results"" : ""Normal""
+                    
+                }
+                ],
+        // Treatment plan for Micheal
+        ""treatment"" : ""Regular Monitoring""
+        }
+    ]
+}
+    ","OrderedDict([('patients', [OrderedDict([('name', 'John'), ('tests', [OrderedDict([('id', 1), ('results', 'Normal')]), OrderedDict([('id', 2), ('results', 'Elevated Cholesterol')])])]), OrderedDict([('name', 'Micheal'), ('tests', [OrderedDict([('id', 1), ('results', 'Normal')])]), ('treatment', 'Regular Monitoring')])])])",0.6666666666666666,0.6666666666666666,0.6666666666666666,0.8333333333333334,0.5555555555555556,0.6666666666666667,0.5555555555555556,0.5555555555555556,0.5555555555555556,4.0,0.2222222222222222,0.7777777777777778
+67e12acb51605ac16c227598,jsonc,"""hierarchy"":{
+    ""root"":{
+        ""name"":""root"",
+        ""children"":[ 
+            {
+                ""name"": ""child1"",
+                
+            }
+    
+    }
+}",{'name': 'root'},0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,0.9444444444444444,0.05555555555555558
+66a662a0a709312db9de01f2,jsonc,"                 patients
+                 
+                 
+
+name  texts                      name    texts   treatment
+John                          Michael             regular 
+                                                   treatment
+        
+        
+                                        
+Id  result   Id   result                 Id   result
+1   Normal   2    Elevated                1    Normal
+                 Cholestrol","{'patients': {'name': 'texts'}, 'name': {'texts': 'treatment'}, 'John': {'Michael': 'regular'}, 'treatment': {'Id': 'result'}, 'Id': {'result': 'Id'}, 'result': {'1': 'Normal'}, '2': {'Elevated': '1'}}",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.0,1.2222222222222223,-0.22222222222222232
+67ab650c320eccf6141d4010,jsonc,"""name"" John""
+""id"": 2
+""results"" ""normal""
+""id"" ""2""
+""result"" ""elevated cholesterol""""
+
+""name"" ""Michael""
+""id"" ""1""
+""result"" ""normal""
+""treatment"" ""regular monitoring""",{'id': 2},0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.8888888888888888,0.11111111111111116

@@ -1,0 +1,256 @@
+participantId,format,code,valid,errorMessage,Closing brace `}` expected,Colon expected,Comma expected,End of file expected,Invalid symbol,Property name expected,Unexpected end of string,Value expected
+67f5bb69760b211cdfe8021c,jsonc,"{
+    ""patients"" : {
+        ""name"" : ""john"",
+        ""tests"" : [
+            {""Id"" : ""1"" , ""result"" : ""normal""},
+            { ""Id"" : ""2"" , ""result"" : ""Elevated Cholestrol""}
+            ]
+            
+        ""name""  : ""Michael"", 
+        ""tests"" : [
+            {""id"" : ""1"" , ""result"" : ""Normal""},
+        ""treatment"" : ""Regular Monitoring"" 
+        ]
+}",False,Comma expected at offset 218; Comma expected at offset 331; Value expected at offset 331; Closing brace `}` expected at offset 368,1.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0
+678bad003d15e6aba1ee5a5d,jsonc,"{
+    ""patients"": [
+        {
+          ""name"": ""John"",
+          ""tests"": [
+            {
+                ""id"": 1,
+                ""result"": ""Normal""
+            },
+            {
+                ""id"": 2,
+                ""result"": ""Elevated Cholesterol""
+            }
+           ]
+        },
+        {
+            ""name"": ""Micheal"",
+            ""tests"": [
+                {
+                    ""id"": 1,
+                    ""result"": ""normal""
+                }
+             ],
+             ""treatment"": ""regular monitoring""
+        }
+    ]
+        
+}",True,,,,,,,,,
+67f0c5d37f91ceae5cb3b318,jsonc,"""person"":{ 
+    ""name"": John
+    ""tests"": [
+       {""id"":1
+       ""result"":normal
+       ""id"":2
+       ""result"":Evaluated Cholestrol}]}
+       ""person"":{
+           ""name"": Michael
+           ""tests"":[
+               {""id"":1
+                  ""result"":normal
+                  ""treatment"":Regular Monitoring
+               }]
+       }",False,End of file expected at offset 8,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+67aee0dfad3492b61a9ba0eb,jsonc,"{ ""patients"" :
+}
+{
+    ""person"" : {
+ ""name""  : ""John"",
+ ""tests"" :
+      ""id"" : 1
+      ""result"" : ""normal""
+      :""id"" :2
+      ""result"" : ""elevated cholesterol""
+}
+{    ""person"" : {
+    ""name"" : ""Michael""
+    ""tests"" :
+    'id' : 1
+    ""result"" : normal
+    ""treatment"" : ""regular monitoring""
+    
+    
+}",False,Value expected at offset 16; End of file expected at offset 19,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+6734346ca8e90c2da6fb4509,jsonc,"//Patients 
+{
+ ""patients"": [
+     {
+     ""name"": ""John"",
+     ""tests"": [
+         {""id"": 1 , ""result"": ""Normal"" },
+         {""id"": 2, ""result"": ""Elevalted Cholesterol""}
+         ]
+     
+ },
+     {
+     ""name"": ""Micheal"",
+     ""tests"": {""id"": 1 , ""result"": ""Normal"" },
+      ""treatment"": ""Regular Monitoring""
+ }
+ ]
+  
+}
+
+",True,,,,,,,,,
+67ab214c2cde1be7c45535ac,jsonc,"{
+     ""patients""
+     ""name"": ""John
+   ""Tests"":[
+       {""id"":1
+       ""results"":""normal""
+       ""Tests"":[
+        {""id"":2
+        ""results"":""elevated cholesterol""
+        ]
+        }
+{
+    ""patients""
+    ""name"":""Michael""
+    ""Tests"":[
+        {""id"":1
+        ""results"":normal
+        ""treatment"": Regular monitoring
+    
+}",False,Colon expected at offset 25; Unexpected end of string at offset 33; End of file expected at offset 196,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0
+607728dc0b4f8590b94ae57c,jsonc,"{
+    ""patients"": {
+        ""name"": ""John"",
+        ""tests"": [
+            {""id"": 1}, 
+            {""result"": ""Normal""}
+        ],
+        [
+            {""id"": 2},
+            {""result"": ""Elevated Cholesterol""}
+        ]
+    },
+    {
+        ""name"": ""Michael"",
+        ""test"": [
+            {""id"": 1},
+            {""result"": ""Normal""}
+            ],
+        ""treatment"": ""Regular Monitoring""
+    }
+}",False,Property name expected at offset 146; Value expected at offset 169; Property name expected at offset 185; Value expected at offset 218; End of file expected at offset 229,0.0,0.0,0.0,1.0,0.0,2.0,0.0,2.0
+5dafea4de40355001651fa2f,jsonc,",,patients'' : {
+,,name"" : John
+,,tests''{   
+name: {John, Michael}
+result {normal}https://shiyihe-neko.github.io/reVISit_study/a-usability-study-tabular/assets/tasks/fig/tabular_write.png",False,Value expected at offset 0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+677d185800ab83d1b0185d82,jsonc,"\""patients"":{
+  ""name"":{john,}
+  
+\""tests1"":{
+      ""id"":{,}
+       ""results"":{normal}
+    id:2
+    results:{elevated cholesterol}
+     ""id"":1
+     ""results"":normal
+ patients"":{
+     ""name"":michael
+ }    test:
+      id:1
+      results:normal
+      id:2
+     treatment: regular monitroring",False,Invalid symbol at offset 0; End of file expected at offset 11,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+6784ff2095dd9b97e969b01f,jsonc,"""patients"":{""name"",""tests"",""name"",""test"",""treatment""},
+    ""name"":{""John"",""Michael""},
+    ""tests"":{""id"",""result""},
+    ""treatment"": {""Regular Monitoring""},
+    ""id"":{1,2},
+    ""result"":{""Normal"",""Elevated Cholesterol""},
+    
+    ",False,End of file expected at offset 10,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+5ecc71c95c92c2000a9e9a19,jsonc,"{
+    ""patients"":{
+        ""name"": ""John"",
+        ""tests"": [
+            {""id"": 1, ""result"": ""Normal""}, 
+            {""id"": 2, ""result"": ""Elevated Cholesterol""}
+            ]
+        ""name"": ""Michael"",
+        ""tests"": [
+            {""id"": 1, ""result"": Normal}
+            ]
+        ""treatment"": ""Regular Monitoring""
+    }
+    
+}",False,Comma expected at offset 191; Invalid symbol at offset 263; Value expected at offset 269; Comma expected at offset 295,0.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0
+66781db404eab5e142f849d9,jsonc,"{
+    // Top-level key
+    ""patients"" :[
+        {
+            // First patient
+            ""name"" : ""John"",
+            
+            // Test results for John
+            ""tests"" : [
+                {
+                    
+                    ""id"" : 1, 
+                    ""results"" : ""Normal""
+                } ,       
+                {
+                    ""id"" : 2
+                    ""results"" : ""Elevated Cholesterol""
+                }
+              ]
+        },
+        {
+            // Second patient
+            ""name"" : ""Micheal"",
+            // Test results for Micheal
+            ""tests"" : [
+                {
+                    ""id"" : 1,
+                    ""results"" : ""Normal""
+                    
+                }
+                ],
+        // Treatment plan for Micheal
+        ""treatment"" : ""Regular Monitoring""
+        }
+    ]
+}
+    ",False,Comma expected at offset 404,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+67e12acb51605ac16c227598,jsonc,"""hierarchy"":{
+    ""root"":{
+        ""name"":""root"",
+        ""children"":[ 
+            {
+                ""name"": ""child1"",
+                
+            }
+    
+    }
+}",False,End of file expected at offset 11,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+66a662a0a709312db9de01f2,jsonc,"                 patients
+                 
+                 
+
+name  texts                      name    texts   treatment
+John                          Michael             regular 
+                                                   treatment
+        
+        
+                                        
+Id  result   Id   result                 Id   result
+1   Normal   2    Elevated                1    Normal
+                 Cholestrol",False,Invalid symbol at offset 17; Invalid symbol at offset 67; Invalid symbol at offset 73; Invalid symbol at offset 100; Invalid symbol at offset 108; Invalid symbol at offset 116; Invalid symbol at offset 127; Invalid symbol at offset 157; Invalid symbol at offset 177; Invalid symbol at offset 238; Invalid symbol at offset 311; Invalid symbol at offset 315; Invalid symbol at offset 324; Invalid symbol at offset 329; Invalid symbol at offset 352; Invalid symbol at offset 357; Invalid symbol at offset 369; End of file expected at offset 378,0.0,0.0,0.0,1.0,17.0,0.0,0.0,0.0
+67ab650c320eccf6141d4010,jsonc,"""name"" John""
+""id"": 2
+""results"" ""normal""
+""id"" ""2""
+""result"" ""elevated cholesterol""""
+
+""name"" ""Michael""
+""id"" ""1""
+""result"" ""normal""
+""treatment"" ""regular monitoring""",False,Invalid symbol at offset 7; Unexpected end of string at offset 11; End of file expected at offset 11,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0

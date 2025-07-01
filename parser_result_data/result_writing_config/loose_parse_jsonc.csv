@@ -1,0 +1,16 @@
+participantId,valid,parsed,errorMessage,"('Bad number', '.')","('Bad number', '4.4.7')","('Unknown identifier', 'charts')","('Unknown identifier', 'version')",Can not decode value starting with character '(',"Missing value for object property, expected "":""",Unexpected text after end of JSON value,Values must be separated by a comma
+67895b7d6400163124042af7,False,,Values must be separated by a comma,0,0,0,0,0,0,0,1
+6708da9c62672d0fe65b6683,False,,Can not decode value starting with character '(',0,0,0,0,1,0,0,0
+613a541cf948d295c1df8752,False,,"Missing value for object property, expected "":""",0,0,0,0,0,1,0,0
+67c1dd323984fa84ae83e162,False,,"('Unknown identifier', 'version')",0,0,0,1,0,0,0,0
+6723422d5f63c70998014b03,False,,Values must be separated by a comma,0,0,0,0,0,0,0,1
+589cd166b2a7180001f0527d,False,,"('Bad number', '4.4.7')",0,1,0,0,0,0,0,0
+6735b2a6112cf17b7b8df8d1,False,,Unexpected text after end of JSON value,0,0,0,0,0,0,1,0
+67da5ae29f57419143d2b99a,False,,Values must be separated by a comma,0,0,0,0,0,0,0,1
+66684beba2a2d24645a6d782,False,,"('Bad number', '.')",1,0,0,0,0,0,0,0
+588ab33542c8e900019d02ae,False,,"Missing value for object property, expected "":""",0,0,0,0,0,1,0,0
+65fb13bebfa339f73b4cf76a,False,,Unexpected text after end of JSON value,0,0,0,0,0,0,1,0
+671e39c25e5e3f340a6f21d4,False,,Unexpected text after end of JSON value,0,0,0,0,0,0,1,0
+67c6ed1e12728e4fe7a1edf6,False,,"('Unknown identifier', 'charts')",0,0,1,0,0,0,0,0
+672b5998daafdbf9c43a531b,False,,Unexpected text after end of JSON value,0,0,0,0,0,0,1,0
+65298aca34ac384b783169d4,False,,"('Bad number', '4.4.7')",0,1,0,0,0,0,0,0
